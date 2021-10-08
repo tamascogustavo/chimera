@@ -23,7 +23,7 @@ Perform single and double, gene and reaction, knockout in the organism
 All of that is obtained through automation and connection of the most used tools in the literature, creating a pipeline that is easy to use, helping those researchers with none or small programming capabilities.
 
 
-### Usage 
+### Datil about the scripts 
 
 You must download the folder or the git repository. 
 In the folder there are 3 scripts and one folder:
