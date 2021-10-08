@@ -5,7 +5,7 @@ Several genome-scale metabolic reconstruction (GSMR) tools have been developed i
 
 Here we present a novel tool, Chimera, which combines the most efficient tools in model reconstruction, prediction, and visualization and also implements new in-house algorithms for database integration and data manipulation. 
 
-##Our aim with Chimera
+### Our aim with Chimera
 
 Produce an organism-specific model based on the CarveMe algorithm 
 
