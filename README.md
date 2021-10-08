@@ -23,3 +23,16 @@ Perform single and double, gene and reaction, knockout in the organism
 All of that is obtained through automation and connection of the most used tools in the literature, creating a pipeline that is easy to use, helping those researchers with none or small programming capabilities.
 
 
+### Usage 
+
+You must download the folder or the git repository. 
+In the folder there are 3 scripts and one folder:
+
+chimera_core.py: perform the model creation evaluation and visualization files
+
+translator_using_bigg.py: is used to add kegg pathway description in the genome scale metabolic map
+
+simulating_knockouts.py: is used to perform gene and reactions knockout
+
+all_metabo_paths: a folder containing pre-defined metabolic maps for a general overview of the pathways present in the target organism
+
