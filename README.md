@@ -39,4 +39,39 @@ simulating_knockouts.py: is used to perform gene and reactions knockout
 ```
 all_metabo_paths: a folder containing pre-defined metabolic maps for a general overview of the pathways present in the target organism
 ```
+### Installation
+
+The installation can be done via git clonnig.
+
+Please follow instructions here to get, install, and run chimera
+
+## Local install
+
+To install, first install the Anaconda Python Distribution, which comes pre-packaged with a bunch of the scientific packages we use all the time, pre-installed.
+
+Conda dependencies env
+```
+conda create --name chimera_env 
+```
+You've now just created a "virtual environment" called chimera_env . Now activate that environment with,
+```
+source activate chimera_env
+```
+Install and update all packages in your environment
+
+1) Conda pkgs
+```
+conda install --yes --file conda_requirements.txt
+```
+2) pip pkgs
+```
+pip install -r requirements.txt
+```
+3) Cplex 
+
+Currently is not possible to download the full version of cplex using conda or pip. You will need to access: https://www.ibm.com/academic/home and download the academic version of the software, which can be found at Data Analysis --> Cplex.
+
+4)Chimera
+
+``Not defined``
 
