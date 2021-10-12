@@ -29,17 +29,13 @@ You must download the folder or the git repository. In the folder there are 3 sc
 
 ```
 chimera_core.py: perform the model creation evaluation and visualization files
-```
-```
+
 translator_using_bigg.py: is used to add KEGG pathway description in the genome-scale metabolic map
-```
-```
+
 simulating_knockouts.py: is used to perform gene and reactions knockout
-```
-```
+
 all_metabo_paths: a folder containing pre-defined metabolic maps for a general overview of the pathways present in the target organism
 ```
-
 `conda and pip requirements can be installed following the instructions`
 ## Installation
 
