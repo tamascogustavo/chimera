@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 Currently is not possible to download the full version of cplex using conda or pip. You will need to access: https://www.ibm.com/academic/home and download the academic version of the software, which can be found at Data Analysis --> Cplex.
 
-4)Chimera
+4) Chimera
 
 ``Not defined``
 
