@@ -25,7 +25,7 @@ All of that is obtained through automation and connection of the most used tools
 
 ## Detail about the scripts
 
-You must download the folder or the git repository. In the folder there are 3 scripts and one extra folder:
+You must download the folder or the git repository. In the folder there are 3 scripts, one extra folder and 2 txt files with the dependencies to install
 
 ```
 chimera_core.py: perform the model creation evaluation and visualization files
@@ -39,6 +39,8 @@ simulating_knockouts.py: is used to perform gene and reactions knockout
 ```
 all_metabo_paths: a folder containing pre-defined metabolic maps for a general overview of the pathways present in the target organism
 ```
+
+`conda and pip requirements can be installed following the instructions`
 ## Installation
 
 The installation can be done via git clonnig.
