@@ -1,0 +1,4 @@
+python=3.7 anaconda=custom
+-c bioconda diamond
+-c conda-forge biopython
+-c conda-forge bioservices
