@@ -27,9 +27,9 @@ All of that is obtained through automation and connection of the most used tools
 
 You must download the folder or the git repository. In the folder there are 3 scripts and one extra folder:
 
-'''
+```
 chimera_core.py: perform the model creation evaluation and visualization files
-'''
+```
 translator_using_bigg.py: is used to add KEGG pathway description in the genome-scale metabolic map
 
 simulating_knockouts.py: is used to perform gene and reactions knockout
