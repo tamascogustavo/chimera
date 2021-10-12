@@ -9,15 +9,15 @@ Here we present a novel tool, Chimera, which combines the most efficient tools i
 
 ## Our aim with Chimera
 
-.Produce an organism-specific model based on the CarveMe algorithm 
+- Produce an organism-specific model based on the CarveMe algorithm 
 
-.Manage the model and perform growth predictions with COBRApy 
+- Manage the model and perform growth predictions with COBRApy 
 
-.Create visualization for the metabolic network using PSAMM and Escher 
+- Create visualization for the metabolic network using PSAMM and Escher 
 
-.Addition of pathway information to metabolic maps using in house algorithm 
+- Addition of pathway information to metabolic maps using in house algorithm 
 
-.Perform single and double, gene and reaction, knockout in the organism 
+- Perform single and double, gene and reaction, knockout in the organism 
 
 
 All of that is obtained through automation and connection of the most used tools in the literature, creating a pipeline that is easy to use, helping those researchers with none or small programming capabilities.
