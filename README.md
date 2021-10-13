@@ -35,4 +35,61 @@ simulating_knockouts.py: is used to perform gene and reactions knockout
 
 all_metabo_paths: a folder containing pre-defined metabolic maps for a general overview of the pathways present in the target organism
 
+### Installation
 
+Before installing you need to install CPLEX solver from IMB. Click [here](https://community.ibm.com/community/user/datascience/blogs/xavier-nodet1/2020/07/09/cplex-free-for-students) to access the academic license. This documentation was created with `IBM ILOG CPLEX Optimization Studio V20.10`.
+
+After download, follow the required system installation. For Linux, make sure to export your installation path
+
+```
+export PATH=/PATH_TO_CPLEX/cplex/bin/x86-64_linux/:$PATH
+```
+
+Install the conda env
+
+```
+conda env create -f environment.yml
+# activate the environment
+conda activate chimera
+```
+
+Navigate to `python cplex` the installation folder:
+
+```
+cd /PATH_TO_CPLEX/cplex/python/3.7/x86-64_linux/
+```
+
+And then install
+
+```
+python setup.py install
+```
+
+## Update
+
+If a new library needs to be installed, don't forget to update the environment.yml file
+
+```
+conda env export | grep -v "^prefix: " > environment.yml
+```
+
+### Usage
+
+Before using, activate the conda env
+
+```
+conda activate chimera
+```
+
+To access the help page:
+
+```
+python chimera_core.py -h
+```
+
+To run the test on model  __Escherichia Coli__:
+
+```
+python chimera_core.py input_examples/faa_file/e_coli_test.faa gramneg LB LB
+```
+**GIVE EXAMPLES OF OTHER SCRIPTS AND DISCUSS RESULTS**
