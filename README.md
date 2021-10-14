@@ -36,7 +36,7 @@ simulating_knockouts.py: is used to perform gene and reactions knockout
 
 all_metabo_paths: a folder containing pre-defined metabolic maps for a general overview of the pathways present in the target organism
 ```
-`conda and pip requirements can be installed following the instructions`
+
 ### Installation
 
 Before installing you need to install CPLEX solver from IMB. Click [here](https://community.ibm.com/community/user/datascience/blogs/xavier-nodet1/2020/07/09/cplex-free-for-students) to access the academic license. This documentation was created with `IBM ILOG CPLEX Optimization Studio V20.10`.
