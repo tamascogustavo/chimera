@@ -76,7 +76,7 @@ If a new library needs to be installed, don't forget to update the environment.y
 conda env export | grep -v "^prefix: " > environment.yml
 ```
 
-### Usage
+## Usage
 
 Before using, activate the conda env
 
@@ -84,25 +84,25 @@ Before using, activate the conda env
 conda activate chimera
 ```
 
-# To access the help page:
+### To access the help page:
 
 ```
 python chimera_core.py -h
 ```
 
-# To run the test on model  __Escherichia coli__:
+### To run the test on model  __Escherichia coli__:
 
 ```
 python chimera_core.py input_examples/faa_file/e_coli_test.faa gramneg LB LB
 ```
-# To perfom pathway annotation using KEGG as reference to the Cytoscape maps we can use:
+### To perfom pathway annotation using KEGG as reference to the Cytoscape maps we can use:
 
 ```
 python3 translator_using_bigg.py e_coli
 ```
 This command will annotate the pathway for the compounds in the metabolic map. During the process a few warning messages can be displayed due to multiple API request. However, thats not an error.
 
-# To perform gene or reaction knockout we can use on the model __Escherichia coli__:
+### To perform gene or reaction knockout we can use on the model __Escherichia coli__:
 
 **For specific genes**
 
