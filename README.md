@@ -97,6 +97,8 @@ python chimera_core.py input_examples/faa_file/e_coli_test.faa gramneg LB LB
 ```
 ### To perfom pathway annotation using KEGG as reference to the Cytoscape maps we can use:
 
+We need the previous step to be executed before running this module.
+
 ```
 python3 translator_using_bigg.py e_coli
 ```
@@ -111,13 +113,11 @@ Single gene deletion for all genes in the knockout_genes_list.txt:
 
 ```
 python3 simulating_knockouts.py --sg input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
-
 ```
 Double gene deletion for all genes in the knockout_genes_list.txt:
 
 ```
 python3 simulating_knockouts.py --dg input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
-
 ```
 
 **For specific reactions**
@@ -126,19 +126,16 @@ Single reaction deletion for all reactions in the knockout_reactions_list.txt:
 
 ```
 python3 simulating_knockouts.py --sr input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
-
 ```
 Double reaction deletion for all reactions in the knockout_reactions_list.txt:
 
 ```
 python3 simulating_knockouts.py --dr input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
-
 ```
 Specifc Double reaction deletion. Here we only evaluate the first 2 reactions in  knockout_reactions_list.txt:
 
 ```
 python3 simulating_knockouts.py --tdr input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
-
 ```
 **Gene and reaction essenciality**
 
