@@ -139,7 +139,7 @@ Specifc Double reaction deletion. Here we only evaluate the first 2 reactions in
 python3 simulating_knockouts.py -tdr input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
 
 ```
-**Gene and reaction essenciality **
+**Gene and reaction essenciality**
 
 Here we evaluate the individual impact in growth due to a single gene or reaction in the model.
 
