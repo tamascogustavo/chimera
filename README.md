@@ -103,6 +103,7 @@ python3 translator_using_bigg.py e_coli
 This command will annotate the pathway for the compounds in the metabolic map. During the process a few warning messages can be displayed due to multiple API request. However, thats not an error.
 
 ### To perform gene or reaction knockout we can use on the model __Escherichia coli__:
+All commands will request the name of the model you want to use as target. For example e_coli_test.xml
 
 **For specific genes**
 
@@ -147,13 +148,11 @@ To evaluate gene essenciality:
 
 ```
 python3 simulating_knockouts.py -cg
-
 ```
 To evaluate reaction essenciality:
 
 ```
 python3 simulating_knockouts.py -cr
-
 ```
 
 **GIVE EXAMPLES OF OTHER SCRIPTS AND DISCUSS RESULTS**
