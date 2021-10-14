@@ -1,4 +1,0 @@
-psamm==1.1.2
-escher==1.7.3
-cobra==0.22.1
-carveme==1.5.1
