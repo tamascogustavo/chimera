@@ -37,39 +37,124 @@ simulating_knockouts.py: is used to perform gene and reactions knockout
 all_metabo_paths: a folder containing pre-defined metabolic maps for a general overview of the pathways present in the target organism
 ```
 `conda and pip requirements can be installed following the instructions`
-## Installation
+### Installation
 
-The installation can be done via git clonnig.
+Before installing you need to install CPLEX solver from IMB. Click [here](https://community.ibm.com/community/user/datascience/blogs/xavier-nodet1/2020/07/09/cplex-free-for-students) to access the academic license. This documentation was created with `IBM ILOG CPLEX Optimization Studio V20.10`.
 
-Please follow instructions here to get, install, and run chimera
+After download, follow the required system installation. For Linux, make sure to export your installation path
 
-### Local install
-
-To install, first install the Anaconda Python Distribution, which comes pre-packaged with a bunch of the scientific packages we use all the time, pre-installed.
-
-Conda dependencies env
 ```
-conda create --name chimera_env 
+export PATH=/PATH_TO_CPLEX/cplex/bin/x86-64_linux/:$PATH
 ```
-You've now just created a "virtual environment" called chimera_env . Now activate that environment with,
-```
-source activate chimera_env
-```
-Install and update all packages in your environment
 
-1) Conda pkgs
-```
-conda install --yes --file conda_requirements.txt
-```
-2) pip pkgs
-```
-pip install -r requirements.txt
-```
-3) Cplex 
+Install the conda env
 
-Currently is not possible to download the full version of cplex using conda or pip. You will need to access: https://www.ibm.com/academic/home and download the academic version of the software, which can be found at Data Analysis --> Cplex. You will need to follow the instructions to install the python api.
+```
+conda env create -f environment.yml
+# activate the environment
+conda activate chimera
+```
 
-4) Chimera
+Navigate to `python cplex` the installation folder:
 
-``Not defined``
+```
+cd /PATH_TO_CPLEX/cplex/python/3.7/x86-64_linux/
+```
+
+And then install
+
+```
+python setup.py install
+```
+_OBS_: If you have troubles installing the API, check : https://www.ibm.com/docs/en/icos/12.8.0.0?topic=cplex-setting-up-python-api
+
+## Update
+
+If a new library needs to be installed, don't forget to update the environment.yml file
+
+```
+conda env export | grep -v "^prefix: " > environment.yml
+```
+
+### Usage
+
+Before using, activate the conda env
+
+```
+conda activate chimera
+```
+
+To access the help page:
+
+```
+python chimera_core.py -h
+```
+
+To run the test on model  __Escherichia coli__:
+
+```
+python chimera_core.py input_examples/faa_file/e_coli_test.faa gramneg LB LB
+```
+To perfom pathway annotation using KEGG as reference to the Cytoscape maps we can use:
+
+```
+python3 translator_using_bigg.py e_coli
+```
+This command will annotate the pathway for the compounds in the metabolic map. During the process a few warning messages can be displayed due to multiple API request. However, thats not an error.
+
+To perform gene or reaction knockout we can use on the model __Escherichia coli__:
+
+**For specific genes**
+
+Single gene deletion for all genes in the knockout_genes_list.txt:
+
+```
+python3 simulating_knockouts.py -sg input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
+
+```
+Double gene deletion for all genes in the knockout_genes_list.txt:
+
+```
+python3 simulating_knockouts.py -dg input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
+
+```
+
+**For specific reactions**
+
+Single reaction deletion for all reactions in the knockout_reactions_list.txt:
+
+```
+python3 simulating_knockouts.py -sr input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
+
+```
+Double reaction deletion for all reactions in the knockout_reactions_list.txt:
+
+```
+python3 simulating_knockouts.py -dr input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
+
+```
+Specifc Double reaction deletion. Here we only evaluate the first 2 reactions in  knockout_reactions_list.txt:
+
+```
+python3 simulating_knockouts.py -tdr input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
+
+```
+**Gene and reaction essenciality **
+
+Here we evaluate the individual impact in growth due to a single gene or reaction in the model.
+
+To evaluate gene essenciality:
+
+```
+python3 simulating_knockouts.py -cg
+
+```
+To evaluate reaction essenciality:
+
+```
+python3 simulating_knockouts.py -cr
+
+```
+
+**GIVE EXAMPLES OF OTHER SCRIPTS AND DISCUSS RESULTS**
 
