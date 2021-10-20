@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # @Author: gustavotamascohotmail.com
 # @Date:   2021-10-04 14:05:50
-# @Last Modified by:   gustavotamascohotmail.com
-# @Last Modified time: 2021-10-08 10:07:11
+# @Last Modified by:   tamascogustavo
+# @Last Modified time: 2021-10-20 10:25:17
 
 
 
@@ -440,10 +440,16 @@ def generate_cyto_data(psamm_path):
     if os.path.exists("reactions.dot"):
         print("The graph data was already generated, check tsv files for cytoscape ")
     else:
-        cmd_vis = "psamm-model vis"
-        exit_message = subprocess.check_call(cmd_vis, shell=True)
-        print("The status is {}".format(exit_message))
-        print("The .tsv files for cytoscape were generated")
+        if argv[2] != "grampos":
+            cmd_vis = "psamm-model vis"
+            exit_message = subprocess.check_call(cmd_vis, shell=True)
+            print("The status is {}".format(exit_message))
+            print("The .tsv files for cytoscape were generated")
+        elif argv[2] == "grampos":
+            cmd_vis_pos = "psamm-model vis --method no-fpp"
+            exit_message = subprocess.check_call(cmd_vis_pos, shell=True)
+            print("The status is {}".format(exit_message))
+            print("The .tsv files for cytoscape were generated")
 
 
 def fix_json(json_file):
