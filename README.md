@@ -39,6 +39,8 @@ all_metabo_paths: a folder containing pre-defined metabolic maps for a general o
 
 ### Installation
 
+Verify if you have anaconda intalled in you machine. The tool can be downloaded [here](https://www.anaconda.com/products/individual).
+
 Before installing you need to install CPLEX solver from IMB. Click [here](https://community.ibm.com/community/user/datascience/blogs/xavier-nodet1/2020/07/09/cplex-free-for-students) to access the academic license. This documentation was created with `IBM ILOG CPLEX Optimization Studio V20.10`.
 
 After download, follow the required system installation. For Linux, make sure to export your installation path
@@ -46,6 +48,7 @@ After download, follow the required system installation. For Linux, make sure to
 ```
 export PATH=/PATH_TO_CPLEX/cplex/bin/x86-64_linux/:$PATH
 ```
+Obs: The command above will export the installation path of cplex to $PATH shell variable. Pay attention during the installation procedure, it will ask you where to install cplex (<PATH_TO_CPLEX>)
 
 Install the conda env
 
