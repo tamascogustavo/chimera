@@ -50,10 +50,6 @@ export PATH=/PATH_TO_CPLEX/cplex/bin/x86-64_linux/:$PATH
 ```
 Obs: The command above will export the installation path of cplex to $PATH shell variable. Pay attention during the installation procedure, it will ask you where to install cplex (<PATH_TO_CPLEX>)
 
-Install pip 
-```
-conda install pip
-```
 Install the conda env
 
 ```
@@ -74,6 +70,14 @@ And then install
 python setup.py install
 ```
 _OBS_: If you have troubles installing the API, check : https://www.ibm.com/docs/en/icos/12.8.0.0?topic=cplex-setting-up-python-api
+_OBS_: Some users reported an error during the installation of the API.  "Unknown distribution option: zip_fafe. Could not create build: permission denied".
+
+To solve, instead the command above, use:
+
+```
+python setup.py build -b /home_directory/
+```
+
 
 ## Update
 
