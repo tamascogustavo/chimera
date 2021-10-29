@@ -50,6 +50,10 @@ export PATH=/PATH_TO_CPLEX/cplex/bin/x86-64_linux/:$PATH
 ```
 Obs: The command above will export the installation path of cplex to $PATH shell variable. Pay attention during the installation procedure, it will ask you where to install cplex (<PATH_TO_CPLEX>)
 
+Install pip 
+```
+conda install pip
+```
 Install the conda env
 
 ```
