@@ -110,6 +110,7 @@ Before using, activate the conda env
 ```
 conda activate chimera
 ```
+__Intended usage__: You should have a folder with the 3 main scripts, the all_metado_paths folder and a faa file for your organism. 
 
 ### To access the help page:
 
