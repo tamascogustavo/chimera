@@ -57,6 +57,22 @@ conda env create -f environment.yml
 # activate the environment
 conda activate chimera
 ```
+Alternative intall
+```
+__Creating env__
+conda create --name chimera python=3.7
+conda activate chimera
+__Install dependencies__
+conda install pip
+conda install -c bioconda diamond
+pip install carveme
+pip install cobra
+pip install escher
+pip install git+https://github.com/zhanglab/psamm-import.git
+conda install -c conda-forge biopython
+conda install -c conda-forge bioservices
+
+```
 
 Navigate to `python cplex` the installation folder:
 
