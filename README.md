@@ -182,5 +182,7 @@ To evaluate reaction essenciality:
 python3 simulating_knockouts.py --cr
 ```
 
-**GIVE EXAMPLES OF OTHER SCRIPTS AND DISCUSS RESULTS**
+##Outputs 
 
+| chimera_core.py | Outputs || Meaning || Location |
+| --------------- | ------- || ------- | --------- |
