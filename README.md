@@ -121,7 +121,7 @@ python chimera_core.py -h
 ### To run the test on model  __Escherichia coli__:
 
 ```
-python chimera_core.py input_examples/faa_file/e_coli_test.faa gramneg LB LB
+python chimera_core.py e_coli_test.faa gramneg LB LB
 ```
 ### To perfom pathway annotation using KEGG as reference to the Cytoscape maps we can use:
 
@@ -140,12 +140,12 @@ All commands will request the name of the model you want to use as target. For e
 Single gene deletion for all genes in the knockout_genes_list.txt:
 
 ```
-python3 simulating_knockouts.py --sg input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
+python3 simulating_knockouts.py --sg e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
 ```
 Double gene deletion for all genes in the knockout_genes_list.txt:
 
 ```
-python3 simulating_knockouts.py --dg input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
+python3 simulating_knockouts.py --dg e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
 ```
 
 **For specific reactions**
@@ -153,17 +153,17 @@ python3 simulating_knockouts.py --dg input_examples/faa_file/e_coli_test.faa inp
 Single reaction deletion for all reactions in the knockout_reactions_list.txt:
 
 ```
-python3 simulating_knockouts.py --sr input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
+python3 simulating_knockouts.py --sr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
 ```
 Double reaction deletion for all reactions in the knockout_reactions_list.txt:
 
 ```
-python3 simulating_knockouts.py --dr input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
+python3 simulating_knockouts.py --dr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
 ```
 Specifc Double reaction deletion. Here we only evaluate the first 2 reactions in  knockout_reactions_list.txt:
 
 ```
-python3 simulating_knockouts.py --tdr input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
+python3 simulating_knockouts.py --tdr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
 ```
 **Gene and reaction essenciality**
 
