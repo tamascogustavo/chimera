@@ -186,5 +186,11 @@ python3 simulating_knockouts.py --cr
 
 | Command | Description | Output Location |
 | --- | --- | --- |
-| git status | Lista de todos os arquivos modificados ou novos | Lista de todos os arquivos modificados ou novos |
-| git diff | Mostra as diferenças do arquivo que não foram preparadas | Mostra as diferenças do arquivo que não foram preparadas |
+| chimera_core.py | Creates the initial draft model  | Is saved in the tool folder |
+| chimera_core.py | Performs FBA to evaluate growth based on user input conditions | Is printed to the screen  |
+| chimera_core.py | Creates a graphical structure of the whole model for visualization in Cytoscape | Inside psamm folder |
+| chimera_core.py | Creates fully editable html pathway maps of 10 important metabolic pathways based on your model | Inside metabolism_maps folder |
+| translator_using_bigg.py | Add KEGG pathway info for the graph file. It allows targeted pathway search inside Cytoscape. | Inside psamm folder. File name: reactions_edges_cytoscape_kegg.tsv  |
+| simulating_knockouts.py | Perform knockouts of genes or reactions, based on user input  | Is printed to the screen |
+| simulating_knockouts.py | Perform knockouts of all genes or reactions. Essentiality metrics  | Is saved in the tool folder. 
+Files: all_single_gene_knockout.csv, all_single_reactions_knockout.csv|
