@@ -184,7 +184,7 @@ python3 simulating_knockouts.py --cr
 
 ##Outputs 
 
-| Comando | Descrição |
-| --- | --- |
-| git status | Lista de todos os arquivos modificados ou novos |
-| git diff | Mostra as diferenças do arquivo que não foram preparadas |
+| Command | Description | Output Location |
+| --- | --- | --- |
+| git status | Lista de todos os arquivos modificados ou novos | Lista de todos os arquivos modificados ou novos |
+| git diff | Mostra as diferenças do arquivo que não foram preparadas | Mostra as diferenças do arquivo que não foram preparadas |
