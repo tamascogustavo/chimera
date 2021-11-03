@@ -182,7 +182,7 @@ To evaluate reaction essenciality:
 python3 simulating_knockouts.py --cr
 ```
 
-##Outputs 
+## Outputs 
 
 | Command | Description | Output Location |
 | --- | --- | --- |
