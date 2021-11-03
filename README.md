@@ -93,6 +93,7 @@ To solve, instead the command above, use:
 ```
 python setup.py build -b /home_directory/
 ```
+Or, you can follow [this tutorial] (https://askubuntu.com/questions/263450/folders-showing-lock-icon).
 
 
 ## Update
