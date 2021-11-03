@@ -186,7 +186,7 @@ python3 simulating_knockouts.py --cr
 
 | Command | Description | Output Location |
 | --- | --- | --- |
-| chimera_core.py | Creates the initial draft model  | Is saved in the tool folder |
+| chimera_core.py | Creates the initial draft model  | Is saved in the tool folder. File has .xml extension|
 | chimera_core.py | Performs FBA to evaluate growth based on user input conditions | Is printed to the screen  |
 | chimera_core.py | Creates a graphical structure of the whole model for visualization in Cytoscape | Inside psamm folder |
 | chimera_core.py | Creates fully editable html pathway maps of 10 important metabolic pathways based on your model | Inside metabolism_maps folder |
