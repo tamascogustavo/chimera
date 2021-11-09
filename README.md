@@ -200,3 +200,13 @@ python3 simulating_knockouts.py --cr
 | translator_using_bigg.py | Add KEGG pathway info for the graph file. It allows targeted pathway search inside Cytoscape. | Inside psamm folder. File name: reactions_edges_cytoscape_kegg.tsv  |
 | simulating_knockouts.py | Perform knockouts of genes or reactions, based on user input  | Is printed to the screen |
 | simulating_knockouts.py | Perform knockouts of all genes or reactions. Essentiality metrics  | Is saved in the tool folder. Files: all_single_gene_knockout.csv, all_single_reactions_knockout.csv|
+
+## LICENSE
+
+The Chimera source is released under both the GPL and LGPL licenses version 3 or later. You may choose which license you choose to use the software under.
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License or the GNU Lesser General Public License as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+Check the [Chimera License]LICENSE. Gustavo Tamasco.
