@@ -15,7 +15,7 @@ Here we present a novel tool, Chimera, which combines the most efficient tools i
 
 - Create visualization for the metabolic network using PSAMM and Escher 
 
-- Addition of pathway information to metabolic maps using in house algorithm 
+- Add pathway information to metabolic maps using in house algorithm 
 
 - Perform single and double, gene and reaction, knockout in the organism 
 
@@ -57,6 +57,22 @@ conda env create -f environment.yml
 # activate the environment
 conda activate chimera
 ```
+Alternative intall
+```
+__Creating env__
+conda create --name chimera python=3.7
+conda activate chimera
+__Install dependencies__
+conda install pip
+conda install -c bioconda diamond
+pip install carveme
+pip install cobra
+pip install escher
+pip install git+https://github.com/zhanglab/psamm-import.git
+conda install -c conda-forge biopython
+conda install -c conda-forge bioservices
+
+```
 
 Navigate to `python cplex` the installation folder:
 
@@ -69,7 +85,8 @@ And then install
 ```
 python setup.py install
 ```
-_OBS_: If you have troubles installing the API, check : https://www.ibm.com/docs/en/icos/12.8.0.0?topic=cplex-setting-up-python-api
+_OBS_: If you have troubles installing the API, check : https://www.ibm.com/docs/en/icos/12.8.0.0?topic=cplex-setting-up-python-api .
+
 _OBS_: Some users reported an error during the installation of the API.  "Unknown distribution option: zip_fafe. Could not create build: permission denied".
 
 To solve, instead the command above, use:
@@ -77,6 +94,7 @@ To solve, instead the command above, use:
 ```
 python setup.py build -b /home_directory/
 ```
+Or, you can follow [this tutorial](https://askubuntu.com/questions/263450/folders-showing-lock-icon).
 
 
 ## Update
@@ -94,6 +112,7 @@ Before using, activate the conda env
 ```
 conda activate chimera
 ```
+__Intended usage__: You should have a folder with the 3 main scripts, the all_metado_paths folder and a faa file for your organism. 
 
 ### To access the help page:
 
@@ -104,7 +123,7 @@ python chimera_core.py -h
 ### To run the test on model  __Escherichia coli__:
 
 ```
-python chimera_core.py input_examples/faa_file/e_coli_test.faa gramneg LB LB
+python chimera_core.py e_coli_test.faa gramneg LB LB
 ```
 ### To perfom pathway annotation using KEGG as reference to the Cytoscape maps we can use:
 
@@ -115,6 +134,13 @@ python3 translator_using_bigg.py e_coli
 ```
 This command will annotate the pathway for the compounds in the metabolic map. During the process a few warning messages can be displayed due to multiple API request. However, thats not an error.
 
+For a full list of organism check the API using the following command:
+
+```
+# Get a list of models
+curl 'http://bigg.ucsd.edu/api/v2/models'
+```
+
 ### To perform gene or reaction knockout we can use on the model __Escherichia coli__:
 All commands will request the name of the model you want to use as target. For example e_coli_test.xml, which need to be in the main folder.
 
@@ -123,12 +149,12 @@ All commands will request the name of the model you want to use as target. For e
 Single gene deletion for all genes in the knockout_genes_list.txt:
 
 ```
-python3 simulating_knockouts.py --sg input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
+python3 simulating_knockouts.py --sg e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
 ```
 Double gene deletion for all genes in the knockout_genes_list.txt:
 
 ```
-python3 simulating_knockouts.py --dg input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
+python3 simulating_knockouts.py --dg e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
 ```
 
 **For specific reactions**
@@ -136,17 +162,17 @@ python3 simulating_knockouts.py --dg input_examples/faa_file/e_coli_test.faa inp
 Single reaction deletion for all reactions in the knockout_reactions_list.txt:
 
 ```
-python3 simulating_knockouts.py --sr input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
+python3 simulating_knockouts.py --sr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
 ```
 Double reaction deletion for all reactions in the knockout_reactions_list.txt:
 
 ```
-python3 simulating_knockouts.py --dr input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
+python3 simulating_knockouts.py --dr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
 ```
 Specifc Double reaction deletion. Here we only evaluate the first 2 reactions in  knockout_reactions_list.txt:
 
 ```
-python3 simulating_knockouts.py --tdr input_examples/faa_file/e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
+python3 simulating_knockouts.py --tdr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
 ```
 **Gene and reaction essenciality**
 
@@ -163,5 +189,14 @@ To evaluate reaction essenciality:
 python3 simulating_knockouts.py --cr
 ```
 
-**GIVE EXAMPLES OF OTHER SCRIPTS AND DISCUSS RESULTS**
+## Outputs 
 
+| Command | Description | Output Location |
+| --- | --- | --- |
+| chimera_core.py | Creates the initial draft model  | Is saved in the tool folder. File has .xml extension|
+| chimera_core.py | Performs FBA to evaluate growth based on user input conditions | Is printed to the screen  |
+| chimera_core.py | Creates a graphical structure of the whole model for visualization in Cytoscape | Inside psamm folder |
+| chimera_core.py | Creates fully editable html pathway maps of 10 important metabolic pathways based on your model | Inside metabolism_maps folder |
+| translator_using_bigg.py | Add KEGG pathway info for the graph file. It allows targeted pathway search inside Cytoscape. | Inside psamm folder. File name: reactions_edges_cytoscape_kegg.tsv  |
+| simulating_knockouts.py | Perform knockouts of genes or reactions, based on user input  | Is printed to the screen |
+| simulating_knockouts.py | Perform knockouts of all genes or reactions. Essentiality metrics  | Is saved in the tool folder. Files: all_single_gene_knockout.csv, all_single_reactions_knockout.csv|
