@@ -30,7 +30,7 @@ You must download the folder or the git repository. In the folder there are 3 sc
 ```
 chimera_core.py: perform the model creation evaluation and visualization files
 
-translator_using_bigg.py: is used to add KEGG pathway description in the genome-scale metabolic map
+path_harvest.py: is used to add KEGG pathway description in the genome-scale metabolic map
 
 simulating_knockouts.py: is used to perform gene and reactions knockout
 
@@ -130,16 +130,11 @@ python chimera_core.py e_coli_test.faa gramneg LB LB
 We need the previous step to be executed before running this module.
 
 ```
-python3 translator_using_bigg.py e_coli
+python3 path_harvest.py
 ```
-This command will annotate the pathway for the compounds in the metabolic map. During the process a few warning messages can be displayed due to multiple API request. However, thats not an error.
+This command will annotate the pathway for the compounds in the metabolic map. This command can take a while.
 
-For a full list of organism check the API using the following command:
 
-```
-# Get a list of models
-curl 'http://bigg.ucsd.edu/api/v2/models'
-```
 
 ### To perform gene or reaction knockout we can use on the model __Escherichia coli__:
 All commands will request the name of the model you want to use as target. For example e_coli_test.xml, which need to be in the main folder.
