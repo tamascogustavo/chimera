@@ -125,6 +125,12 @@ python chimera_core.py -h
 ```
 python chimera_core.py e_coli_test.faa gramneg LB LB
 ```
+You can also use a pre-buit model, overstaping the model creation, directly producing FBA predictions and Visualization. You just need to have .xml model in your folder, with the same prefix as your faa file. In our example that would be __e_coli_test.xml__.
+
+The same command is used in this case.
+```
+python chimera_core.py e_coli_test.faa gramneg LB LB
+```
 ### To perfom pathway annotation using KEGG as reference to the Cytoscape maps we can use:
 
 We need the previous step to be executed before running this module.
