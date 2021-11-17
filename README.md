@@ -131,6 +131,13 @@ The same command is used in this case.
 ```
 python chimera_core.py e_coli_test.faa gramneg LB LB
 ```
+Due to annotation discrepacies cytoscape compatible file may fail to be created. This is due to id missmatch of the provided model.
+If you still want to perform the graph creation, inside psamm folder type the following code:
+
+```
+psamm-model vis --method no-fpp
+```
+
 ### To perfom pathway annotation using KEGG as reference to the Cytoscape maps we can use:
 
 We need the previous step to be executed before running this module.
