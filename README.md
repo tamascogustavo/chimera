@@ -52,8 +52,14 @@ Obs: The command above will export the installation path of cplex to $PATH shell
 
 Install the conda env
 
+There are 2 envs, use the one that suits you better:
+
+environment.yml for mac
+environment_linux.yml for linux
+
+
 ```
-conda env create -f environment.yml
+conda env create -f <environment.yml>
 # activate the environment
 conda activate chimera
 ```
