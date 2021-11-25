@@ -129,12 +129,13 @@ python chimera_core.py -h
 ### To run the test on model  __Escherichia coli__:
 
 ```
-python chimera_core.py e_coli_test.faa gramneg LB LB
+python chimera_core.py input_examples/faa_file/e_coli_test.faa gramneg LB LB
 ```
 You can also use a pre-buit model, overstaping the model creation, directly producing FBA predictions and Visualization. You just need to have .xml model in your folder, with the same prefix as your faa file. In our example that would be __e_coli_test.xml__.
 
 The same command is used in this case.
 ```
+# (THIS COMMAND SHOULD CREATE A PSAMM FOLDER? DID NOT WORK FOR ME)
 python chimera_core.py e_coli_test.faa gramneg LB LB
 ```
 Due to annotation discrepacies cytoscape compatible file may fail to be created. This is due to id missmatch of the provided model.
@@ -149,7 +150,7 @@ psamm-model vis --method no-fpp
 We need the previous step to be executed before running this module.
 
 ```
-python3 path_harvest.py
+python path_harvest.py
 ```
 This command will annotate the pathway for the compounds in the metabolic map. This command can take a while.
 
@@ -163,12 +164,16 @@ All commands will request the name of the model you want to use as target. For e
 Single gene deletion for all genes in the knockout_genes_list.txt:
 
 ```
-python3 simulating_knockouts.py --sg e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
+# IS THIS THE CORRECT PRINTING FORMAT:
+# <<<Complete model>>>:  <Solution 4.830 at 0x7f9017497790>
+# trkA knocked out:  <Solution 4.830 at 0x7f9017497d10>
+# IS THIS EASY TO INTERPRET?
+python simulating_knockouts.py --sg e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
 ```
 Double gene deletion for all genes in the knockout_genes_list.txt:
 
 ```
-python3 simulating_knockouts.py --dg e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
+python simulating_knockouts.py --dg e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
 ```
 
 **For specific reactions**
@@ -176,17 +181,17 @@ python3 simulating_knockouts.py --dg e_coli_test.faa input_examples/reations_gen
 Single reaction deletion for all reactions in the knockout_reactions_list.txt:
 
 ```
-python3 simulating_knockouts.py --sr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
+python simulating_knockouts.py --sr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
 ```
 Double reaction deletion for all reactions in the knockout_reactions_list.txt:
 
 ```
-python3 simulating_knockouts.py --dr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
+python simulating_knockouts.py --dr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
 ```
 Specifc Double reaction deletion. Here we only evaluate the first 2 reactions in  knockout_reactions_list.txt:
 
 ```
-python3 simulating_knockouts.py --tdr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
+python simulating_knockouts.py --tdr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
 ```
 **Gene and reaction essenciality**
 
@@ -195,19 +200,22 @@ Here we evaluate the individual impact in growth due to a single gene or reactio
 To evaluate gene essenciality:
 
 ```
-python3 simulating_knockouts.py --cg
+# IS THIS THE CORRECT PRINTING FORMAT:
+# 1678,{'G_lcl_NZ_CP027599_1_prot_WP_001315111_1_5786'},4.8299,optimal
+python simulating_knockouts.py --cg
+# WHY THE {} IN THE OUT?
 ```
 To evaluate reaction essenciality:
 
 ```
-python3 simulating_knockouts.py --cr
+python simulating_knockouts.py --cr
 ```
 
 ## Outputs 
 
 | Command | Description | Output Location |
 | --- | --- | --- |
-| chimera_core.py | Creates the initial draft model  | Is saved in the tool folder. File has .xml extension|
+| chimera_core.py | Creates the initial draft model  | Is saved in the tool folder(OR WHERE THE INPUT FILE WAS GIVEN?). File has .xml extension|
 | chimera_core.py | Performs FBA to evaluate growth based on user input conditions | Is printed to the screen  |
 | chimera_core.py | Creates a graphical structure of the whole model for visualization in Cytoscape | Inside psamm folder |
 | chimera_core.py | Creates fully editable html pathway maps of 10 important metabolic pathways based on your model | Inside metabolism_maps folder |
