@@ -163,12 +163,12 @@ All commands will request the name of the model you want to use as target. For e
 Single gene deletion for all genes in the knockout_genes_list.txt:
 
 ```
-python3 simulating_knockouts.py --sg e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
+python simulating_knockouts.py --sg e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
 ```
 Double gene deletion for all genes in the knockout_genes_list.txt:
 
 ```
-python3 simulating_knockouts.py --dg e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
+python simulating_knockouts.py --dg e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
 ```
 
 **For specific reactions**
@@ -176,17 +176,17 @@ python3 simulating_knockouts.py --dg e_coli_test.faa input_examples/reations_gen
 Single reaction deletion for all reactions in the knockout_reactions_list.txt:
 
 ```
-python3 simulating_knockouts.py --sr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
+python simulating_knockouts.py --sr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
 ```
 Double reaction deletion for all reactions in the knockout_reactions_list.txt:
 
 ```
-python3 simulating_knockouts.py --dr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
+python simulating_knockouts.py --dr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
 ```
 Specifc Double reaction deletion. Here we only evaluate the first 2 reactions in  knockout_reactions_list.txt:
 
 ```
-python3 simulating_knockouts.py --tdr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
+python simulating_knockouts.py --tdr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
 ```
 **Gene and reaction essenciality**
 
@@ -195,12 +195,12 @@ Here we evaluate the individual impact in growth due to a single gene or reactio
 To evaluate gene essenciality:
 
 ```
-python3 simulating_knockouts.py --cg
+python simulating_knockouts.py --cg
 ```
 To evaluate reaction essenciality:
 
 ```
-python3 simulating_knockouts.py --cr
+python simulating_knockouts.py --cr
 ```
 
 ## Outputs 
