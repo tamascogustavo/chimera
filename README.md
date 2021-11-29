@@ -149,7 +149,7 @@ psamm-model vis --method no-fpp
 We need the previous step to be executed before running this module.
 
 ```
-python3 path_harvest.py
+python path_harvest.py
 ```
 This command will annotate the pathway for the compounds in the metabolic map. This command can take a while.
 
