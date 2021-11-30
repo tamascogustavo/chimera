@@ -158,6 +158,8 @@ This command will annotate the pathway for the compounds in the metabolic map. T
 ### To perform gene or reaction knockout we can use on the model __Escherichia coli__:
 All commands will request the name of the model you want to use as target. For example e_coli_test.xml, which need to be in the main folder.
 
+Use *.faa file from Prodigal may cause inconsistencies due to the annotation labeling.
+
 **For specific genes**
 
 Single gene deletion for all genes in the knockout_genes_list.txt:
