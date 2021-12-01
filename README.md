@@ -34,6 +34,8 @@ path_harvest.py: is used to add KEGG pathway description in the genome-scale met
 
 simulating_knockouts.py: is used to perform gene and reactions knockout
 
+add_medium.py: if you want to add your custom media to create a model, prior to the utilization of the chimera_core use this script. 
+
 all_metabo_paths: a folder containing pre-defined metabolic maps for a general overview of the pathways present in the target organism
 ```
 
@@ -119,6 +121,16 @@ Before using, activate the conda env
 conda activate chimera
 ```
 __Intended usage__: You should have a folder with the 3 main scripts, the all_metado_paths folder and a faa file for your organism. 
+
+### To add new media for model creation:
+
+You can check the input_examples folder to see how to build your new_media.tsv.
+The original CarveMe database is still the same, you will just update the file with your new media.
+
+```
+ python add_medium.py --add_media new_media.tsv
+ 
+```
 
 ### To access the help page:
 
