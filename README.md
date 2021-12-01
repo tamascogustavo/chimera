@@ -25,7 +25,7 @@ All of that is obtained through automation and connection of the most used tools
 
 ## Detail about the scripts
 
-You must download the folder or the git repository. In the folder there are 3 scripts, one extra folder and 2 txt files with the dependencies to install
+You must download the folder or the git repository. In the folder, there are 3 scripts, one extra folder, and 2 txt files with the dependencies to install
 
 ```
 chimera_core.py: perform the model creation evaluation and visualization files
@@ -34,14 +34,14 @@ path_harvest.py: is used to add KEGG pathway description in the genome-scale met
 
 simulating_knockouts.py: is used to perform gene and reactions knockout
 
-add_medium.py: if you want to add your custom media to create a model, prior to the utilization of the chimera_core use this script. 
+add_medium.py: if you want to add your custom media to create a model, before the utilization of the chimera_core use this script. 
 
 all_metabo_paths: a folder containing pre-defined metabolic maps for a general overview of the pathways present in the target organism
 ```
 
 ### Installation
 
-Verify if you have anaconda intalled in you machine. The tool can be downloaded [here](https://www.anaconda.com/products/individual).
+Verify if you have anaconda installed in your machine. The tool can be downloaded [here](https://www.anaconda.com/products/individual).
 
 Before installing you need to install CPLEX solver from IMB. Click [here](https://community.ibm.com/community/user/datascience/blogs/xavier-nodet1/2020/07/09/cplex-free-for-students) to access the academic license. This documentation was created with `IBM ILOG CPLEX Optimization Studio V20.10`.
 
@@ -93,7 +93,7 @@ And then install
 ```
 python setup.py install
 ```
-_OBS_: If you have troubles installing the API, check : https://www.ibm.com/docs/en/icos/12.8.0.0?topic=cplex-setting-up-python-api .
+_OBS_: If you have troubles installing the API, check: https://www.ibm.com/docs/en/icos/12.8.0.0?topic=cplex-setting-up-python-api .
 
 _OBS_: Some users reported an error during the installation of the API.  "Unknown distribution option: zip_fafe. Could not create build: permission denied".
 
@@ -143,20 +143,20 @@ python chimera_core.py -h
 ```
 python chimera_core.py e_coli_test.faa gramneg LB LB
 ```
-You can also use a pre-buit model, overstaping the model creation, directly producing FBA predictions and Visualization. You just need to have .xml model in your folder, with the same prefix as your faa file. In our example that would be __e_coli_test.xml__.
+You can also use a pre-buit model, overstepping the model creation, directly producing FBA predictions and Visualization. You just need to have .xml model in your folder, with the same prefix as your faa file. In our example that would be __e_coli_test.xml__.
 
 The same command is used in this case.
 ```
 python chimera_core.py e_coli_test.faa gramneg LB LB
 ```
-Due to annotation discrepacies cytoscape compatible file may fail to be created. This is due to id missmatch of the provided model.
+Due to annotation discrepancies, cytoscape compatible file may fail to be created. This is due to id mismatch of the provided model.
 If you still want to perform the graph creation, inside psamm folder type the following code:
 
 ```
 psamm-model vis --method no-fpp
 ```
 
-### To perfom pathway annotation using KEGG as reference to the Cytoscape maps we can use:
+### To perform pathway annotation using KEGG as a reference to the Cytoscape maps we can use:
 
 We need the previous step to be executed before running this module.
 
@@ -168,9 +168,9 @@ This command will annotate the pathway for the compounds in the metabolic map. T
 
 
 ### To perform gene or reaction knockout we can use on the model __Escherichia coli__:
-All commands will request the name of the model you want to use as target. For example e_coli_test.xml, which need to be in the main folder.
+All commands will request the name of the model you want to use as a target. For example, e_coli_test.xml, which needs to be in the main folder.
 
-Use *.faa file from Prodigal may cause inconsistencies due to the annotation labeling.
+Using *.faa file from Prodigal may cause inconsistencies due to the annotation labeling.
 
 **For specific genes**
 
@@ -211,7 +211,7 @@ To evaluate gene essenciality:
 ```
 python simulating_knockouts.py --cg
 ```
-To evaluate reaction essenciality:
+To evaluate reaction essentiality:
 
 ```
 python simulating_knockouts.py --cr
