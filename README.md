@@ -124,7 +124,7 @@ __Intended usage__: You should have a folder with the 3 main scripts, the all_me
 
 ### To add new media for model creation:
 
-You can check the input_examples folder to see how to build your new_media.tsv.
+You can check the input_examples folder to see how to build your new_media.tsv. The ids must be BiGG Ids.
 The original CarveMe database is still the same, you will just update the file with your new media.
 
 ```
