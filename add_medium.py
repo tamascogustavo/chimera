@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # @Author: gustavotamascohotmail.com
 # @Date:   2021-11-30 15:01:26
-# @Last Modified by:   gustavotamascohotmail.com
-# @Last Modified time: 2021-12-01 10:14:25
+# @Last Modified by:   tamascogustavo
+# @Last Modified time: 2021-12-07 15:57:58
 
 import os 
 import subprocess
@@ -88,7 +88,7 @@ def main():
 	target = "media_db.tsv"
 	new_media_file = arguments.add_media
 	possible_hits = find_file(target)
-	media_file_path = [x for x in possible_hits if pattern in x][-1]
+	media_file_path = [x for x in possible_hits if pattern in x][0]
 	with open(new_media_file) as n_m_file:
 		new_media_info = parse_file(n_m_file)
 

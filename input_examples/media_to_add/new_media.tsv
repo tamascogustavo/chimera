@@ -1,20 +1,127 @@
 medium	description	compound	name
-Carbon-D-Fructose	Media with Fructose	h2o	H2O
-Carbon-D-Fructose	Media with Fructose	o2	O2
-Carbon-D-Fructose	Media with Fructose	pi	Phosphate
-Carbon-D-Fructose	Media with Fructose	co2	CO2
-Carbon-D-Fructose	Media with Fructose	nh3	NH3
-Carbon-D-Fructose	Media with Fructose	mn2	Mn2+
-Carbon-D-Fructose	Media with Fructose	zn2	Zn2+
-Carbon-D-Fructose	Media with Fructose	so4	Sulfate
-Carbon-D-Fructose	Media with Fructose	cu2	Cu2+
-Carbon-D-Fructose	Media with Fructose	ca2	Ca2+
-Carbon-D-Fructose	Media with Fructose	h	H+
-Carbon-D-Fructose	Media with Fructose	fru	D-Fructose
-Carbon-D-Fructose	Media with Fructose	cl	Cl-
-Carbon-D-Fructose	Media with Fructose	cobalt2	Co2+
-Carbon-D-Fructose	Media with Fructose	k	K+
-Carbon-D-Fructose	Media with Fructose	mg2	Mg
-Carbon-D-Fructose	Media with Fructose	na1	Na+
-Carbon-D-Fructose	Media with Fructose	fe2	Fe2+
-Carbon-D-Fructose	Media with Fructose	fe3	Fe3+
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	26dap__M	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	ac	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	acgam	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	ala__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	amp	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	arab__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	arg__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	asn__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	asp__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	ca2	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	cgly	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	cl	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	cobalt2	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	cu2	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	cys__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	dcyt	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	drib	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	fe2	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	fe3	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	fol	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	for	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	fru	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	gam	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	gln__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	glu__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	gly	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	glyc	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	glyc3p	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	gua	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	h	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	h2	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	h2o	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	h2s	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	his__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	hxan	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	ile__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	indole	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	k	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	leu__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	lys__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	malt	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	man	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	met__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	mg2	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	mn2	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	mnl	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	nac	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	o2	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	orn	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	phe__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	pheme	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	pi	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	pro__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	ptrc	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	pydam	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	pydx	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	pydxn	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	rib__D	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	ribflv	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	ser__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	so4	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	sucr	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	thm	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	thr__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	tre	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	trp__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	tyr__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	ura	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	val__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	xyl__D	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	zn2	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	2obut	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	ade	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	cit	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	csn	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	cytd	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	dad_2	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	dgsn	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	fum	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	ocdca	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	spmd	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	thymd	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	ttdca	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	uri	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	xan	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	4abz	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	ddca	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	hdca	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	nmn	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	pnto__R	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	arab__D	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	chol	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	glcn	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	gthrd	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	no2	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	acnam	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	fuc__L	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	gal	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	lcts	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	pullulan1200	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	4hbz	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	ncam	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	ocdcea	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	adn	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	ala__D	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	chor	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	oxa	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	gthox	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	rmn	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	raffin	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	cellb	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	melib	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	gsn	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	mobd	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	meoh	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	amylose300	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	lmn30	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	acmana	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	starch1200	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	fald	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	starch	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	amylose	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	glc__D	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	pect	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	xylan4	no
+western_diet_gut	average European diet adjusted for adsorption in the small intestine	xylan8	no
