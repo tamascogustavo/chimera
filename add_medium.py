@@ -2,7 +2,7 @@
 # @Author: gustavotamascohotmail.com
 # @Date:   2021-11-30 15:01:26
 # @Last Modified by:   tamascogustavo
-# @Last Modified time: 2021-12-07 15:57:58
+# @Last Modified time: 2021-12-08 09:09:09
 
 import os 
 import subprocess
@@ -88,14 +88,19 @@ def main():
 	target = "media_db.tsv"
 	new_media_file = arguments.add_media
 	possible_hits = find_file(target)
-	media_file_path = [x for x in possible_hits if pattern in x][0]
+	media_file_path = [x for x in possible_hits if pattern in x]
+	if len(media_file_path) > 1:
+		media_file_path = media_file_path[0]
+	else:
+		media_file_path = media_file_path
+
 	with open(new_media_file) as n_m_file:
 		new_media_info = parse_file(n_m_file)
 
 	with open(media_file_path) as carve_db:
 		new_databe = compile_info(carve_db, new_media_info)
-
 	save_database(new_databe, media_file_path)
+	
 
 
 
