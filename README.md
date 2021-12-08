@@ -131,6 +131,14 @@ The original CarveMe database is still the same, you will just update the file w
  python add_medium.py --add_media new_media.tsv
  
 ```
+__If fail happens__:
+
+Failed to gapfill model for medium <your_added_media> means there is no possible solution to make the organism grow on that medium.
+
+Your may have a medium that lacks elements (iron, magnesium, zinc, etc), which are necessary for biomass formation. You can use the M9 media composition
+as a template to ensure that all necessary elements are present.
+
+You can add all the trace elements and repeat the reconstruction to check if your organism can or not grow in the provided media.
 
 ### To access the help page:
 
