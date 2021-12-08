@@ -2,7 +2,7 @@
 # @Author: gustavotamascohotmail.com
 # @Date:   2021-11-30 15:01:26
 # @Last Modified by:   tamascogustavo
-# @Last Modified time: 2021-12-08 09:09:09
+# @Last Modified time: 2021-12-08 11:20:57
 
 import os 
 import subprocess
@@ -92,7 +92,7 @@ def main():
 	if len(media_file_path) > 1:
 		media_file_path = media_file_path[0]
 	else:
-		media_file_path = media_file_path
+		media_file_path = str(media_file_path)[2:-2]
 
 	with open(new_media_file) as n_m_file:
 		new_media_info = parse_file(n_m_file)
