@@ -224,6 +224,12 @@ To evaluate reaction essentiality:
 ```
 python simulating_knockouts.py --cr
 ```
+## Build your custom maps
+
+If you want to build your own custom map based on your metabolic evidence you can do that using your formatted JSON model at [Escher website](https://escher.github.io/#/)
+
+For instructions on how to do that, check the [tutorial](https://youtu.be/XQRbSkvMpN4).
+
 
 ## Outputs 
 
