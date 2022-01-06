@@ -230,7 +230,7 @@ If you want to build your own custom map based on your metabolic evidence you ca
 
 For instructions on how to do that, check the [tutorial](https://youtu.be/XQRbSkvMpN4).
 
-##Build your custom maps Cytoscape
+## Build your custom maps Cytoscape
 
 If you want to build your own custom map based on your metabolic evidence you can do that using your reactions_edges_cytoscape_kegg file, that is inside psamm folder.
 
