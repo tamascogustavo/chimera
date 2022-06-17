@@ -6,6 +6,9 @@
 
 
 # import statements
+import json
+import re
+from bs4 import BeautifulSoup
 from pickletools import read_unicodestring1
 from tkinter.tix import Tree
 from tools.path_harvest import PathColector
@@ -13,6 +16,7 @@ from tools.silencer import Silencer
 import os.path
 import subprocess
 import sys
+from itertools import islice
 import cobra
 from cobra import Model, Reaction, Metabolite
 from cobra.util.solver import linear_reaction_coefficients
@@ -32,6 +36,9 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 from itertools import combinations
+import ray
+import requests
+requests.adapters.DEFAULT_RETRIES = 5
 
 
 # functions and classes
@@ -66,6 +73,10 @@ def menu():
     # complete cytoscape maps
     core_parser = subparser.add_parser(
         "harvest_path_cytoscape", help="Adds kegg pathway information to cytoscape maps")
+    core_parser.add_argument(
+        "--table", required=True, help="Path to reactions.edges.tsv file inside psam_* folder")
+    core_parser.add_argument("--model", required=True,
+                             help="path to sbml model file")
 
     args = parser.parse_args()
 
@@ -348,7 +359,97 @@ def reaction_essentiality(model, operation_to_perform, mode, targets, faa_info):
 
 
 def run_harvest(args):
-    pass
+    if os.path.exists("kegg_paths.json"):
+        print("We collected the kegg pathways, loading info")
+        with open('kegg_paths.json', 'r') as fp:
+            data = json.load(fp)
+        compounds_info = parse_model_info(args)
+    else:
+        kegg_paths = {}
+        compounds_info = parse_model_info(args)
+        cpd_path = []
+        teste = dict(take(10, compounds_info.items()))
+
+        for bigg, kegg in teste.items():
+            path = get_compound_info.remote(kegg)
+            cpd_path.append(path)
+        path_feature = ray.get(cpd_path)
+
+        for kegg_path, kegg_id in zip(path_feature, teste.values()):
+            if type(kegg_path) != str:
+                kegg_paths[kegg_id] = " | ".join(kegg_path)
+            else:
+                kegg_paths[kegg_id] = kegg_path
+
+        with open("kegg_paths.json", "w") as json_file:
+            json.dump(kegg_paths, json_file, indent=4)
+
+        with open('kegg_paths.json', 'r') as fp:
+            data = json.load(fp)
+
+    kegg_and_path = data
+    bigg_and_kegg = compounds_info
+    #inverted_bigg_and_kegg = {v: k for k, v in bigg_and_kegg.items()}
+    print(bigg_and_kegg)
+
+
+def parse_model_info(args):
+    model = cobra.io.read_sbml_model(args.model)
+    compunds_intel = {}
+
+    for cpd in model.metabolites:
+        cpd_id = cpd.id
+        info = cpd.annotation
+        kegg_info = info.get("kegg.compound")
+        if kegg_info:
+            if type(kegg_info) != str:
+                compunds_intel[cpd_id] = kegg_info[0]
+            else:
+                compunds_intel[cpd_id] = kegg_info
+    return compunds_intel
+
+
+@ray.remote
+def get_compound_info(cpd):
+    """This fuction make request to KEGG API
+
+    Args:
+        cpd (str): kegg compound ids
+
+    Returns:
+        dict: dict of pathways associated to the compound
+    """
+    link = "https://rest.kegg.jp/get/"
+    full_path = f"{link}{cpd}"
+    try:
+        page = requests.get(full_path, timeout=(15, 15))
+        soup = BeautifulSoup(page.content, "html.parser")
+        pathway = parse_paths_bs4(soup, cpd)
+    except (requests.exceptions.ConnectionError, requests.exceptions.ReadTimeout):
+        pathway = f"No connection with {cpd}"
+    print(pathway)
+    return pathway
+
+
+def parse_paths_bs4(soup_obj, cpd):
+    """This function parses the request response to
+
+    Args:
+        soup_obj (soup_obj): object that contain the information of the requesr
+
+    Returns:
+        list: list of mapped pathways
+    """
+    paths = str(soup_obj.get_text)
+    pattern = "map.*"
+    result = re.findall(pattern, paths)
+    # result = re.search(pattern, paths)
+    if result:
+        if type(result) != str:
+            filter(None, result)
+    else:
+        result = f"No detection for {cpd}"
+    return result
 
 
 def read_model(data):
@@ -585,6 +686,11 @@ def make_plot(df):
             title="Top 30 detected pathways associated to model compounds composition", title_x=0.5)
 
         fig.write_html(html_outname)
+
+
+def take(n, iterable):
+    "Return first n items of the iterable as a list"
+    return list(islice(iterable, n))
 
 
 def main():
