@@ -51,7 +51,6 @@ class PathColector:
         page = requests.get(full_path, timeout=(15,15))
         soup = BeautifulSoup(page.content, "html.parser")
         pathway = PathColector.parse_paths(soup)
-        print(pathway)
         return pathway
     
     

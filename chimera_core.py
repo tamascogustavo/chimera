@@ -6,8 +6,10 @@
 
 
 # import statements
+from pickletools import read_unicodestring1
 from tkinter.tix import Tree
 from tools.path_harvest import PathColector
+from tools.silencer import Silencer
 import os.path
 import subprocess
 import sys
@@ -29,6 +31,7 @@ import argparse
 import pandas as pd
 import numpy as np
 import plotly.express as px
+from itertools import combinations
 
 
 # functions and classes
@@ -43,6 +46,8 @@ def menu():
     core_parser.add_argument(
         "--type", required=True, help="type of organism, options are gramneg, grampos, bacteria")
     core_parser.add_argument("--media", required=True, help="Growth media ID")
+    core_parser.add_argument(
+        "--mediadb", help="tsv file with a new media composition for new experimental conditions. If provided you must pass the media id in --media parameter.")
 
     # silencing
     core_parser = subparser.add_parser(
@@ -53,12 +58,14 @@ def menu():
                              help="type of knockout target, gene or reaction")
     core_parser.add_argument("--targets", required=True,
                              help="path to csv file containing targets, one by line")
-
-    # add new media to carveme database
-    core_parser = subparser.add_parser(
-        "new_media", help="Adds new media to carveme media database")
     core_parser.add_argument(
-        "--table", required=True, help="path to the csv file containg the media composition")
+        "--faa", required=True, help="path to the faa file")
+    core_parser.add_argument("--mode", required=True,
+                             help="Type of knockout: single or douple. For  double all combinations of targets will be performed")
+
+    # complete cytoscape maps
+    core_parser = subparser.add_parser(
+        "harvest_path_cytoscape", help="Adds kegg pathway information to cytoscape maps")
 
     args = parser.parse_args()
 
@@ -74,7 +81,7 @@ def run_core_module(args):
     model_name = f'{args.organism.split("/")[-1].split(".")[0]}.sbml'
 
     print_carv_status()
-    run_carveme(genome_path, model_name, universe, medium, initiate)
+    run_carveme(genome_path, model_name, universe, medium, initiate, args)
 
     # Start cobrapy eval
     # Give the name of the solver you want to use e.g: cplex
@@ -141,11 +148,12 @@ def run_core_module(args):
     psamm_path = os.getcwd()
 
     ''''Build data to plot'''
-    generate_cyto_data(psamm_path)
+    generate_cyto_data(psamm_path, args)
 
     os.chdir(initial_path)
 
     ''' Pathway harvest'''
+    print("Harvesting metabolic pathways from model. This may take a while...")
     path_csv_file = f"{model_name.split('.')[0]}_enriched_paths.csv"
     if os.path.exists(path_csv_file):
         print(f"Metabolic data already collected, check: {path_csv_file}")
@@ -157,10 +165,8 @@ def run_core_module(args):
         create_df(model_metaboism, f"{model_name.split('.')[0]}")
     make_plot(path_csv_file)
 
-    exit()
 
-
-def run_carveme(genome, model, universe, medium, initiate):
+def run_carveme(genome, model, universe, medium, initiate, args):
     '''
     This function uses carveme to build a model that can be used for manipulation
 
@@ -169,22 +175,179 @@ def run_carveme(genome, model, universe, medium, initiate):
     :param universe: specifies if is gram + or - organism
     :return:
     '''
-    if os.path.exists(model):
-        print("{} already exists".format(model))
+    if args.mediadb:
+        if os.path.exists(model):
+            print("{} already exists".format(model))
+        else:
+            cmd_carve = f"carve {genome} -u {universe} --mediadb {args.mediadb} --gapfill {medium} --fbc2 -o {model}"
+            print(cmd_carve)
+            exit_message = subprocess.check_call(cmd_carve, shell=True)
+            print("Exit status: {0}".format(exit_message))
+            print("{0} SBML model was created".format(model))
     else:
-        cmd_carve = "carve {} -u {} " \
-                    "--gapfill {} -i {} --fbc2 -o {}".format(
+        if os.path.exists(model):
+            print("{} already exists".format(model))
+        else:
+            cmd_carve = "carve {} -u {} " \
+                "--gapfill {} -i {} --fbc2 -o {}".format(
                         genome, universe, medium, initiate, model)
-        exit_message = subprocess.check_call(cmd_carve, shell=True)
-        print("Exit status: {0}".format(exit_message))
-        print("{0} SBML model was created".format(model))
+            exit_message = subprocess.check_call(cmd_carve, shell=True)
+            print("Exit status: {0}".format(exit_message))
+            print("{0} SBML model was created".format(model))
 
 
-def run_knockout_module():
-    pass
+def run_knockout_module(args):
+    """This function controls the silencing module
+
+    Args:
+        args (options): are the arguments for the functions
+    """
+    model = args.i
+    operation_to_perform = args.type
+    mode = args.mode
+    targets = args.targets
+    faa_info = args.faa
+
+    operator = f"{operation_to_perform}+{mode}"
+
+    CONTROL_OPERATOR = {
+        "gene+single": single_gene_knockout,
+        "reaction+single": single_reaction_knockout,
+        "gene+double": double_gene_knockout,
+        "reaction+double": double_reaction_knockout,
+        "gene+all": gene_essentiality,
+        "reaction+all": reaction_essentiality
+    }
+
+    executor = CONTROL_OPERATOR.get(operator)
+    executor(model, operation_to_perform, mode, targets, faa_info)
 
 
-def add_new_media():
+def get_silencing_targets(file):
+    """Parse a txt file with gene targets       
+
+    Args:
+        file (str ): txt file with gene name, one by line
+    """
+    all_targets = []
+    with open(file) as f:
+        for line in f:
+            target = line.strip()
+            all_targets.append(target)
+    return all_targets
+
+
+def single_gene_knockout(model, operation_to_perform, mode, targets, faa_info):
+    """Perform single gene knockout
+
+    Args:
+        model (str): name of the model
+        operation_to_perform (str ): if gene or reaction target 
+        mode (str): single or double deletion
+        targets (str): txt file with targets
+        faa_info (str): path to faa file
+    """
+    targets_to_silence = get_silencing_targets(targets)
+    model_to_silence = Silencer(model, faa_info, targets_to_silence)
+    sequences = model_to_silence.parse_faa_info()
+
+    # get model genes id
+    knockout_ids = model_to_silence.mine_model_gene_id(
+        targets_to_silence, sequences)
+    result = model_to_silence.single_gene_silence(knockout_ids)
+
+
+def single_reaction_knockout(model, operation_to_perform, mode, targets, faa_info):
+    """Perform single reaction knockout
+
+    Args:
+        model (str): name of the model
+        operation_to_perform (str ): if gene or reaction target 
+        mode (str): single or double deletion
+        targets (str): txt file with targets
+        faa_info (str): path to faa file
+    """
+    targets_to_silence = get_silencing_targets(targets)
+    model_to_silence = Silencer(model, faa_info, targets_to_silence)
+    result = model_to_silence.single_reaction_silence(targets_to_silence)
+
+
+def double_gene_knockout(model, operation_to_perform, mode, targets, faa_info):
+    """Perform double gene knockout
+
+    Args:
+        model (str): name of the model
+        operation_to_perform (str ): if gene or reaction target 
+        mode (str): single or double deletion
+        targets (str): txt file with targets
+        faa_info (str): path to faa file
+    """
+    targets_to_silence = get_silencing_targets(targets)
+    model_to_silence = Silencer(model, faa_info, targets_to_silence)
+    sequences = model_to_silence.parse_faa_info()
+
+    # get model genes id
+    knockout_ids = model_to_silence.mine_model_gene_id(
+        targets_to_silence, sequences)
+    all_combinations = list(combinations(list(knockout_ids.keys()), 2))
+    #all_combinations = [set(x) for x in all_combinations]
+    result = model_to_silence.double_gene_silence(
+        knockout_ids, all_combinations)
+
+
+def double_reaction_knockout(model, operation_to_perform, mode, targets, faa_info):
+    """Perform double reaction knockout
+
+    Args:
+        model (str): name of the model
+        operation_to_perform (str ): if gene or reaction target 
+        mode (str): single or double deletion
+        targets (str): txt file with targets
+        faa_info (str): path to faa file
+    """
+    targets_to_silence = get_silencing_targets(targets)
+    model_to_silence = Silencer(model, faa_info, targets_to_silence)
+
+    all_combinations = list(combinations(targets_to_silence, 2))
+
+    result = model_to_silence.double_reaction_silence(all_combinations)
+
+
+def gene_essentiality(model, operation_to_perform, mode, targets, faa_info):
+    """Perform single gene knockout for all genes in the model
+
+    Args:
+        model (str): name of the model
+        operation_to_perform (str ): if gene or reaction target 
+        mode (str): single or double deletion
+        targets (str): txt file with targets
+        faa_info (str): path to faa file
+    """
+    targets_to_silence = None
+    model_to_silence = Silencer(model, faa_info, targets_to_silence)
+    sequences = model_to_silence.parse_faa_info()
+
+    # get model genes id
+    result = model_to_silence.single_gene_silence(sequences)
+
+
+def reaction_essentiality(model, operation_to_perform, mode, targets, faa_info):
+    """Perform single reaction knockout for all reactions in the model
+
+    Args:
+        model (str): name of the model
+        operation_to_perform (str ): if gene or reaction target 
+        mode (str): single or double deletion
+        targets (str): txt file with targets
+        faa_info (str): path to faa file
+    """
+    targets_to_silence = get_silencing_targets(targets)
+    model_to_silence = Silencer(model, faa_info, targets_to_silence)
+    reactions_df = model_to_silence.silence_all_reactions()
+    reactions_df.to_csv("reactions_essentiality.csv")
+
+
+def run_harvest(args):
     pass
 
 
@@ -199,7 +362,7 @@ def read_model(data):
     if os.path.exists(out_name):
         print("{} already exists".format(out_name))
     else:
-        #model = cobra.io.sbml.read_sbml_model(data, number=float, f_replace={})
+        # model = cobra.io.sbml.read_sbml_model(data, number=float, f_replace={})
         model = cobra.io.read_sbml_model(data, f_replace={})
     return(model)
 
@@ -263,7 +426,7 @@ def import_sbml_to_psamm(model, out_name):
         print("{0} was created".format(out_name))
 
 
-def generate_cyto_data(psamm_path):
+def generate_cyto_data(psamm_path, args):
     '''
     This function creates all files needed to build a network image
     :param psamm_path: path to psamm model dir
@@ -273,12 +436,12 @@ def generate_cyto_data(psamm_path):
     if os.path.exists("reactions.dot"):
         print("The graph data was already generated, check tsv files for cytoscape ")
     else:
-        if argv[2] != "grampos":
+        if args.type != "grampos":
             cmd_vis = "psamm-model vis"
             exit_message = subprocess.check_call(cmd_vis, shell=True)
             print("The status is {}".format(exit_message))
             print("The .tsv files for cytoscape were generated")
-        elif argv[2] == "grampos":
+        elif args.type == "grampos":
             cmd_vis_pos = "psamm-model vis --method no-fpp"
             exit_message = subprocess.check_call(cmd_vis_pos, shell=True)
             print("The status is {}".format(exit_message))
@@ -400,10 +563,10 @@ def create_df(model_paths, name):
 
 
 def make_plot(df):
-    """This function use a concat df to plot a clustermap
+    """This function plots the top30 pathways detected in the model
 
     Args:
-        df (dataframe): dataframe containing the pathways and the organisms
+        df (dataframe): dataframe containing the pathways in the model
     """
     html_outname = f"{df.split('.')[0]}_top30_pathwats.html"
     if os.path.exists(html_outname):
@@ -423,8 +586,6 @@ def make_plot(df):
 
         fig.write_html(html_outname)
 
-    exit()
-
 
 def main():
     '''
@@ -439,12 +600,11 @@ def main():
 
     CONTROLER = {"core": run_core_module,
                  "silencing": run_knockout_module,
-                 "new_media": add_new_media
+                 "harvest_path_cytoscape": run_harvest
                  }
 
     execute_module = CONTROLER.get(options.command)
     execute_module(options)
-    exit()
 
     """Special thanks to:
 
