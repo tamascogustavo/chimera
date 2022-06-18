@@ -69,7 +69,7 @@ def menu():
     core_parser.add_argument(
         "--faa", required=True, help="path to the faa file")
     core_parser.add_argument("--mode", required=True,
-                             help="Type of knockout: single or douple. For  double all combinations of targets will be performed")
+                             help="Type of knockout: single or douple or all. For  double all combinations of targets will be performed")
 
     # complete cytoscape maps
     core_parser = subparser.add_parser(
