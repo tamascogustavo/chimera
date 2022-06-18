@@ -6,6 +6,7 @@
 
 
 # import statements
+from contextlib import redirect_stdout
 import json
 import re
 from bs4 import BeautifulSoup
@@ -359,6 +360,7 @@ def reaction_essentiality(model, operation_to_perform, mode, targets, faa_info):
 
 
 def run_harvest(args):
+    print("Process initiated, this can take some time!")
     if os.path.exists("kegg_paths.json"):
         print("We collected the kegg pathways, loading info")
         with open('kegg_paths.json', 'r') as fp:
@@ -368,21 +370,19 @@ def run_harvest(args):
         kegg_paths = {}
         compounds_info = parse_model_info(args)
         cpd_path = []
-        teste = dict(take(10, compounds_info.items()))
+        #teste = dict(take(10, compounds_info.items()))
+        unique_kegg_set_cpd = set(list(compounds_info.values()))
 
-        for bigg, kegg in teste.items():
+        for kegg in unique_kegg_set_cpd:
             path = get_compound_info.remote(kegg)
             cpd_path.append(path)
         path_feature = ray.get(cpd_path)
 
-        for kegg_path, kegg_id in zip(path_feature, teste.values()):
-            if type(kegg_path) != str:
-                kegg_paths[kegg_id] = " | ".join(kegg_path)
-            else:
-                kegg_paths[kegg_id] = kegg_path
+        print(len(path_feature))
+        clean_path_features = clean_kegg_info(path_feature)
 
         with open("kegg_paths.json", "w") as json_file:
-            json.dump(kegg_paths, json_file, indent=4)
+            json.dump(clean_path_features, json_file, indent=4)
 
         with open('kegg_paths.json', 'r') as fp:
             data = json.load(fp)
@@ -390,7 +390,20 @@ def run_harvest(args):
     kegg_and_path = data
     bigg_and_kegg = compounds_info
     #inverted_bigg_and_kegg = {v: k for k, v in bigg_and_kegg.items()}
-    print(bigg_and_kegg)
+    add_intel_to_psamm_maps(args, kegg_and_path, bigg_and_kegg)
+
+
+def clean_kegg_info(kegg_info):
+    clean_info = {}
+    for item in kegg_info:
+        kegg_cpd = item[0]
+        paths = item[1]
+        if "No detection for" not in paths:
+            if type(paths) != str:
+                clean_info[kegg_cpd] = " | ".join(paths)
+            else:
+                clean_info[kegg_cpd] = paths
+    return clean_info
 
 
 def parse_model_info(args):
@@ -419,16 +432,20 @@ def get_compound_info(cpd):
     Returns:
         dict: dict of pathways associated to the compound
     """
+
     link = "https://rest.kegg.jp/get/"
     full_path = f"{link}{cpd}"
     try:
         page = requests.get(full_path, timeout=(15, 15))
         soup = BeautifulSoup(page.content, "html.parser")
         pathway = parse_paths_bs4(soup, cpd)
+        intel = (cpd, pathway)
     except (requests.exceptions.ConnectionError, requests.exceptions.ReadTimeout):
-        pathway = f"No connection with {cpd}"
-    print(pathway)
-    return pathway
+        pass
+        #pathway = f"No connection with {cpd}"
+        #intel = (cpd, pathway)
+
+    return intel
 
 
 def parse_paths_bs4(soup_obj, cpd):
@@ -691,6 +708,49 @@ def make_plot(df):
 def take(n, iterable):
     "Return first n items of the iterable as a list"
     return list(islice(iterable, n))
+
+
+def add_intel_to_psamm_maps(args, path_info, bigg_info):
+    """This function will add pathway information to psamm edges files
+
+    Args:
+        args (class): holds all options privided by user.
+        path_info (dict): k: kegg id , v : pathway
+        bigg_info (dict): k: bigg id , v : kegg id
+    """
+    if os.path.exists(f'{args.model.split(".")[0]}_reactions_edges.tsv'):
+        print(f'{args.model.split(".")[0]}_reactions_edges.tsv already exists')
+    else:
+        with open(args.table) as file:
+            file_content = parse_edges_info(args, file, path_info, bigg_info)
+
+
+def parse_edges_info(args, file, path_dict, cpd_dict):
+    with open(f'{args.model.split(".")[0]}_reactions_edges.tsv', 'w') as f:
+        with redirect_stdout(f):
+            print(
+                'source\ttarget\tdirection\tpenwidth\tstyle\tsource_pathway\ttarget_pathway')
+            for line_index, line in enumerate(file):
+                if line_index >= 1:
+                    newline = line.strip().split("\t")
+                    source = newline[0]
+                    target = newline[1]
+                    direction = newline[2]
+                    penwidth = newline[3]
+                    style = newline[4]
+                    pathway_source = incorporate_pathway_info(
+                        source, path_dict, cpd_dict)
+                    pathway_target = incorporate_pathway_info(
+                        target, path_dict, cpd_dict)
+                    print(
+                        f'{source}\t{target}\t{direction}\t{penwidth}\t{style}\t{pathway_source}\t{pathway_target}')
+
+
+def incorporate_pathway_info(source, path_dict, cpd_dict):
+    source = source.replace("[c]", "").replace("[e]", "").replace("[p]", "")
+    kegg_name = cpd_dict.get(source, "no match")
+    associated_path = path_dict.get(kegg_name, "no pathway detected")
+    return associated_path
 
 
 def main():
