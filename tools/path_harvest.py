@@ -46,12 +46,18 @@ class PathColector:
         Returns:
             list: list of pathways associated to the compound
         """
-        link = "https://rest.kegg.jp/get/"
-        full_path = f"{link}{cpd}"
-        page = requests.get(full_path, timeout=(15,15))
-        soup = BeautifulSoup(page.content, "html.parser")
-        pathway = PathColector.parse_paths(soup)
-        return pathway
+        try:
+            link = "https://rest.kegg.jp/get/"
+            full_path = f"{link}{cpd}"
+            page = requests.get(full_path, timeout=(15,15))
+            soup = BeautifulSoup(page.content, "html.parser")
+            pathway = PathColector.parse_paths(soup)
+            if pathway:
+                return pathway
+        except (requests.exceptions.ConnectionError, requests.exceptions.ReadTimeout):
+            pass
+    
+        
     
     
     def enrich_intel(self):
@@ -67,6 +73,7 @@ class PathColector:
         pathway_list = ray.get(features)
         self.pathways = pathway_list
         return self.pathways
+        
 
 
     

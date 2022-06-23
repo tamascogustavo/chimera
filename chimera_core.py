@@ -136,8 +136,9 @@ def run_core_module(args):
     '''Fix json files to match Escher formatting'''
     maps = list_files(predefined_maps)
 
-    json_models = [x for x in list_files(initial_path) if ".json" in x]
-    json_model = str([x for x in json_models if "formatted_" not in x])
+    #json_models = [x for x in list_files(initial_path) if ".json" in x]
+    #json_model = str([x for x in json_models if "formatted_" not in x])
+    json_model = f"{model_name.split('.')[0]}.json"
     fixed_json = fix_json(json_model)
     json_model_path = "{}/{}".format(initial_path, fixed_json)
 
@@ -173,7 +174,7 @@ def run_core_module(args):
         model_colector = PathColector(f"{initial_path}/{model_name}")
         model_colector.parse_model_info()
         model_colector.enrich_intel()
-        model_metaboism = flatten(model_colector.pathways)
+        model_metaboism = flatten(filter(None, model_colector.pathways))
         create_df(model_metaboism, f"{model_name.split('.')[0]}")
     make_plot(path_csv_file)
 
@@ -573,7 +574,7 @@ def fix_json(json_file):
     :param json_file: is the .json model created by cobrapy
     :return: a fixed .json file
     '''
-    json_file = json_file[2:-2]
+    json_file = json_file
     out_file = "formatted_{}".format(json_file)
     if os.path.exists(out_file):
         print("{} already exists".format(out_file))
