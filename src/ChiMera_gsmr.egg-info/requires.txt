@@ -1,0 +1,15 @@
+carveme
+MarkupSafe~=2.0.1
+diamond
+cobra
+escher~=1.7.3
+psamm
+ray
+seaborn
+matplotlib
+bs4
+argparse
+requests
+numpy
+plotly
+plotly-express

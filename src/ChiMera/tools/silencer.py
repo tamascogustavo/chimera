@@ -1,4 +1,3 @@
-from cmath import sin
 import pandas as pd
 import cobra
 from cobra.flux_analysis import (

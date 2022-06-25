@@ -10,8 +10,6 @@ from contextlib import redirect_stdout
 import json
 import re
 from bs4 import BeautifulSoup
-from pickletools import read_unicodestring1
-from tkinter.tix import Tree
 from tools.path_harvest import PathColector
 from tools.silencer import Silencer
 import os.path
@@ -19,12 +17,10 @@ import subprocess
 import sys
 from itertools import islice
 import cobra
-from cobra import Model, Reaction, Metabolite
 from cobra.util.solver import linear_reaction_coefficients
 from cobra.flux_analysis import gapfill
 import os
 import cobra.manipulation
-import cplex
 from os import listdir
 from os.path import isfile, join
 from cobra.flux_analysis.loopless import add_loopless, loopless_solution
@@ -135,6 +131,7 @@ def run_core_module(args):
 
     '''Fix json files to match Escher formatting'''
     maps = list_files(predefined_maps)
+    maps = [x for x in maps if ".py" not in x]
 
     #json_models = [x for x in list_files(initial_path) if ".json" in x]
     #json_model = str([x for x in json_models if "formatted_" not in x])

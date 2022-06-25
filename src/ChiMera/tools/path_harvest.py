@@ -1,5 +1,4 @@
-import argparse
-import os
+
 import cobra
 import requests
 from bs4 import BeautifulSoup
