@@ -23,21 +23,6 @@ Here we present a novel tool, Chimera, which combines the most efficient tools i
 All of that is obtained through automation and connection of the most used tools in the literature, creating a pipeline that is easy to use, helping those researchers with none or small programming capabilities.
 
 
-## Detail about the scripts
-
-You must download the folder or the git repository. In the folder, there are 3 scripts, one extra folder, and 2 txt files with the dependencies to install
-
-```
-chimera_core.py: perform the model creation evaluation and visualization files
-
-path_harvest.py: is used to add KEGG pathway description in the genome-scale metabolic map
-
-simulating_knockouts.py: is used to perform gene and reactions knockout
-
-add_medium.py: if you want to add your custom media to create a model, before the utilization of the chimera_core use this script. 
-
-all_metabo_paths: a folder containing pre-defined metabolic maps for a general overview of the pathways present in the target organism
-```
 
 ### Installation
 
@@ -52,7 +37,7 @@ export PATH=/PATH_TO_CPLEX/cplex/bin/x86-64_linux/:$PATH
 ```
 Obs: The command above will export the installation path of cplex to $PATH shell variable. Pay attention during the installation procedure, it will ask you where to install cplex (<PATH_TO_CPLEX>)
 
-Install the conda env
+**Install the conda env**
 
 There are 2 envs, use the one that suits you better:
 
@@ -125,12 +110,7 @@ __Intended usage__: You should have a folder with the 3 main scripts, the all_me
 ### To add new media for model creation:
 
 You can check the input_examples folder to see how to build your new_media.tsv. The ids must be BiGG Ids.
-The original CarveMe database is still the same, you will just update the file with your new media.
 
-```
- python add_medium.py --add_media new_media.tsv
- 
-```
 __If fail happens__:
 
 Failed to gapfill model for medium <your_added_media> means there is no possible solution to make the organism grow on that medium.
@@ -149,13 +129,13 @@ python chimera_core.py -h
 ### To run the test on model  __Escherichia coli__:
 
 ```
-python chimera_core.py e_coli_test.faa gramneg LB LB
+python chimera_core.py core --organism input_examples/faa_file/e_coli_test.faa --type gramneg --media M9
 ```
-You can also use a pre-buit model, overstepping the model creation, directly producing FBA predictions and Visualization. You just need to have .xml model in your folder, with the same prefix as your faa file. In our example that would be __e_coli_test.xml__.
+You can also use a pre-buit model, overstepping the model creation, directly producing FBA predictions and Visualization. You just need to have .xml/.sbml model in your folder, with the same prefix as your faa file. 
 
 The same command is used in this case.
 ```
-python chimera_core.py e_coli_test.faa gramneg LB LB
+python chimera_core.py core --organism input_examples/faa_file/e_coli_test.faa --type gramneg --media M9
 ```
 Due to annotation discrepancies, cytoscape compatible file may fail to be created. This is due to id mismatch of the provided model.
 If you still want to perform the graph creation, inside psamm folder type the following code:
@@ -166,64 +146,33 @@ psamm-model vis --method no-fpp
 
 ### To perform pathway annotation using KEGG as a reference to the Cytoscape maps we can use:
 
-We need the previous step to be executed before running this module.
+OBS: We need the previous step to be executed before running this module.
 
 ```
-python path_harvest.py
+chimera_core.py harvest_path_cytoscape --table <Path to reactions.edges.tsv file inside psam_* folder> --model <path to sbml model file>
 ```
-This command will annotate the pathway for the compounds in the metabolic map. This command can take a while.
-
-
 
 ### To perform gene or reaction knockout we can use on the model __Escherichia coli__:
-All commands will request the name of the model you want to use as a target. For example, e_coli_test.xml, which needs to be in the main folder.
 
-Using *.faa file from Prodigal may cause inconsistencies due to the annotation labeling.
+OBS: Using *.faa file from Prodigal may cause inconsistencies due to the annotation labeling.
 
-**For specific genes**
-
-Single gene deletion for all genes in the knockout_genes_list.txt:
+Best results are produced with annotation made with NCBI-PGAP.
 
 ```
-python simulating_knockouts.py --sg e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
-```
-Double gene deletion for all genes in the knockout_genes_list.txt:
+chimera_core.py silencing --i I --type TYPE --targets TARGETS
+                                 --faa FAA --mode MODE
+
+optional arguments:
+  -h, --help         show this help message and exit
+  --i I              path to the *.sbml model file
+  --type TYPE        type of knockout target, gene or reaction
+  --targets TARGETS  path to csv file containing targets, one by line
+  --faa FAA          path to the faa file
+  --mode MODE        Type of knockout: single or douple or all. For double all
+                     combinations of targets will be performed
 
 ```
-python simulating_knockouts.py --dg e_coli_test.faa input_examples/reations_gene_to_delete/knockout_genes_list.txt
-```
 
-**For specific reactions**
-
-Single reaction deletion for all reactions in the knockout_reactions_list.txt:
-
-```
-python simulating_knockouts.py --sr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
-```
-Double reaction deletion for all reactions in the knockout_reactions_list.txt:
-
-```
-python simulating_knockouts.py --dr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
-```
-Specifc Double reaction deletion. Here we only evaluate the first 2 reactions in  knockout_reactions_list.txt:
-
-```
-python simulating_knockouts.py --tdr e_coli_test.faa input_examples/reations_gene_to_delete/knockout_reactions_list.txt
-```
-**Gene and reaction essenciality**
-
-Here we evaluate the individual impact in growth due to a single gene or reaction in the model.
-
-To evaluate gene essenciality:
-
-```
-python simulating_knockouts.py --cg
-```
-To evaluate reaction essentiality:
-
-```
-python simulating_knockouts.py --cr
-```
 ## Build your custom maps Escher
 
 If you want to build your own custom map based on your metabolic evidence you can do that using your formatted JSON model at [Escher website](https://escher.github.io/#/)
@@ -232,24 +181,32 @@ For instructions on how to do that, check the [tutorial](https://youtu.be/XQRbSk
 
 ## Build your custom maps Cytoscape
 
-If you want to build your own custom map based on your metabolic evidence you can do that using your reactions_edges_cytoscape_kegg file, that is inside psamm folder.
+If you want to build your own custom map based on your metabolic evidence you can do that using your <org_name>reactions_edges.tsv file in the main directory of the results
 
 For instructions on how to do that, check the [tutorial](https://youtu.be/M7SNCnPwqF0).
 
 
-
-
 ## Outputs 
 
-| Command | Description | Output Location |
-| --- | --- | --- |
-| chimera_core.py | Creates the initial draft model  | Is saved in the tool folder. File has .xml extension|
-| chimera_core.py | Performs FBA to evaluate growth based on user input conditions | Is printed to the screen  |
-| chimera_core.py | Creates a graphical structure of the whole model for visualization in Cytoscape | Inside psamm folder |
-| chimera_core.py | Creates fully editable html pathway maps of 10 important metabolic pathways based on your model | Inside metabolism_maps folder |
-| path_harvest.py | Add KEGG pathway info for the graph file. It allows targeted pathway search inside Cytoscape. | Inside psamm folder. File name: reactions_edges_cytoscape_kegg.tsv  |
-| simulating_knockouts.py | Perform knockouts of genes or reactions, based on user input  | Is printed to the screen |
-| simulating_knockouts.py | Perform knockouts of all genes or reactions. Essentiality metrics  | Is saved in the tool folder. Files: all_single_gene_knockout.csv, all_single_reactions_knockout.csv|
++ In the main folder:
+
+    + _enriched_paths.csv = csv file containing the metabolic paths of your organism
+    + _enriched_paths_top30_pathways.html = plot of the top 30 detected paths
+    + _uptake_secretion_rates.csv = secreteed (- values) and uptaked (+ values) compounds and their fluxes.
+    + models in format json, sbml and a formated json (compatible with Escher)
+
++ Inside psamm folder:
+
+    + yaml file containing compounds info
+    + yaml file containing reactions info
+    + yaml file containing exchange reactions info
+    + yaml file containing model overall info
+    + reactions.edges.tsv and reactions.nodes.tsv = files that can be loaded into Cytoscape
+
++ The harvest_path module will produce a *organism*_reactions_edges.tsv in the main folder.
+    + This file can be loaded in Cytoscape, however now you can search for specific pathways
+
++ The silencing module will print to terminal the result of the knockout, only when performing knockout of all reactions in the model, a reactions_essentiality.csv will be generated
 
 ## LICENSE
 
