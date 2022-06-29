@@ -2,6 +2,7 @@ LICENSE
 README.md
 pyproject.toml
 setup.cfg
+setup.py
 src/ChiMera/__init__.py
 src/ChiMera/chimera_core.py
 src/ChiMera/dependencies/__init__.py

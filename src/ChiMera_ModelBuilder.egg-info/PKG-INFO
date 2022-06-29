@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: ChiMera-ModelBuilder
-Version: 2.0.1
+Version: 2.0.2
 Summary: ChiMera: An easy-to-use pipeline for Genome-based Metabolic Network reconstruction, evaluation, and visualization.
 Home-page: https://github.com/tamascogustavo/chimera
 Author: Tamasco Gustavo
@@ -41,10 +41,20 @@ All of that is obtained through automation and connection of the most used tools
 
 
 ### Installation
+To install Chimera you can just check [CHiMera pip instruction](https://pypi.org/project/ChiMera-ModelBuilder/)
 
-Verify if you have anaconda installed in your machine. The tool can be downloaded [here](https://www.anaconda.com/products/individual).
+```
+pip install ChiMera-ModelBuilder
+```
+This will prompt where the tool was installed. You can add the path to $PATH to make it callabe from anywhere in your OS.
 
-Before installing you need to install CPLEX solver from IMB. Click [here](https://community.ibm.com/community/user/datascience/blogs/xavier-nodet1/2020/07/09/cplex-free-for-students) to access the academic license. This documentation was created with `IBM ILOG CPLEX Optimization Studio V20.10`.
+```
+export PATH=/PATH_TO_ChiMera/:$PATH
+```
+
+_OBS_: If you plan to use envs, create one with python 3.7 or 3.6. And make sure that you install cplex in the same environment.
+
+You also need to install CPLEX solver from IMB. Click [here](https://community.ibm.com/community/user/datascience/blogs/xavier-nodet1/2020/07/09/cplex-free-for-students) to access the academic license. This documentation was created with `IBM ILOG CPLEX Optimization Studio V20.10`.
 
 After download, follow the required system installation. For Linux, make sure to export your installation path
 
@@ -76,10 +86,13 @@ python setup.py build -b /home_directory/
 Or, you can follow [this tutorial](https://askubuntu.com/questions/263450/folders-showing-lock-icon).
 
 
-
 ### To add new media for model creation:
 
 You can check the input_examples folder to see how to build your new_media.tsv. The ids must be BiGG Ids.
+
+```
+python chimera_core.py core --organism input_examples/faa_file/e_coli_test.faa --type gramneg --mediadb <new_media.tsv> --media <new_media_id>
+```
 
 __If fail happens__:
 
@@ -177,6 +190,48 @@ For instructions on how to do that, check the [tutorial](https://youtu.be/M7SNCn
     + This file can be loaded in Cytoscape, however now you can search for specific pathways
 
 + The silencing module will print to terminal the result of the knockout, only when performing knockout of all reactions in the model, a reactions_essentiality.csv will be generated
+
+## All comand options
+
+# Core
+```
+usage: chimera_core.py core [-h] --organism ORGANISM --type TYPE --media MEDIA
+                            [--mediadb MEDIADB]
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --organism ORGANISM  path to the *.faa file
+  --type TYPE          type of organism, options are gramneg, grampos,
+                       bacteria
+  --media MEDIA        Growth media ID
+  --mediadb MEDIADB    tsv file with a new media composition for new
+                       experimental conditions. If provided you must pass the
+                       media id in --media parameter.
+```
+# Silencing
+```
+usage: chimera_core.py silencing [-h] --i I --type TYPE --targets TARGETS
+                                 --faa FAA --mode MODE
+
+optional arguments:
+  -h, --help         show this help message and exit
+  --i I              path to the *.sbml model file
+  --type TYPE        type of knockout target, gene or reaction
+  --targets TARGETS  path to csv file containing targets, one by line
+  --faa FAA          path to the faa file
+  --mode MODE        Type of knockout: single or douple or all. For double all
+                     combinations of targets will be performed
+```
+# Harvest pathway
+
+```
+usage: chimera_core.py harvest_path_cytoscape [-h] --table TABLE --model MODEL
+
+optional arguments:
+  -h, --help     show this help message and exit
+  --table TABLE  Path to reactions.edges.tsv file inside psam_* folder
+  --model MODEL  path to sbml model file
+```
 
 ## LICENSE
 
