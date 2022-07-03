@@ -1,3 +1,4 @@
+#!/usr/bin/env python 
 # -*- coding: utf-8 -*-
 # @Author: gustavotamascohotmail.com
 # @Date:   2021-10-04 14:05:50
