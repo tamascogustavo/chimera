@@ -1,10 +1,12 @@
-#!/usr/bin/env python 
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+
+'''
 # @Author: gustavotamascohotmail.com
 # @Date:   2021-10-04 14:05:50
 # @Last Modified by:   tamascogustavo
 # @Last Modified time: 2021-10-20 10:25:17
 
+'''
 
 # import statements
 from contextlib import redirect_stdout
