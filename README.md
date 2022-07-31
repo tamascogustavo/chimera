@@ -23,17 +23,15 @@ Here we present a novel tool, Chimera, which combines the most efficient tools i
 All of that is obtained through automation and connection of the most used tools in the literature, creating a pipeline that is easy to use, helping those researchers with none or small programming capabilities.
 
 
+## Full tutorial
+
+Check our `ChiMera_class` notebook !
 
 ### Installation
 To install Chimera you can just check [CHiMera pip instruction](https://pypi.org/project/ChiMera-ModelBuilder/)
 
 ```
 pip install ChiMera-ModelBuilder
-```
-This will prompt where the tool was installed. You can add the path to $PATH to make it callabe from anywhere in your OS.
-
-```
-export PATH=/PATH_TO_ChiMera/:$PATH
 ```
 
 _OBS_: If you plan to use envs, create one with python 3.7 or 3.6. And make sure that you install cplex in the same environment.
@@ -234,3 +232,22 @@ This program is free software: you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 Check the [Chimera License](LICENSE). Gustavo Tamasco.
+
+## Special thanks and Please cite them !
+
+
+ + Predefined maps generation by Escher
+ 
+    King, Z.A., Dräger, A., Ebrahim, A., Sonnenschein, N., Lewis, N.E. and Palsson, B.O., 2015. Escher: a web application for building, sharing, and embedding data-rich visualizations of biological pathways. PLoS computational biology, 11(8), p.e1004321.
+    
++ Carving process by CarveMe
+
+    D. Machado et al, "Fast automated reconstruction of genome-scale metabolic models for microbial species and communities", Nucleic Acids Research, gky537, 2018. doi: https://doi.org/10.1093/nar/gky537   
++ Model manipulation by Cobrapy
+
+    Ebrahim, A., Lerman, J.A., Palsson, B.O. and Hyduke, D.R., 2013. COBRApy: constraints-based reconstruction and analysis for python. BMC systems biology, 7(1), pp.1-6.
+    
++ Generation of Cytoscape compatible maps with PSAMM
+
+    Steffensen, J.L., Dufault-Thompson, K. and Zhang, Y., 2016. PSAMM: a portable system for the analysis of metabolic models. PLoS computational bio
+    
