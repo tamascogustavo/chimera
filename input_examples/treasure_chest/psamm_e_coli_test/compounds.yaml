@@ -1,0 +1,6565 @@
+- id: 10fthf_c
+  name: 10-Formyltetrahydrofolate
+  formula: C20H21N7O7
+  charge: -2
+- id: 12dgr120_c
+  name: 1,2-Diacyl-sn-glycerol (didodecanoyl, n-C12:0)
+  formula: C27H52O5
+  charge: 0
+- id: 12dgr120_p
+  name: 1,2-Diacyl-sn-glycerol (didodecanoyl, n-C12:0)
+  formula: C27H52O5
+  charge: 0
+- id: 12dgr140_c
+  name: 1,2-Diacyl-sn-glycerol (ditetradecanoyl, n-C14:0)
+  formula: C31H60O5
+  charge: 0
+- id: 12dgr140_p
+  name: 1,2-Diacyl-sn-glycerol (ditetradecanoyl, n-C14:0)
+  formula: C31H60O5
+  charge: 0
+- id: 12dgr141_c
+  name: 1,2-Diacyl-sn-glycerol (ditetradec-7-enoyl, n-C14:1)
+  formula: C31H56O5
+  charge: 0
+- id: 12dgr141_p
+  name: 1,2-Diacyl-sn-glycerol (ditetradec-7-enoyl, n-C14:1)
+  formula: C31H56O5
+  charge: 0
+- id: 12dgr160_c
+  name: 1,2-Diacyl-sn-glycerol (dihexadecanoyl, n-C16:0)
+  formula: C35H68O5
+  charge: 0
+- id: 12dgr161_c
+  name: 1,2-Diacyl-sn-glycerol (dihexadec-9-enoyl, n-C16:1)
+  formula: C35H64O5
+  charge: 0
+- id: 12dgr161_p
+  name: 1,2-Diacyl-sn-glycerol (dihexadec-9-enoyl, n-C16:1)
+  formula: C35H64O5
+  charge: 0
+- id: 12dgr180_c
+  name: 1,2-Diacyl-sn-glycerol (dioctadecanoyl, n-C18:0)
+  formula: C39H76O5
+  charge: 0
+- id: 12dgr180_p
+  name: 1,2-Diacyl-sn-glycerol (dioctadecanoyl, n-C18:0)
+  formula: C39H76O5
+  charge: 0
+- id: 12dgr181_c
+  name: 1,2-Diacyl-sn-glycerol (dioctadec-11-enoyl, n-C18:1)
+  formula: C39H72O5
+  charge: 0
+- id: 12ppd__R_c
+  name: (R)-Propane-1,2-diol
+  formula: C3H8O2
+  charge: 0
+- id: 12ppd__R_e
+  name: (R)-Propane-1,2-diol
+  formula: C3H8O2
+  charge: 0
+- id: 12ppd__R_p
+  name: (R)-Propane-1,2-diol
+  formula: C3H8O2
+  charge: 0
+- id: 12ppd__S_c
+  name: (S)-Propane-1,2-diol
+  formula: C3H8O2
+  charge: 0
+- id: 12ppd__S_e
+  name: (S)-Propane-1,2-diol
+  formula: C3H8O2
+  charge: 0
+- id: 12ppd__S_p
+  name: (S)-Propane-1,2-diol
+  formula: C3H8O2
+  charge: 0
+- id: 13dpg_c
+  name: 3-Phospho-D-glyceroyl phosphate
+  formula: C3H4O10P2
+  charge: -4
+- id: 13ppd_c
+  name: 1,3-Propanediol
+  formula: C3H8O2
+  charge: 0
+- id: 14dhncoa_c
+  name: 1,4-dihydroxy-2-napthoyl-CoA
+  formula: C32H38N7O19P3S
+  charge: -4
+- id: 14glucan_c
+  name: 1,4-alpha-D-glucan
+  formula: C36H62O31
+  charge: 0
+- id: 14glucan_e
+  name: 1,4-alpha-D-glucan
+  formula: C36H62O31
+  charge: 0
+- id: 14glucan_p
+  name: 1,4-alpha-D-glucan
+  formula: C36H62O31
+  charge: 0
+- id: 15dap_c
+  name: 1,5-Diaminopentane
+  formula: C5H16N2
+  charge: 2
+- id: 15dap_e
+  name: 1,5-Diaminopentane
+  formula: C5H16N2
+  charge: 2
+- id: 15dap_p
+  name: 1,5-Diaminopentane
+  formula: C5H16N2
+  charge: 2
+- id: 1agpe160_p
+  name: 1-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0)
+  formula: C21H44NO7P
+  charge: 0
+- id: 1agpe161_p
+  name: 1-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:1)
+  formula: C21H42NO7P
+  charge: 0
+- id: 1agpe181_p
+  name: 1-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:1)
+  formula: C23H46NO7P
+  charge: 0
+- id: 1agpg160_p
+  name: 1-Acyl-sn-glycero-3-phosphoglycerol (n-C16:0)
+  formula: C22H44O9P
+  charge: -1
+- id: 1agpg161_p
+  name: 1-Acyl-sn-glycero-3-phosphoglycerol (n-C16:1)
+  formula: C22H42O9P
+  charge: '-1.0'
+- id: 1agpg181_p
+  name: 1-Acyl-sn-glycero-3-phosphoglycerol (n-C18:1)
+  formula: C24H46O9P
+  charge: -1
+- id: 1btol_c
+  name: 1-Butanol
+  formula: C4H10O
+  charge: 0
+- id: 1hdec9eg3p_p
+  name: 1-hexadec-9-enoyl-sn-glycerol 3-phosphate
+  formula: C19H35O7P
+- id: 1hdecg3p_c
+  name: 1-hexadecanoyl-sn-glycerol 3-phosphate
+  formula: C19H37O7P
+  charge: -2
+- id: 1hdecg3p_p
+  name: 1-hexadecanoyl-sn-glycerol 3-phosphate
+  formula: C19H37O7P
+  charge: -2
+- id: 1odec11eg3p_c
+  name: 1-octadec-11-enoyl-sn-glycerol 3-phosphate
+  formula: C21H39O7P
+  charge: -2
+- id: 1odec11eg3p_p
+  name: 1-octadec-11-enoyl-sn-glycerol 3-phosphate
+  formula: C21H39O7P
+  charge: -2
+- id: 1p2cbxl_c
+  name: 1-Pyrroline-2-carboxylate
+  formula: C5H6NO2
+  charge: '-1.0'
+- id: 1pyr5c_c
+  name: 1-Pyrroline-5-carboxylate
+  formula: C5H6NO2
+  charge: -1
+- id: 23camp_e
+  name: 2',3'-Cyclic AMP
+  formula: C10H11N5O6P
+  charge: -1
+- id: 23camp_p
+  name: 2',3'-Cyclic AMP
+  formula: C10H11N5O6P
+  charge: -1
+- id: 23ccmp_e
+  name: 2',3'-Cyclic CMP
+  formula: C9H11N3O7P
+  charge: -1
+- id: 23ccmp_p
+  name: 2',3'-Cyclic CMP
+  formula: C9H11N3O7P
+  charge: -1
+- id: 23cgmp_e
+  name: 2',3'-Cyclic GMP
+  formula: C10H11N5O7P
+  charge: -1
+- id: 23cgmp_p
+  name: 2',3'-Cyclic GMP
+  formula: C10H11N5O7P
+  charge: -1
+- id: 23cump_e
+  name: 2',3'-Cyclic UMP
+  formula: C9H10N2O8P
+  charge: -1
+- id: 23cump_p
+  name: 2',3'-Cyclic UMP
+  formula: C9H10N2O8P
+  charge: -1
+- id: 23dappa_c
+  name: 2,3-diaminopropionate
+  formula: C3H8N2O2
+  charge: 0
+- id: 23dappa_e
+  name: 2,3-diaminopropionate
+  formula: C3H8N2O2
+  charge: 0
+- id: 23dappa_p
+  name: 2,3-diaminopropionate
+  formula: C3H8N2O2
+  charge: 0
+- id: 23ddhb_c
+  name: 2,3-Dihydro-2,3-dihydroxybenzoate
+  formula: C7H7O4
+  charge: '-1.0'
+- id: 23dhacoa_c
+  name: 2,3-dehydroadipyl-CoA
+  formula: C27H37N7O19P3S
+- id: 23dhb_c
+  name: 2,3-Dihydroxybenzoate
+  formula: C7H5O4
+  charge: -1
+- id: 23dhba_c
+  name: (2,3-Dihydroxybenzoyl)adenylate
+  formula: C17H17N5O10P
+  charge: -1
+- id: 23dhbzs2_c
+  name: 2-3-dihydroxybenzoylserine dimer
+  formula: C20H19N2O11
+- id: 23dhbzs3_c
+  name: 2-3-dihydroxybenzoylserine trimer
+  formula: C30H28N3O16
+- id: 23dhbzs_c
+  name: 2,3-dihydroxybenzoylserine
+  formula: C10H10NO6
+  charge: '-1.0'
+- id: 23dhdp_c
+  name: 2,3-Dihydrodipicolinate
+  formula: C7H5NO4
+  charge: -2
+- id: 23dhmb_c
+  name: (R)-2,3-Dihydroxy-3-methylbutanoate
+  formula: C5H9O4
+  charge: -1
+- id: 23dhmp_c
+  name: (R)-2,3-Dihydroxy-3-methylpentanoate
+  formula: C6H11O4
+  charge: -1
+- id: 24dhhed_c
+  name: 2,4-Dihydroxyhept-2-enedioate
+  formula: C7H8O6
+- id: 25aics_c
+  name: (S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate
+  formula: C13H15N4O12P
+  charge: -4
+- id: 25dkglcn_c
+  name: 2,5-diketo-D-gluconate
+  formula: C6H7O7
+  charge: -1
+- id: 25dkglcn_e
+  name: 2,5-diketo-D-gluconate
+  formula: C6H7O7
+  charge: -1
+- id: 25dkglcn_p
+  name: 2,5-diketo-D-gluconate
+  formula: C6H7O7
+  charge: -1
+- id: 25drapp_c
+  name: 2,5-Diamino-6-(ribosylamino)-4-(3H)-pyrimidinone 5'-phosphate
+  formula: C9H14N5O8P
+  charge: -2
+- id: 26dap_LL_c
+  name: LL-2,6-Diaminoheptanedioate
+  formula: C7H14N2O4
+  charge: 0
+- id: 26dap__M_c
+  name: Meso-2,6-Diaminoheptanedioate
+  formula: C7H14N2O4
+  charge: 0
+- id: 26dap__M_e
+  name: Meso-2,6-Diaminoheptanedioate
+  formula: C7H14N2O4
+  charge: 0
+- id: 26dap__M_p
+  name: Meso-2,6-Diaminoheptanedioate
+  formula: C7H14N2O4
+  charge: 0
+- id: 2agpe120_c
+  name: 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C12:0)
+  formula: C17H36NO7P
+  charge: 0
+- id: 2agpe120_p
+  name: 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C12:0)
+  formula: C17H36NO7P
+  charge: 0
+- id: 2agpe140_c
+  name: 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:0)
+  formula: C19H40NO7P
+  charge: 0
+- id: 2agpe140_p
+  name: 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:0)
+  formula: C19H40NO7P
+  charge: 0
+- id: 2agpe141_c
+  name: 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:1)
+  formula: C19H38NO7P
+  charge: 0
+- id: 2agpe141_p
+  name: 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:1)
+  formula: C19H38NO7P
+  charge: 0
+- id: 2agpe160_c
+  name: 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0)
+  formula: C21H44NO7P
+  charge: 0
+- id: 2agpe160_p
+  name: 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0)
+  formula: C21H44NO7P
+  charge: 0
+- id: 2agpe161_c
+  name: 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:1)
+  formula: C21H42NO7P
+- id: 2agpe161_p
+  name: 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:1)
+  formula: C21H42NO7P
+- id: 2agpe180_c
+  name: 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:0)
+  formula: C23H48NO7P
+  charge: 0
+- id: 2agpe180_p
+  name: 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:0)
+  formula: C23H48NO7P
+  charge: 0
+- id: 2agpe181_c
+  name: 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:1)
+  formula: C23H46NO7P
+  charge: 0
+- id: 2agpe181_p
+  name: 2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:1)
+  formula: C23H46NO7P
+  charge: 0
+- id: 2agpg120_c
+  name: 2-Acyl-sn-glycero-3-phosphoglycerol (n-C12:0)
+  formula: C18H36O9P
+  charge: '-1.0'
+- id: 2agpg120_p
+  name: 2-Acyl-sn-glycero-3-phosphoglycerol (n-C12:0)
+  formula: C18H36O9P
+  charge: '-1.0'
+- id: 2agpg140_c
+  name: 2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:0)
+  formula: C20H40O9P
+  charge: -1
+- id: 2agpg140_p
+  name: 2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:0)
+  formula: C20H40O9P
+  charge: -1
+- id: 2agpg141_c
+  name: 2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:1)
+  formula: C20H38O9P
+  charge: -1
+- id: 2agpg141_p
+  name: 2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:1)
+  formula: C20H38O9P
+  charge: -1
+- id: 2agpg160_c
+  name: 2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:0)
+  formula: C22H44O9P
+  charge: -1
+- id: 2agpg160_p
+  name: 2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:0)
+  formula: C22H44O9P
+  charge: -1
+- id: 2agpg161_c
+  name: 2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:1)
+  formula: C22H42O9P
+- id: 2agpg161_p
+  name: 2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:1)
+  formula: C22H42O9P
+- id: 2agpg180_c
+  name: 2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:0)
+  formula: C24H48O9P
+  charge: '-1.0'
+- id: 2agpg180_p
+  name: 2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:0)
+  formula: C24H48O9P
+  charge: '-1.0'
+- id: 2agpg181_c
+  name: 2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:1)
+  formula: C24H46O9P
+  charge: -1
+- id: 2agpg181_p
+  name: 2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:1)
+  formula: C24H46O9P
+  charge: -1
+- id: 2ahbut_c
+  name: (S)-2-Aceto-2-hydroxybutanoate
+  formula: C6H9O4
+  charge: '-1.0'
+- id: 2ameph_c
+  name: 2-Aminoethylphosphonate
+  formula: C2H8NO3P
+  charge: 0
+- id: 2ameph_e
+  name: 2-Aminoethylphosphonate
+  formula: C2H8NO3P
+  charge: 0
+- id: 2ameph_p
+  name: 2-Aminoethylphosphonate
+  formula: C2H8NO3P
+  charge: 0
+- id: 2amsa_c
+  name: 2-Aminomalonate semialdehyde
+  formula: C3H5NO3
+  charge: 0
+- id: 2aobut_c
+  name: L-2-Amino-3-oxobutanoate
+  formula: C4H7NO3
+  charge: 0
+- id: 2cpr5p_c
+  name: 1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate
+  formula: C12H13NO9P
+  charge: -3
+- id: 2dda7p_c
+  name: 2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate
+  formula: C7H10O10P
+  charge: -3
+- id: 2ddg6p_c
+  name: 2-Dehydro-3-deoxy-D-gluconate 6-phosphate
+  formula: C6H8O9P
+  charge: -3
+- id: 2ddglcn_c
+  name: 2-Dehydro-3-deoxy-D-gluconate
+  formula: C6H9O6
+  charge: -1
+- id: 2ddglcn_e
+  name: 2-Dehydro-3-deoxy-D-gluconate
+  formula: C6H9O6
+  charge: -1
+- id: 2ddglcn_p
+  name: 2-Dehydro-3-deoxy-D-gluconate
+  formula: C6H9O6
+  charge: -1
+- id: 2dh3dgal6p_c
+  name: 2-Dehydro-3-deoxy-D-galactonate 6-phosphate
+  formula: C6H8O9P
+  charge: -3
+- id: 2dh3dgal_c
+  name: 2-Dehydro-3-deoxy-D-galactonate
+  formula: C6H9O6
+  charge: -1
+- id: 2dhglcn_c
+  name: 2-Dehydro-D-gluconate
+  formula: C6H9O7
+  charge: -1
+- id: 2dhguln_c
+  name: 2-Dehydro-L-gulonate
+  formula: C6H9O7
+- id: 2dhp_c
+  name: 2-Dehydropantoate
+  formula: C6H9O4
+  charge: -1
+- id: 2dmmq8_c
+  name: 2-Demethylmenaquinone 8
+  formula: C50H70O2
+  charge: 0
+- id: 2dmmql8_c
+  name: 2-Demethylmenaquinol 8
+  formula: C50H72O2
+  charge: 0
+- id: 2dr1p_c
+  name: 2-Deoxy-D-ribose 1-phosphate
+  formula: C5H9O7P
+  charge: '-2.0'
+- id: 2dr5p_c
+  name: 2-Deoxy-D-ribose 5-phosphate
+  formula: C5H9O7P
+  charge: -2
+- id: 2h3oppan_c
+  name: 2-Hydroxy-3-oxopropanoate
+  formula: C3H3O4
+  charge: -1
+- id: 2hdec9eg3p_c
+  name: 2-hexadec-9-enoyl-sn-glycerol 3-phosphate
+  formula: C19H36O7P
+- id: 2hdec9eg3p_p
+  name: 2-hexadec-9-enoyl-sn-glycerol 3-phosphate
+  formula: C19H36O7P
+- id: 2hdecg3p_c
+  name: 2-hexadecanoyl-sn-glycerol 3-phosphate
+  formula: C19H38O7P
+  charge: '-1.0'
+- id: 2hdecg3p_p
+  name: 2-hexadecanoyl-sn-glycerol 3-phosphate
+  formula: C19H38O7P
+  charge: '-1.0'
+- id: 2hh24dd_c
+  name: 2-Hydroxyhepta-2-4-dienedioate
+  formula: C7H6O5
+- id: 2ins_c
+  name: 2-Inosose
+  formula: C6H10O6
+  charge: 0
+- id: 2ippm_c
+  name: 2-Isopropylmaleate
+  formula: C7H8O4
+  charge: -2
+- id: 2kmb_c
+  name: 2-keto-4-methylthiobutyrate
+  formula: C5H7O3S
+  charge: -1
+- id: 2mahmp_c
+  name: 2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate
+  formula: C6H8N3O7P2
+  charge: -3
+- id: 2mcacn_c
+  name: Cis-2-Methylaconitate
+  formula: C7H5O6
+  charge: -3
+- id: 2mcit_c
+  name: 2-Methylcitrate
+  formula: C7H7O7
+  charge: -3
+- id: 2me4p_c
+  name: 2-C-methyl-D-erythritol 4-phosphate
+  formula: C5H11O7P
+  charge: '-2.0'
+- id: 2mecdp_c
+  name: 2-C-methyl-D-erythritol 2,4-cyclodiphosphate
+  formula: C5H10O9P2
+  charge: -2
+- id: 2mop_c
+  name: 2-Methyl-3-oxopropanoate
+  formula: C4H5O3
+  charge: -1
+- id: 2obut_c
+  name: 2-Oxobutanoate
+  formula: C4H5O3
+  charge: -1
+- id: 2odec11eg3p_c
+  name: 2-octadec-11-enoyl-sn-glycerol 3-phosphate
+  formula: C21H40O7P
+- id: 2odec11eg3p_p
+  name: 2-octadec-11-enoyl-sn-glycerol 3-phosphate
+  formula: C21H40O7P
+- id: 2ohed_c
+  name: 2-Oxohept-3-ene-1,7-dioate
+  formula: C7H6O5
+- id: 2ohph_c
+  name: 2-Octaprenyl-6-hydroxyphenol
+  formula: C46H70O2
+  charge: 0
+- id: 2oph_c
+  name: 2-Octaprenylphenol
+  formula: C46H70O
+  charge: 0
+- id: 2oxpaccoa_c
+  name: 2-oxepin-2(3H)-ylideneacetyl-CoA
+  formula: C29H38N7O18P3S
+- id: 2p4c2me_c
+  name: 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+  formula: C14H22N3O17P3
+  charge: -4
+- id: 2pg_c
+  name: D-Glycerate 2-phosphate
+  formula: C3H4O7P
+  charge: -3
+- id: 2pg_e
+  name: D-Glycerate 2-phosphate
+  formula: C3H4O7P
+  charge: -3
+- id: 2pg_p
+  name: D-Glycerate 2-phosphate
+  formula: C3H4O7P
+  charge: -3
+- id: 2sephchc_c
+  name: 2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate
+  formula: C14H13O9
+- id: 2shchc_c
+  name: 2-Succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate
+  formula: C11H10O6
+  charge: '-2.0'
+- id: 34dhpac_e
+  name: 3,4-Dihydroxyphenylacetaldehyde
+  formula: C8H8O3
+  charge: 0
+- id: 34dhpac_p
+  name: 3,4-Dihydroxyphenylacetaldehyde
+  formula: C8H8O3
+  charge: 0
+- id: 34dhpacet_c
+  name: 3-4-Dihydroxyphenylacetate
+  formula: C8H7O4
+  charge: -1
+- id: 34dhpha_c
+  name: 3-4-Dihydroxyphenylacetate
+  formula: C8H7O4
+  charge: -1
+- id: 34hpp_c
+  name: 3-(4-Hydroxyphenyl)pyruvate
+  formula: C9H7O4
+  charge: -1
+- id: 35cgmp_c
+  name: 3',5'-Cyclic GMP
+  formula: C10H11N5O7P
+  charge: -1
+- id: 3aib__D_c
+  name: D-3-Amino-isobutanoate
+  formula: C4H9NO2
+- id: 3amac_c
+  name: 3-Aminoacrylate
+  formula: C3H4NO2
+  charge: -1
+- id: 3amp_e
+  name: 3  AMP C10H12N5O7P
+  formula: C10H12N5O7P
+  charge: -2
+- id: 3amp_p
+  name: 3  AMP C10H12N5O7P
+  formula: C10H12N5O7P
+  charge: -2
+- id: 3c2hmp_c
+  name: 3-Carboxy-2-hydroxy-4-methylpentanoate
+  formula: C7H10O5
+  charge: -2
+- id: 3c3hmp_c
+  name: 3-Carboxy-3-hydroxy-4-methylpentanoate
+  formula: C7H10O5
+  charge: -2
+- id: 3c4mop_c
+  name: 3-Carboxy-4-methyl-2-oxopentanoate
+  formula: C7H8O5
+  charge: -2
+- id: 3cmp_e
+  name: 3  CMP C9H12N3O8P
+  formula: C9H12N3O8P
+  charge: -2
+- id: 3cmp_p
+  name: 3  CMP C9H12N3O8P
+  formula: C9H12N3O8P
+  charge: -2
+- id: 3dhgulnp_c
+  name: 3-keto-L-gulonate-6-phosphate
+  formula: C6H8O10P
+  charge: -3
+- id: 3dhq_c
+  name: 3-Dehydroquinate
+  formula: C7H9O6
+  charge: -1
+- id: 3dhsk_c
+  name: 3-Dehydroshikimate
+  formula: C7H7O5
+  charge: -1
+- id: 3fe4s_c
+  name: '[3Fe-4S] damaged iron-sulfur cluster'
+  formula: Fe3S4
+- id: 3gmp_e
+  name: Guanosine 3  phosphate C10H12N5O8P
+  formula: C10H12N5O8P
+  charge: -2
+- id: 3gmp_p
+  name: Guanosine 3  phosphate C10H12N5O8P
+  formula: C10H12N5O8P
+  charge: -2
+- id: 3haACP_c
+  name: (3R)-3-Hydroxyacyl-[acyl-carrier protein]
+  formula: C388H609O144N96P1S3
+  charge: -1
+- id: 3hadpcoa_c
+  name: (3S)-3-Hydroxyadipyl-CoA
+  formula: C27H39N7O20P3S
+  charge: -5
+- id: 3hbcoa_c
+  name: (S)-3-Hydroxybutanoyl-CoA
+  formula: C25H38N7O18P3S
+  charge: -4
+- id: 3hcinnm_c
+  name: 3-hydroxycinnamic acid
+  formula: C9H7O3
+  charge: -1
+- id: 3hcinnm_e
+  name: 3-hydroxycinnamic acid
+  formula: C9H7O3
+  charge: -1
+- id: 3hcinnm_p
+  name: 3-hydroxycinnamic acid
+  formula: C9H7O3
+  charge: -1
+- id: 3hdcoa_c
+  name: (S)-3-Hydroxydecanoyl-CoA
+  formula: C31H50N7O18P3S
+  charge: -4
+- id: 3hddcoa_c
+  name: (S)-3-Hydroxydodecanoyl-CoA
+  formula: C33H54N7O18P3S
+  charge: -4
+- id: 3hhcoa_c
+  name: (S)-3-Hydroxyhexanoyl-CoA
+  formula: C27H42N7O18P3S
+  charge: -4
+- id: 3hhdcoa_c
+  name: (S)-3-Hydroxyhexadecanoyl-CoA
+  formula: C37H62N7O18P3S
+  charge: -4
+- id: 3hmrsACP_c
+  name: (R)-3-Hydroxytetradecanoyl-[acyl-carrier protein]
+  formula: C398H629N96O144PS3
+  charge: 0
+- id: 3hocoa_c
+  name: (S)-3-Hydroxyoctanoyl-CoA
+  formula: C29H46N7O18P3S
+  charge: '-4.0'
+- id: 3hodcoa_c
+  name: (S)-3-Hydroxyoctadecanoyl-CoA
+  formula: C39H66N7O18P3S
+  charge: '-4.0'
+- id: 3hoxpac_c
+  name: 3 Hydroxyphenylacetic acid C8H8O3
+  formula: C8H7O3
+  charge: -1
+- id: 3hoxpac_e
+  name: 3 Hydroxyphenylacetic acid C8H8O3
+  formula: C8H7O3
+  charge: -1
+- id: 3hoxpac_p
+  name: 3 Hydroxyphenylacetic acid C8H8O3
+  formula: C8H7O3
+  charge: -1
+- id: 3hppnl_c
+  name: 3-Hydroxypropanal
+  formula: C3H6O2
+  charge: 0
+- id: 3hpppn_c
+  name: 3-(3-hydroxy-phenyl)propionate
+  formula: C9H9O3
+  charge: -1
+- id: 3hpppn_e
+  name: 3-(3-hydroxy-phenyl)propionate
+  formula: C9H9O3
+  charge: -1
+- id: 3hpppn_p
+  name: 3-(3-hydroxy-phenyl)propionate
+  formula: C9H9O3
+  charge: -1
+- id: 3htdcoa_c
+  name: (S)-3-Hydroxytetradecanoyl-CoA
+  formula: C35H58N7O18P3S
+  charge: -4
+- id: 3ig3p_c
+  name: C'-(3-Indolyl)-glycerol 3-phosphate
+  formula: C11H12NO6P
+  charge: -2
+- id: 3mb_e
+  name: 3-Methylbutanoic acid
+  formula: C5H9O2
+  charge: -1
+- id: 3mb_p
+  name: 3-Methylbutanoic acid
+  formula: C5H9O2
+  charge: -1
+- id: 3mob_c
+  name: 3-Methyl-2-oxobutanoate
+  formula: C5H7O3
+  charge: -1
+- id: 3mop_c
+  name: (S)-3-Methyl-2-oxopentanoate
+  formula: C6H9O3
+  charge: -1
+- id: 3odcoa_c
+  name: 3-Oxodecanoyl-CoA
+  formula: C31H48N7O18P3S
+  charge: -4
+- id: 3oddcoa_c
+  name: 3-Oxododecanoyl-CoA
+  formula: C33H52N7O18P3S
+  charge: -4
+- id: 3ohcoa_c
+  name: 3-Oxohexanoyl-CoA
+  formula: C27H40N7O18P3S
+  charge: -4
+- id: 3ohdcoa_c
+  name: 3-Oxohexadecanoyl-CoA
+  formula: C37H60N7O18P3S
+  charge: -4
+- id: 3ohodcoa_c
+  name: 3-Oxooctadecanoyl-CoA
+  formula: C39H64N7O18P3S
+  charge: -4
+- id: 3oocoa_c
+  name: 3-Oxooctanoyl-CoA
+  formula: C29H44N7O18P3S
+  charge: -4
+- id: 3ophb_c
+  name: 3-Octaprenyl-4-hydroxybenzoate
+  formula: C47H69O3
+  charge: -1
+- id: 3otdcoa_c
+  name: 3-Oxotetradecanoyl-CoA
+  formula: C35H56N7O18P3S
+  charge: -4
+- id: 3oxdhscoa_c
+  name: 3-oxo-5,6-dehydrosuberyl-CoA
+  formula: C29H39N7O20P3S
+- id: 3pg_c
+  name: 3-Phospho-D-glycerate
+  formula: C3H4O7P
+  charge: -3
+- id: 3pg_e
+  name: 3-Phospho-D-glycerate
+  formula: C3H4O7P
+  charge: -3
+- id: 3pg_p
+  name: 3-Phospho-D-glycerate
+  formula: C3H4O7P
+  charge: -3
+- id: 3php_c
+  name: 3-Phosphohydroxypyruvate
+  formula: C3H2O7P
+  charge: -3
+- id: 3psme_c
+  name: 5-O-(1-Carboxyvinyl)-3-phosphoshikimate
+  formula: C10H9O10P
+  charge: -4
+- id: 3uib_c
+  name: 3-Ureidoisobutyrate
+  formula: C5H9N2O3
+  charge: '-1.0'
+- id: 3ump_e
+  name: 3  UMP C9H11N2O9P
+  formula: C9H11N2O9P
+  charge: -2
+- id: 3ump_p
+  name: 3  UMP C9H11N2O9P
+  formula: C9H11N2O9P
+  charge: -2
+- id: 4abut_c
+  name: 4-Aminobutanoate
+  formula: C4H9NO2
+  charge: 0
+- id: 4abut_e
+  name: 4-Aminobutanoate
+  formula: C4H9NO2
+  charge: 0
+- id: 4abut_p
+  name: 4-Aminobutanoate
+  formula: C4H9NO2
+  charge: 0
+- id: 4abutn_c
+  name: 4-Aminobutanal
+  formula: C4H10NO
+  charge: 1
+- id: 4abz_c
+  name: 4-Aminobenzoate
+  formula: C7H6NO2
+  charge: -1
+- id: 4abzglu_c
+  name: 4-aminobenzoyl-glutamate
+  formula: C12H12N2O5
+- id: 4abzglu_e
+  name: 4-aminobenzoyl-glutamate
+  formula: C12H12N2O5
+- id: 4abzglu_p
+  name: 4-aminobenzoyl-glutamate
+  formula: C12H12N2O5
+- id: 4adcho_c
+  name: 4-amino-4-deoxychorismate
+  formula: C10H10NO5
+  charge: -1
+- id: 4ahmmp_c
+  name: 4-Amino-5-hydroxymethyl-2-methylpyrimidine
+  formula: C6H9N3O
+  charge: 0
+- id: 4ahmmp_e
+  name: 4-Amino-5-hydroxymethyl-2-methylpyrimidine
+  formula: C6H9N3O
+  charge: 0
+- id: 4ampm_c
+  name: 4-Amino-2-methyl-5-phosphomethylpyrimidine
+  formula: C6H8N3O4P
+  charge: -2
+- id: 4c2me_c
+  name: 4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+  formula: C14H23N3O14P2
+  charge: -2
+- id: 4crsol_c
+  name: P-Cresol
+  formula: C7H8O
+  charge: 0
+- id: 4fe4s_c
+  name: '[4Fe-4S] iron-sulfur cluster'
+  formula: Fe4S4
+  charge: 2
+- id: 4h2kpi_c
+  name: 4-Hydroxy-2-ketopimelate
+  formula: C7H8O6
+- id: 4h2opntn_c
+  name: 4-Hydroxy-2-oxopentanoate
+  formula: C5H7O4
+  charge: -1
+- id: 4hba_c
+  name: 4-Hydroxy-benzyl alcohol
+  formula: C7H8O2
+  charge: 0
+- id: 4hba_e
+  name: 4-Hydroxy-benzyl alcohol
+  formula: C7H8O2
+  charge: 0
+- id: 4hbz_c
+  name: 4-Hydroxybenzoate
+  formula: C7H5O3
+  charge: -1
+- id: 4hbz_e
+  name: 4-Hydroxybenzoate
+  formula: C7H5O3
+  charge: -1
+- id: 4hbz_p
+  name: 4-Hydroxybenzoate
+  formula: C7H5O3
+  charge: -1
+- id: 4hoxpac_c
+  name: 4 Hydroxyphenylacetic acid C8H8O3
+  formula: C8H7O3
+- id: 4hoxpac_e
+  name: 4 Hydroxyphenylacetic acid C8H8O3
+  formula: C8H7O3
+- id: 4hoxpac_p
+  name: 4 Hydroxyphenylacetic acid C8H8O3
+  formula: C8H7O3
+- id: 4hoxpacd_e
+  name: 4-Hydroxyphenylacetaldehyde
+  formula: C8H8O2
+  charge: 0
+- id: 4hoxpacd_p
+  name: 4-Hydroxyphenylacetaldehyde
+  formula: C8H8O2
+  charge: 0
+- id: 4hphac_c
+  name: 4-Hydroxyphenylacetate
+  formula: C8H7O3
+  charge: -1
+- id: 4hphac_e
+  name: 4-Hydroxyphenylacetate
+  formula: C8H7O3
+  charge: -1
+- id: 4hphac_p
+  name: 4-Hydroxyphenylacetate
+  formula: C8H7O3
+  charge: -1
+- id: 4hthr_c
+  name: 4-Hydroxy-L-threonine
+  formula: C4H9NO4
+  charge: 0
+- id: 4hthr_e
+  name: 4-Hydroxy-L-threonine
+  formula: C4H9NO4
+  charge: 0
+- id: 4hthr_p
+  name: 4-Hydroxy-L-threonine
+  formula: C4H9NO4
+  charge: 0
+- id: 4mhetz_c
+  name: 4-Methyl-5-(2-hydroxyethyl)-thiazole
+  formula: C6H9NOS
+  charge: 0
+- id: 4mop_c
+  name: 4-Methyl-2-oxopentanoate
+  formula: C6H9O3
+  charge: -1
+- id: 4mpetz_c
+  name: 4-Methyl-5-(2-phosphoethyl)-thiazole
+  formula: C6H8NO4PS
+  charge: -2
+- id: 4pasp_c
+  name: 4-Phospho-L-aspartate
+  formula: C4H6NO7P
+  charge: -2
+- id: 4per_c
+  name: 4-Phospho-D-erythronate
+  formula: C4H6O8P
+  charge: -3
+- id: 4ppan_c
+  name: D-4'-Phosphopantothenate
+  formula: C9H15NO8P
+  charge: -3
+- id: 4ppcys_c
+  name: N-((R)-4-Phosphopantothenoyl)-L-cysteine
+  formula: C12H20N2O9PS
+  charge: -3
+- id: 4r5au_c
+  name: 4-(1-D-Ribitylamino)-5-aminouracil
+  formula: C9H16N4O6
+  charge: 0
+- id: 56dthm_c
+  name: 5,6-Dihydrothymine
+  formula: C5H8N2O2
+  charge: 0
+- id: 56dura_c
+  name: 5,6-dihydrouracil
+  formula: C4H6N2O2
+  charge: 0
+- id: 5aizc_c
+  name: 5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate
+  formula: C9H11N3O9P
+  charge: '-3.0'
+- id: 5aop_c
+  name: 5-Amino-4-oxopentanoate
+  formula: C5H9NO3
+  charge: 0
+- id: 5aprbu_c
+  name: 5-Amino-6-(5'-phosphoribitylamino)uracil
+  formula: C9H15N4O9P
+  charge: -2
+- id: 5apru_c
+  name: 5-Amino-6-(5'-phosphoribosylamino)uracil
+  formula: C9H13N4O9P
+  charge: -2
+- id: 5aptn_c
+  name: 5-Aminopentanoate
+  formula: C5H11NO2
+  charge: 0
+- id: 5caiz_c
+  name: 5-phosphoribosyl-5-carboxyaminoimidazole
+  formula: C9H11N3O9P
+  charge: -3
+- id: 5cmhm_c
+  name: 5-Carboxymethyl-2-hydroxymuconate
+  formula: C8H5O7
+- id: 5cmhmsa_c
+  name: 2-Hydroxy-5-carboxymethylmuconate-Semialdehyde
+  formula: C8H6O6
+- id: 5cohe_c
+  name: 5-Carboxy-2-oxohept-3-enedioate
+  formula: C8H5O7
+- id: 5dglcn_c
+  name: 5-Dehydro-D-gluconate
+  formula: C6H9O7
+  charge: -1
+- id: 5dglcn_e
+  name: 5-Dehydro-D-gluconate
+  formula: C6H9O7
+  charge: -1
+- id: 5dglcn_p
+  name: 5-Dehydro-D-gluconate
+  formula: C6H9O7
+  charge: -1
+- id: 5dh4dglc_c
+  name: 5-Dehydro-4-deoxy-D-glucarate
+  formula: C6H6O7
+  charge: -2
+- id: 5drib_c
+  name: 5'-deoxyribose
+  formula: C5H10O4
+  charge: 0
+- id: 5drib_e
+  name: 5'-deoxyribose
+  formula: C5H10O4
+  charge: 0
+- id: 5fthf_c
+  name: 5-Formyltetrahydrofolate
+  formula: C20H21N7O7
+  charge: -2
+- id: 5hiu_c
+  name: 5-Hydroxyisourate
+  formula: C5H3N4O4
+  charge: '-1.0'
+- id: 5houdic_c
+  name: 5-Hydroxy-2-oxo-4-ureido-2,5-dihydro-1H-imidazole-5-carboxylate
+  formula: C5H5N4O5
+  charge: -1
+- id: 5mcsn_c
+  name: 5-Methylcytosine
+  formula: C5H7N3O
+  charge: 0
+- id: 5mthf_c
+  name: 5-Methyltetrahydrofolate
+  formula: C20H24N7O6
+  charge: -1
+- id: 5pg35pg_c
+  name: 5-Phosphoguanylyl(3->5)guanosine
+  formula: C20H23N10O15P2
+  charge: -3
+- id: 6apa_e
+  name: 6 Aminopenicillanic acid C8H12N2O3S
+  formula: C8H12N2O3S
+  charge: 0
+- id: 6apa_p
+  name: 6 Aminopenicillanic acid C8H12N2O3S
+  formula: C8H12N2O3S
+  charge: 0
+- id: 6hmhpt_c
+  name: 6-hydroxymethyl dihydropterin
+  formula: C7H9N5O2
+  charge: 0
+- id: 6hmhptpp_c
+  name: 6-hydroxymethyl-dihydropterin pyrophosphate
+  formula: C7H8N5O8P2
+  charge: -3
+- id: 6p2dhglcn_c
+  name: 6-Phospho-2-dehydro-D-gluconate
+  formula: C6H11O10P
+  charge: '0.0'
+- id: 6pgc_c
+  name: 6-Phospho-D-gluconate
+  formula: C6H10O10P
+  charge: -3
+- id: 6pgg_c
+  name: 6-Phospho-beta-D-glucosyl-(1,4)-D-glucose
+  formula: C12H21O14P
+  charge: '-2.0'
+- id: 6pgl_c
+  name: 6-phospho-D-glucono-1,5-lactone
+  formula: C6H9O9P
+  charge: -2
+- id: ACP_c
+  name: Acyl carrier protein
+  formula: C384H603N96O142PS3
+  charge: 1
+- id: LalaDgluMdapDala_c
+  name: L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine
+  formula: C18H30N5O9
+  charge: -1
+- id: LalaDgluMdapDala_e
+  name: L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine
+  formula: C18H30N5O9
+  charge: -1
+- id: LalaDgluMdapDala_p
+  name: L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine
+  formula: C18H30N5O9
+  charge: -1
+- id: LalaDgluMdap_c
+  name: L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate
+  formula: C15H25N4O8
+  charge: -1
+- id: LalaDgluMdap_e
+  name: L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate
+  formula: C15H25N4O8
+  charge: -1
+- id: LalaDgluMdap_p
+  name: L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate
+  formula: C15H25N4O8
+  charge: -1
+- id: LalaDglu_c
+  name: L-alanine-D-glutamate
+  formula: C8H13N2O5
+  charge: -1
+- id: LalaDglu_e
+  name: L-alanine-D-glutamate
+  formula: C8H13N2O5
+  charge: -1
+- id: LalaDglu_p
+  name: L-alanine-D-glutamate
+  formula: C8H13N2O5
+  charge: -1
+- id: LalaLglu_c
+  name: L-alanine-L-glutamate
+  formula: C8H13N2O5
+  charge: -1
+- id: LalaLglu_e
+  name: L-alanine-L-glutamate
+  formula: C8H13N2O5
+  charge: -1
+- id: LalaLglu_p
+  name: L-alanine-L-glutamate
+  formula: C8H13N2O5
+  charge: -1
+- id: R3hdec4coa_c
+  name: ' 3 Hydroxy 4Z decenoyl CoA'
+  formula: C31H48N7O18P3S
+- id: R3hdec4e_c
+  name: ' 3 Hydroxy 4Z decenic acid'
+  formula: C10H17O3
+- id: R3hdec4e_e
+  name: ' 3 Hydroxy 4Z decenic acid'
+  formula: C10H17O3
+- id: R3hdec4e_p
+  name: ' 3 Hydroxy 4Z decenic acid'
+  formula: C10H17O3
+- id: R_3hmrscoa_c
+  name: (R)-3-hydroxytetradecanoyl-coa
+  formula: C35H58N7O18P3S
+  charge: -4
+- id: S2hglut_c
+  name: (S)-2-Hydroxyglutarate
+  formula: C5H6O5
+- id: Sfglutth_c
+  name: S-Formylglutathione
+  formula: C11H16N3O7S
+  charge: -1
+- id: aacald_c
+  name: Aminoacetaldehyde
+  formula: C2H6NO
+  charge: 1
+- id: aacoa_c
+  name: Acetoacetyl-CoA
+  formula: C25H36N7O18P3S
+  charge: -4
+- id: ac_c
+  name: Acetate
+  formula: C2H3O2
+  charge: -1
+- id: ac_e
+  name: Acetate
+  formula: C2H3O2
+  charge: -1
+- id: ac_p
+  name: Acetate
+  formula: C2H3O2
+  charge: -1
+- id: acac_c
+  name: Acetoacetate
+  formula: C4H5O3
+  charge: -1
+- id: acac_e
+  name: Acetoacetate
+  formula: C4H5O3
+  charge: -1
+- id: acac_p
+  name: Acetoacetate
+  formula: C4H5O3
+  charge: -1
+- id: acald_c
+  name: Acetaldehyde
+  formula: C2H4O
+  charge: 0
+- id: acald_e
+  name: Acetaldehyde
+  formula: C2H4O
+  charge: 0
+- id: acald_p
+  name: Acetaldehyde
+  formula: C2H4O
+  charge: 0
+- id: accoa_c
+  name: Acetyl-CoA
+  formula: C23H34N7O17P3S
+  charge: -4
+- id: acetol_c
+  name: Acetol cytosol
+  formula: C3H6O2
+  charge: 0
+- id: acg5p_c
+  name: N-Acetyl-L-glutamyl 5-phosphate
+  formula: C7H9NO8P
+  charge: -3
+- id: acg5sa_c
+  name: N-Acetyl-L-glutamate 5-semialdehyde
+  formula: C7H10NO4
+  charge: -1
+- id: acgal1p_e
+  name: N-Acetyl-D-galactosamine 1-phosphate
+  formula: C8H14NO9P
+  charge: -2
+- id: acgal1p_p
+  name: N-Acetyl-D-galactosamine 1-phosphate
+  formula: C8H14NO9P
+  charge: -2
+- id: acgal_e
+  name: N-Acetyl-D-galactosamine
+  formula: C8H15NO6
+  charge: 0
+- id: acgal_p
+  name: N-Acetyl-D-galactosamine
+  formula: C8H15NO6
+  charge: 0
+- id: acgam1p_c
+  name: N-Acetyl-D-glucosamine 1-phosphate
+  formula: C8H14NO9P
+  charge: '-2.0'
+- id: acgam1p_e
+  name: N-Acetyl-D-glucosamine 1-phosphate
+  formula: C8H14NO9P
+  charge: '-2.0'
+- id: acgam1p_p
+  name: N-Acetyl-D-glucosamine 1-phosphate
+  formula: C8H14NO9P
+  charge: '-2.0'
+- id: acgam6p_c
+  name: N-Acetyl-D-glucosamine 6-phosphate
+  formula: C8H14NO9P
+  charge: -2
+- id: acgam_c
+  name: N-Acetyl-D-glucosamine
+  formula: C8H15NO6
+  charge: 0
+- id: acgam_e
+  name: N-Acetyl-D-glucosamine
+  formula: C8H15NO6
+  charge: 0
+- id: acgam_p
+  name: N-Acetyl-D-glucosamine
+  formula: C8H15NO6
+  charge: 0
+- id: acglu_c
+  name: N-Acetyl-L-glutamate
+  formula: C7H9NO5
+  charge: -2
+- id: acmana_c
+  name: N-Acetyl-D-mannosamine
+  formula: C8H15NO6
+  charge: 0
+- id: acmana_e
+  name: N-Acetyl-D-mannosamine
+  formula: C8H15NO6
+  charge: 0
+- id: acmana_p
+  name: N-Acetyl-D-mannosamine
+  formula: C8H15NO6
+  charge: 0
+- id: acmanap_c
+  name: N-Acetyl-D-mannosamine 6-phosphate
+  formula: C8H14NO9P
+  charge: '-2.0'
+- id: acmum6p_c
+  name: N-acetylmuramate 6-phosphate
+  formula: C11H17NO11P
+  charge: '-3.0'
+- id: acmum_e
+  name: N-Acetylmuramate
+  formula: C11H18NO8
+  charge: -1
+- id: acmum_p
+  name: N-Acetylmuramate
+  formula: C11H18NO8
+  charge: -1
+- id: acnam_c
+  name: N-Acetylneuraminate
+  formula: C11H18NO9
+  charge: -1
+- id: acnam_e
+  name: N-Acetylneuraminate
+  formula: C11H18NO9
+  charge: -1
+- id: acnam_p
+  name: N-Acetylneuraminate
+  formula: C11H18NO9
+  charge: -1
+- id: acon_C_c
+  name: Cis-Aconitate
+  formula: C6H3O6
+  charge: -3
+- id: acon_C_e
+  name: Cis-Aconitate
+  formula: C6H3O6
+  charge: -3
+- id: acon_C_p
+  name: Cis-Aconitate
+  formula: C6H3O6
+  charge: -3
+- id: acorn_c
+  name: N2-Acetyl-L-ornithine
+  formula: C7H14N2O3
+  charge: 0
+- id: acser_c
+  name: O-Acetyl-L-serine
+  formula: C5H9NO4
+  charge: 0
+- id: acser_e
+  name: O-Acetyl-L-serine
+  formula: C5H9NO4
+  charge: 0
+- id: acser_p
+  name: O-Acetyl-L-serine
+  formula: C5H9NO4
+  charge: 0
+- id: actACP_c
+  name: Acetoacetyl-ACP
+  formula: C388H607N96O144PS3
+  charge: 0
+- id: actn__R_c
+  name: ' R  Acetoin C4H8O2'
+  formula: C4H8O2
+  charge: 0
+- id: actn__R_e
+  name: ' R  Acetoin C4H8O2'
+  formula: C4H8O2
+  charge: 0
+- id: actp_c
+  name: Acetyl phosphate
+  formula: C2H3O5P
+  charge: -2
+- id: adcob1nda_c
+  name: Adenosyl-cobyrinate-a-c-diamide
+  formula: C55CoH68N11O15
+- id: ade_c
+  name: Adenine
+  formula: C5H5N5
+  charge: 0
+- id: ade_e
+  name: Adenine
+  formula: C5H5N5
+  charge: 0
+- id: ade_p
+  name: Adenine
+  formula: C5H5N5
+  charge: 0
+- id: adn_c
+  name: Adenosine
+  formula: C10H13N5O4
+  charge: 0
+- id: adn_e
+  name: Adenosine
+  formula: C10H13N5O4
+  charge: 0
+- id: adn_p
+  name: Adenosine
+  formula: C10H13N5O4
+  charge: 0
+- id: adp_c
+  name: ADP C10H12N5O10P2
+  formula: C10H12N5O10P2
+  charge: -3
+- id: adpglc_c
+  name: ADPglucose C16H23N5O15P2
+  formula: C16H23N5O15P2
+  charge: -2
+- id: adprib_c
+  name: ADPribose C15H21N5O14P2
+  formula: C15H21N5O14P2
+  charge: -2
+- id: agm_c
+  name: Agmatine
+  formula: C5H16N4
+  charge: 2
+- id: agm_e
+  name: Agmatine
+  formula: C5H16N4
+  charge: 2
+- id: agm_p
+  name: Agmatine
+  formula: C5H16N4
+  charge: 2
+- id: ahcys_c
+  name: S-Adenosyl-L-homocysteine
+  formula: C14H20N6O5S
+  charge: 0
+- id: ahdt_c
+  name: 2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate
+  formula: C9H12N5O13P3
+  charge: -4
+- id: aicar_c
+  name: 5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide
+  formula: C9H13N4O8P
+  charge: -2
+- id: air_c
+  name: 5-amino-1-(5-phospho-D-ribosyl)imidazole
+  formula: C8H12N3O7P
+  charge: '-2.0'
+- id: akg_c
+  name: 2-Oxoglutarate
+  formula: C5H4O5
+  charge: -2
+- id: akg_e
+  name: 2-Oxoglutarate
+  formula: C5H4O5
+  charge: -2
+- id: akg_p
+  name: 2-Oxoglutarate
+  formula: C5H4O5
+  charge: -2
+- id: ala_B_c
+  name: Beta-Alanine
+  formula: C3H7NO2
+  charge: 0
+- id: ala_B_e
+  name: Beta-Alanine
+  formula: C3H7NO2
+  charge: 0
+- id: ala_B_p
+  name: Beta-Alanine
+  formula: C3H7NO2
+  charge: 0
+- id: ala__D_c
+  name: D-Alanine
+  formula: C3H7NO2
+  charge: 0
+- id: ala__D_e
+  name: D-Alanine
+  formula: C3H7NO2
+  charge: 0
+- id: ala__D_p
+  name: D-Alanine
+  formula: C3H7NO2
+  charge: 0
+- id: ala__L_c
+  name: L-Alanine
+  formula: C3H7NO2
+  charge: 0
+- id: ala__L_e
+  name: L-Alanine
+  formula: C3H7NO2
+  charge: 0
+- id: ala__L_p
+  name: L-Alanine
+  formula: C3H7NO2
+  charge: 0
+- id: alaala_c
+  name: D-Alanyl-D-alanine
+  formula: C6H12N2O3
+  charge: 0
+- id: alaala_e
+  name: D-Alanyl-D-alanine
+  formula: C6H12N2O3
+  charge: 0
+- id: alaala_p
+  name: D-Alanyl-D-alanine
+  formula: C6H12N2O3
+  charge: 0
+- id: alac__S_c
+  name: (S)-2-Acetolactate
+  formula: C5H7O4
+  charge: -1
+- id: all__D_c
+  name: D-Allose
+  formula: C6H12O6
+  charge: 0
+- id: all__D_e
+  name: D-Allose
+  formula: C6H12O6
+  charge: 0
+- id: all__D_p
+  name: D-Allose
+  formula: C6H12O6
+  charge: 0
+- id: allphn_c
+  name: Allophanate C2H3N2O3
+  formula: C2H3N2O3
+  charge: -1
+- id: alltn__R_c
+  name: '    Allantoin'
+  formula: C4H6N4O3
+- id: alltn_c
+  name: Allantoin
+  formula: C4H6N4O3
+  charge: 0
+- id: alltn_e
+  name: Allantoin
+  formula: C4H6N4O3
+  charge: 0
+- id: alltn_p
+  name: Allantoin
+  formula: C4H6N4O3
+  charge: 0
+- id: alltt_c
+  name: Allantoate
+  formula: C4H7N4O4
+  charge: -1
+- id: altrn_c
+  name: D-Altronate
+  formula: C6H11O7
+  charge: -1
+- id: amet_c
+  name: S-Adenosyl-L-methionine
+  formula: C15H23N6O5S
+  charge: 1
+- id: amp_c
+  name: AMP C10H12N5O7P
+  formula: C10H12N5O7P
+  charge: -2
+- id: amp_e
+  name: AMP C10H12N5O7P
+  formula: C10H12N5O7P
+  charge: -2
+- id: amp_p
+  name: AMP C10H12N5O7P
+  formula: C10H12N5O7P
+  charge: -2
+- id: anhgm3p_c
+  name: N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide
+  formula: C34H52N6O19
+  charge: '-2.0'
+- id: anhgm3p_p
+  name: N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide
+  formula: C34H52N6O19
+  charge: '-2.0'
+- id: anhgm4p_c
+  name: N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide
+  formula: C37H57N7O20
+  charge: -2
+- id: anhgm4p_p
+  name: N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide
+  formula: C37H57N7O20
+  charge: -2
+- id: anhgm_c
+  name: N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid
+  formula: C19H29N2O12
+  charge: -1
+- id: anhgm_e
+  name: N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid
+  formula: C19H29N2O12
+  charge: -1
+- id: anhgm_p
+  name: N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid
+  formula: C19H29N2O12
+  charge: -1
+- id: anhm3p_c
+  name: 1,6-anhydrous-N-Acetylmuramyl-tripeptide
+  formula: C26H39N5O14
+  charge: -2
+- id: anhm4p_c
+  name: 1,6-anhydrous-N-Acetylmuramyl-tetrapeptide
+  formula: C29H44N6O15
+  charge: -2
+- id: anhm_c
+  name: 1,6-anhydrous-N-Acetylmuramate
+  formula: C11H16NO7
+  charge: -1
+- id: anth_c
+  name: Anthranilate
+  formula: C7H6NO2
+  charge: -1
+- id: ap4a_c
+  name: P1,P4-Bis(5'-adenosyl) tetraphosphate
+  formula: C20H24N10O19P4
+  charge: -4
+- id: apoACP_c
+  name: Apoprotein [acyl carrier protein]
+  formula: C373H582N94O136S2
+  charge: 1
+- id: aps_c
+  name: Adenosine 5'-phosphosulfate
+  formula: C10H12N5O10PS
+  charge: -2
+- id: ara5p_c
+  name: D-Arabinose 5-phosphate
+  formula: C5H9O8P
+  charge: -2
+- id: arab__D_c
+  name: D Arabinose C5H10O5
+  formula: C5H10O5
+  charge: 0
+- id: arab__D_e
+  name: D Arabinose C5H10O5
+  formula: C5H10O5
+  charge: 0
+- id: arab__D_p
+  name: D Arabinose C5H10O5
+  formula: C5H10O5
+  charge: 0
+- id: arab__L_c
+  name: L-Arabinose
+  formula: C5H10O5
+  charge: 0
+- id: arab__L_e
+  name: L-Arabinose
+  formula: C5H10O5
+  charge: 0
+- id: arab__L_p
+  name: L-Arabinose
+  formula: C5H10O5
+  charge: 0
+- id: arbt6p_c
+  name: Arbutin 6-phosphate
+  formula: C12H15O10P
+  charge: -2
+- id: arbt_e
+  name: Arbutin C12H16O7
+  formula: C12H16O7
+- id: arbt_p
+  name: Arbutin C12H16O7
+  formula: C12H16O7
+- id: arg__L_c
+  name: L-Arginine
+  formula: C6H15N4O2
+  charge: 1
+- id: arg__L_e
+  name: L-Arginine
+  formula: C6H15N4O2
+  charge: 1
+- id: arg__L_p
+  name: L-Arginine
+  formula: C6H15N4O2
+  charge: 1
+- id: argsuc_c
+  name: N(omega)-(L-Arginino)succinate
+  formula: C10H17N4O6
+  charge: '-1.0'
+- id: ascb6p_c
+  name: L-ascorbate-6-phosphate
+  formula: C6H7O9P
+  charge: -2
+- id: ascb__L_e
+  name: L-Ascorbate
+  formula: C6H8O6
+  charge: '0.0'
+- id: ascb__L_p
+  name: L-Ascorbate
+  formula: C6H8O6
+  charge: '0.0'
+- id: asn__L_c
+  name: L-Asparagine
+  formula: C4H8N2O3
+  charge: 0
+- id: asn__L_e
+  name: L-Asparagine
+  formula: C4H8N2O3
+  charge: 0
+- id: asn__L_p
+  name: L-Asparagine
+  formula: C4H8N2O3
+  charge: 0
+- id: aso3_c
+  name: Arsenite
+  formula: H3AsO3
+  charge: 0
+- id: aso3_e
+  name: Arsenite
+  formula: H3AsO3
+  charge: 0
+- id: aso3_p
+  name: Arsenite
+  formula: H3AsO3
+  charge: 0
+- id: aso4_c
+  name: Arsenate
+  formula: HAsO4
+  charge: -2
+- id: aso4_e
+  name: Arsenate
+  formula: HAsO4
+  charge: -2
+- id: aso4_p
+  name: Arsenate
+  formula: HAsO4
+  charge: -2
+- id: asp__L_c
+  name: L-Aspartate
+  formula: C4H6NO4
+  charge: -1
+- id: asp__L_e
+  name: L-Aspartate
+  formula: C4H6NO4
+  charge: -1
+- id: asp__L_p
+  name: L-Aspartate
+  formula: C4H6NO4
+  charge: -1
+- id: aspsa_c
+  name: L-Aspartate 4-semialdehyde
+  formula: C4H7NO3
+  charge: 0
+- id: athr__L_c
+  name: L-Allo-threonine
+  formula: C4H9NO3
+  charge: 0
+- id: atp_c
+  name: ATP C10H12N5O13P3
+  formula: C10H12N5O13P3
+  charge: -4
+- id: b2coa_c
+  name: Crotonoyl-CoA
+  formula: C25H36N7O17P3S
+  charge: -4
+- id: betald_c
+  name: Betaine aldehyde
+  formula: C5H12NO
+  charge: 1
+- id: bglycogen_c
+  name: Branching glycogen
+  formula: C24H42O21
+  charge: 0
+- id: btal_c
+  name: Butanal C4H8O
+  formula: C4H8O
+  charge: 0
+- id: btcoa_c
+  name: Butanoyl-CoA
+  formula: C25H38N7O17P3S
+  charge: -4
+- id: btoh_c
+  name: Butanol
+  formula: C4H10O
+  charge: 0
+- id: but2eACP_c
+  name: But-2-enoyl-[acyl-carrier protein]
+  formula: C388H607O143N96P1S3
+  charge: 0
+- id: but_c
+  name: Butyrate (n-C4:0)
+  formula: C4H7O2
+  charge: -1
+- id: but_e
+  name: Butyrate (n-C4:0)
+  formula: C4H7O2
+  charge: -1
+- id: but_p
+  name: Butyrate (n-C4:0)
+  formula: C4H7O2
+  charge: -1
+- id: butso3_c
+  name: Butanesulfonate
+  formula: C4H9O3S
+  charge: -1
+- id: butso3_e
+  name: Butanesulfonate
+  formula: C4H9O3S
+  charge: -1
+- id: butso3_p
+  name: Butanesulfonate
+  formula: C4H9O3S
+  charge: -1
+- id: bz_c
+  name: Benzoate
+  formula: C7H5O2
+  charge: -1
+- id: bz_e
+  name: Benzoate
+  formula: C7H5O2
+  charge: -1
+- id: bz_p
+  name: Benzoate
+  formula: C7H5O2
+  charge: -1
+- id: ca2_c
+  name: Calcium
+  formula: Ca
+  charge: 2
+- id: ca2_e
+  name: Calcium
+  formula: Ca
+  charge: 2
+- id: ca2_p
+  name: Calcium
+  formula: Ca
+  charge: 2
+- id: cala_c
+  name: N-Carbamoyl-beta-alanine
+  formula: C4H7N2O3
+  charge: -1
+- id: camp_c
+  name: CAMP C10H11N5O6P
+  formula: C10H11N5O6P
+  charge: -1
+- id: cbasp_c
+  name: N-Carbamoyl-L-aspartate
+  formula: C5H6N2O5
+  charge: -2
+- id: cbm_c
+  name: Carbamate
+  formula: CH2NO2
+  charge: -1
+- id: cbp_c
+  name: Carbamoyl phosphate
+  formula: CH2NO5P
+  charge: -2
+- id: cd2_c
+  name: Cadmium
+  formula: Cd
+  charge: 2
+- id: cd2_e
+  name: Cadmium
+  formula: Cd
+  charge: 2
+- id: cd2_p
+  name: Cadmium
+  formula: Cd
+  charge: 2
+- id: cdigmp_c
+  name: Cyclic diguanosine monophosphate
+  formula: C20H22N10O14P2
+- id: cdp_c
+  name: CDP C9H12N3O11P2
+  formula: C9H12N3O11P2
+  charge: -3
+- id: cdpdddecg_c
+  name: CDP-1,2-didodecanoylglycerol
+  formula: C36H63N3O15P2
+  charge: -2
+- id: cdpdhdec9eg_c
+  name: CDP-1,2-dihexadec-9-enoylglycerol
+  formula: C44H75N3O15P2
+  charge: -2
+- id: cdpdhdecg_c
+  name: CDP-1,2-dihexadecanoylglycerol
+  formula: C44H79N3O15P2
+  charge: -2
+- id: cdpdodec11eg_c
+  name: CDP-1,2-dioctadec-11-enoylglycerol
+  formula: C48H83N3O15P2
+  charge: -2
+- id: cdpdodecg_c
+  name: CDP-1,2-dioctadecanoylglycerol
+  formula: C48H87N3O15P2
+  charge: -2
+- id: cdpdtdec7eg_c
+  name: CDP-1,2-ditetradec-7-enoylglycerol
+  formula: C40H67N3O15P2
+  charge: -2
+- id: cdpdtdecg_c
+  name: CDP-1,2-ditetradecanoylglycerol
+  formula: C40H71N3O15P2
+  charge: -2
+- id: cechddd_c
+  name: Cis-3-(3-carboxyethyl)-3,5-cyclohexadiene-1,2-diol
+  formula: C9H11O4
+  charge: -1
+- id: cell4_p
+  name: Cellulose (n=4 repeating units)
+  formula: C24H42O21
+- id: cellb_e
+  name: Cellobiose
+  formula: C12H22O11
+  charge: 0
+- id: cellb_p
+  name: Cellobiose
+  formula: C12H22O11
+  charge: 0
+- id: cenchddd_c
+  name: Cis-3-(3-carboxyethenyl)-3,5-cyclohexadiene-1,2-diol
+  formula: C9H9O4
+  charge: -1
+- id: cgly_c
+  name: Cys Gly C5H10N2O3S
+  formula: C5H10N2O3S
+  charge: 0
+- id: cgly_e
+  name: Cys Gly C5H10N2O3S
+  formula: C5H10N2O3S
+  charge: 0
+- id: cgly_p
+  name: Cys Gly C5H10N2O3S
+  formula: C5H10N2O3S
+  charge: 0
+- id: ch4s_c
+  name: Methanethiol CH4S
+  formula: CH4S
+  charge: 0
+- id: chol_c
+  name: Choline C5H14NO
+  formula: C5H14NO
+  charge: 1
+- id: chol_e
+  name: Choline C5H14NO
+  formula: C5H14NO
+  charge: 1
+- id: chol_p
+  name: Choline C5H14NO
+  formula: C5H14NO
+  charge: 1
+- id: chols_c
+  name: Choline sulfate
+  formula: C5H13NO4S
+  charge: 0
+- id: chols_e
+  name: Choline sulfate
+  formula: C5H13NO4S
+  charge: 0
+- id: chor_c
+  name: Chorismate
+  formula: C10H8O6
+  charge: -2
+- id: chtbs6p_c
+  name: Diacetylchitobiose-6-phosphate
+  formula: C16H27N2O14P
+  charge: -2
+- id: chtbs_e
+  name: N,N'-diacetylchitobiose
+  formula: C16H28N2O11
+- id: chtbs_p
+  name: N,N'-diacetylchitobiose
+  formula: C16H28N2O11
+- id: cinnm_c
+  name: Trans-Cinnamate
+  formula: C9H7O2
+  charge: -1
+- id: cinnm_e
+  name: Trans-Cinnamate
+  formula: C9H7O2
+  charge: -1
+- id: cinnm_p
+  name: Trans-Cinnamate
+  formula: C9H7O2
+  charge: -1
+- id: cit_c
+  name: Citrate
+  formula: C6H5O7
+  charge: -3
+- id: cit_e
+  name: Citrate
+  formula: C6H5O7
+  charge: -3
+- id: cit_p
+  name: Citrate
+  formula: C6H5O7
+  charge: -3
+- id: citr__L_c
+  name: L-Citrulline
+  formula: C6H13N3O3
+  charge: 0
+- id: ckdo_c
+  name: CMP-3-deoxy-D-manno-octulosonate
+  formula: C17H24N3O15P
+  charge: -2
+- id: cl_c
+  name: Chloride
+  formula: Cl
+  charge: -1
+- id: cl_e
+  name: Chloride
+  formula: Cl
+  charge: -1
+- id: cl_p
+  name: Chloride
+  formula: Cl
+  charge: -1
+- id: clpn120_p
+  name: Cardiolipin (tetradodecanoyl, n-C12:0)
+  formula: C57H108O17P2
+  charge: -2
+- id: clpn140_p
+  name: Cardiolipin (tetratetradecanoyl, n-C14:0)
+  formula: C65H124O17P2
+  charge: -2
+- id: clpn141_p
+  name: Cardiolipin (tetratetradec-7-enoyl, n-C14:1)
+  formula: C65H116O17P2
+  charge: -2
+- id: clpn160_p
+  name: Cardiolipin (tetrahexadecanoyl, n-C16:0)
+  formula: C73H140O17P2
+  charge: -2
+- id: clpn161_p
+  name: Cardiolipin (tetrahexadec-9-enoyl, n-C16:1)
+  formula: C73H132O17P2
+  charge: -2
+- id: clpn180_p
+  name: Cardiolipin (tetraoctadecanoyl, n-C18:0)
+  formula: C81H156O17P2
+  charge: -2
+- id: clpn181_p
+  name: Cardiolipin (tetraoctadec-11-enoyl, n-C18:1)
+  formula: C81H148O17P2
+  charge: -2
+- id: cm_e
+  name: Chloramphenicol
+  formula: C11H12Cl2N2O5
+  charge: 0
+- id: cm_p
+  name: Chloramphenicol
+  formula: C11H12Cl2N2O5
+  charge: 0
+- id: cmcbtt_c
+  name: Carboxymycobactin T (R=8 carbon, final carbon is carboxyl group)
+  formula: C33H48N5O13
+- id: cmp_c
+  name: CMP C9H12N3O8P
+  formula: C9H12N3O8P
+  charge: -2
+- id: cmp_e
+  name: CMP C9H12N3O8P
+  formula: C9H12N3O8P
+  charge: -2
+- id: cmp_p
+  name: CMP C9H12N3O8P
+  formula: C9H12N3O8P
+  charge: -2
+- id: co2_c
+  name: CO2 CO2
+  formula: CO2
+  charge: 0
+- id: co2_e
+  name: CO2 CO2
+  formula: CO2
+  charge: 0
+- id: co2_p
+  name: CO2 CO2
+  formula: CO2
+  charge: 0
+- id: co_c
+  name: Carbon monoxide
+  formula: CO
+  charge: 0
+- id: coa_c
+  name: Coenzyme A
+  formula: C21H32N7O16P3S
+  charge: -4
+- id: cob1nda_c
+  name: Cob-I-yrinate-a-c-diamide
+  formula: C45CoH56N6O12
+- id: cobalt2_c
+  name: Co2+
+  formula: Co
+  charge: 2
+- id: cobalt2_e
+  name: Co2+
+  formula: Co
+  charge: 2
+- id: cobalt2_p
+  name: Co2+
+  formula: Co
+  charge: 2
+- id: cpgn_c
+  name: Coprogen
+  formula: C35H56FeN6O13
+  charge: 2
+- id: cpgn_e
+  name: Coprogen
+  formula: C35H56FeN6O13
+  charge: 2
+- id: cpgn_p
+  name: Coprogen
+  formula: C35H56FeN6O13
+  charge: 2
+- id: cpgn_un_c
+  name: Coprogen unloaded (no Fe(III))
+  formula: C35H56N6O13
+  charge: 0
+- id: cpgn_un_e
+  name: Coprogen unloaded (no Fe(III))
+  formula: C35H56N6O13
+  charge: 0
+- id: cpgn_un_p
+  name: Coprogen unloaded (no Fe(III))
+  formula: C35H56N6O13
+  charge: 0
+- id: cpppg3_c
+  name: Coproporphyrinogen III
+  formula: C36H40N4O8
+  charge: -4
+- id: crn__D_c
+  name: D-Carnitine
+  formula: C7H15NO3
+  charge: 0
+- id: crn__D_p
+  name: D-Carnitine
+  formula: C7H15NO3
+  charge: 0
+- id: crn_c
+  name: L-Carnitine
+  formula: C7H15NO3
+  charge: 0
+- id: crn_e
+  name: L-Carnitine
+  formula: C7H15NO3
+  charge: 0
+- id: crn_p
+  name: L-Carnitine
+  formula: C7H15NO3
+  charge: 0
+- id: crncoa_c
+  name: L-Carnitinyl-CoA
+  formula: C28H46N8O18P3S
+  charge: '-4.0'
+- id: cro4_c
+  name: Chromate
+  formula: O2
+- id: cro4_e
+  name: Chromate
+  formula: O2
+- id: cro4_p
+  name: Chromate
+  formula: O2
+- id: csn_c
+  name: Cytosine
+  formula: C4H5N3O
+  charge: 0
+- id: csn_e
+  name: Cytosine
+  formula: C4H5N3O
+  charge: 0
+- id: csn_p
+  name: Cytosine
+  formula: C4H5N3O
+  charge: 0
+- id: ctbt_c
+  name: Crotonobetaine
+  formula: C7H13NO2
+  charge: -1
+- id: ctbt_e
+  name: Crotonobetaine
+  formula: C7H13NO2
+  charge: -1
+- id: ctbt_p
+  name: Crotonobetaine
+  formula: C7H13NO2
+  charge: -1
+- id: ctbtcoa_c
+  name: Crotonobetainyl-CoA
+  formula: C28H44N8O17P3S
+  charge: '-3.0'
+- id: ctp_c
+  name: CTP C9H12N3O14P3
+  formula: C9H12N3O14P3
+  charge: -4
+- id: cu2_c
+  name: Copper
+  formula: Cu
+  charge: 2
+- id: cu2_e
+  name: Copper
+  formula: Cu
+  charge: 2
+- id: cu2_p
+  name: Copper
+  formula: Cu
+  charge: 2
+- id: cu_e
+  name: Cu+
+  formula: Cu
+  charge: 1
+- id: cu_p
+  name: Cu+
+  formula: Cu
+  charge: 1
+- id: cyan_c
+  name: Hydrogen cyanide
+  formula: CHN
+  charge: 0
+- id: cyan_e
+  name: Hydrogen cyanide
+  formula: CHN
+  charge: 0
+- id: cyan_p
+  name: Hydrogen cyanide
+  formula: CHN
+  charge: 0
+- id: cynt_c
+  name: Cyanate
+  formula: CNO
+  charge: -1
+- id: cynt_e
+  name: Cyanate
+  formula: CNO
+  charge: -1
+- id: cynt_p
+  name: Cyanate
+  formula: CNO
+  charge: -1
+- id: cys__D_c
+  name: D-Cysteine
+  formula: C3H7NO2S
+  charge: 0
+- id: cys__D_e
+  name: D-Cysteine
+  formula: C3H7NO2S
+  charge: 0
+- id: cys__D_p
+  name: D-Cysteine
+  formula: C3H7NO2S
+  charge: 0
+- id: cys__L_c
+  name: L-Cysteine
+  formula: C3H7NO2S
+  charge: 0
+- id: cys__L_e
+  name: L-Cysteine
+  formula: C3H7NO2S
+  charge: 0
+- id: cys__L_p
+  name: L-Cysteine
+  formula: C3H7NO2S
+  charge: 0
+- id: cyst__L_c
+  name: L-Cystathionine
+  formula: C7H14N2O4S
+  charge: 0
+- id: cytd_c
+  name: Cytidine
+  formula: C9H13N3O5
+  charge: 0
+- id: cytd_e
+  name: Cytidine
+  formula: C9H13N3O5
+  charge: 0
+- id: cytd_p
+  name: Cytidine
+  formula: C9H13N3O5
+  charge: 0
+- id: dad_2_c
+  name: Deoxyadenosine
+  formula: C10H13N5O3
+  charge: 0
+- id: dad_2_e
+  name: Deoxyadenosine
+  formula: C10H13N5O3
+  charge: 0
+- id: dad_2_p
+  name: Deoxyadenosine
+  formula: C10H13N5O3
+  charge: 0
+- id: dad_5_c
+  name: 5'-Deoxyadenosine
+  formula: C10H13N5O3
+  charge: 0
+- id: dadp_c
+  name: DADP C10H12N5O9P2
+  formula: C10H12N5O9P2
+  charge: -3
+- id: damp_c
+  name: DAMP C10H12N5O6P
+  formula: C10H12N5O6P
+  charge: -2
+- id: damp_e
+  name: DAMP C10H12N5O6P
+  formula: C10H12N5O6P
+  charge: -2
+- id: damp_p
+  name: DAMP C10H12N5O6P
+  formula: C10H12N5O6P
+  charge: -2
+- id: datp_c
+  name: DATP C10H12N5O12P3
+  formula: C10H12N5O12P3
+  charge: -4
+- id: db4p_c
+  name: 3,4-dihydroxy-2-butanone 4-phosphate
+  formula: C4H8O6P
+  charge: '-1.0'
+- id: dc2coa_c
+  name: Trans-Dec-2-enoyl-CoA
+  formula: C31H48N7O17P3S
+  charge: -4
+- id: dcaACP_c
+  name: Decanoyl-ACP (n-C10:0ACP)
+  formula: C394H621N96O143PS3
+- id: dca_c
+  name: Decanoate (n-C10:0)
+  formula: C10H19O2
+  charge: -1
+- id: dca_e
+  name: Decanoate (n-C10:0)
+  formula: C10H19O2
+  charge: -1
+- id: dca_p
+  name: Decanoate (n-C10:0)
+  formula: C10H19O2
+  charge: -1
+- id: dcacoa_c
+  name: Decanoyl-CoA (n-C10:0CoA)
+  formula: C31H50N7O17P3S
+  charge: -4
+- id: dcamp_c
+  name: N6-(1,2-Dicarboxyethyl)-AMP
+  formula: C14H14N5O11P
+  charge: '-4.0'
+- id: dcdp_c
+  name: DCDP C9H12N3O10P2
+  formula: C9H12N3O10P2
+  charge: -3
+- id: dcmp_c
+  name: DCMP C9H12N3O7P
+  formula: C9H12N3O7P
+  charge: -2
+- id: dcmp_e
+  name: DCMP C9H12N3O7P
+  formula: C9H12N3O7P
+  charge: -2
+- id: dcmp_p
+  name: DCMP C9H12N3O7P
+  formula: C9H12N3O7P
+  charge: -2
+- id: dctp_c
+  name: DCTP C9H12N3O13P3
+  formula: C9H12N3O13P3
+  charge: -4
+- id: dcyt_c
+  name: Deoxycytidine
+  formula: C9H13N3O4
+  charge: 0
+- id: dcyt_e
+  name: Deoxycytidine
+  formula: C9H13N3O4
+  charge: 0
+- id: dcyt_p
+  name: Deoxycytidine
+  formula: C9H13N3O4
+  charge: 0
+- id: dd2coa_c
+  name: Trans-Dodec-2-enoyl-CoA
+  formula: C33H52N7O17P3S
+  charge: -4
+- id: ddca_c
+  name: Dodecanoate (n-C12:0)
+  formula: C12H23O2
+  charge: -1
+- id: ddca_e
+  name: Dodecanoate (n-C12:0)
+  formula: C12H23O2
+  charge: -1
+- id: ddca_p
+  name: Dodecanoate (n-C12:0)
+  formula: C12H23O2
+  charge: -1
+- id: ddcacoa_c
+  name: Dodecanoyl-CoA (n-C12:0CoA)
+  formula: C33H54N7O17P3S
+  charge: -4
+- id: dec4_2_coa_c
+  name: 2 trans 4 cis decadienoyl CoA
+  formula: C31H46N7O17P3S
+- id: dgal6p_c
+  name: D-Galactose 6-phosphate
+  formula: C6H11O9P
+- id: dgdp_c
+  name: DGDP C10H12N5O10P2
+  formula: C10H12N5O10P2
+  charge: -3
+- id: dgmp_c
+  name: DGMP C10H12N5O7P
+  formula: C10H12N5O7P
+  charge: -2
+- id: dgmp_e
+  name: DGMP C10H12N5O7P
+  formula: C10H12N5O7P
+  charge: -2
+- id: dgmp_p
+  name: DGMP C10H12N5O7P
+  formula: C10H12N5O7P
+  charge: -2
+- id: dgsn_c
+  name: Deoxyguanosine
+  formula: C10H13N5O4
+  charge: 0
+- id: dgsn_e
+  name: Deoxyguanosine
+  formula: C10H13N5O4
+  charge: 0
+- id: dgsn_p
+  name: Deoxyguanosine
+  formula: C10H13N5O4
+  charge: 0
+- id: dgtp_c
+  name: DGTP C10H12N5O13P3
+  formula: C10H12N5O13P3
+  charge: -4
+- id: dha_c
+  name: Dihydroxyacetone
+  formula: C3H6O3
+  charge: 0
+- id: dha_e
+  name: Dihydroxyacetone
+  formula: C3H6O3
+  charge: 0
+- id: dha_p
+  name: Dihydroxyacetone
+  formula: C3H6O3
+  charge: 0
+- id: dhap_c
+  name: Dihydroxyacetone phosphate
+  formula: C3H5O6P
+  charge: -2
+- id: dhcinnm_c
+  name: 2,3-dihydroxicinnamic acid
+  formula: C9H7O4
+  charge: -1
+- id: dhcrn_c
+  name: 3 dehydrocarnitine
+  formula: C7H13NO3
+- id: dhcrncoa_c
+  name: 3 dehydrocarnitine coenzyme A
+  formula: C28H44N8O18P3S
+- id: dhf_c
+  name: 7,8-Dihydrofolate
+  formula: C19H19N7O6
+  charge: -2
+- id: dhgly_c
+  name: Dehydroglycine
+  formula: C2H2NO2
+  charge: '-1.0'
+- id: dhlam_c
+  name: Dihydrolipoamide C8H17NOS2
+  formula: C8H17NOS2
+  charge: 0
+- id: dhna_c
+  name: 1,4-Dihydroxy-2-naphthoate
+  formula: C11H7O4
+  charge: -1
+- id: dhnpt_c
+  name: Dihydroneopterin
+  formula: C9H13N5O4
+  charge: 0
+- id: dhor__S_c
+  name: (S)-Dihydroorotate
+  formula: C5H5N2O4
+  charge: -1
+- id: dhpmp_c
+  name: Dihydroneopterin monophosphate
+  formula: C9H12N5O7P
+  charge: '-2.0'
+- id: dhpppn_c
+  name: 3-(2,3-Dihydroxyphenyl)propanoate
+  formula: C9H9O4
+  charge: -1
+- id: dhpt_c
+  name: Dihydropteroate
+  formula: C14H13N6O3
+  charge: -1
+- id: dhptd_c
+  name: 4,5-dihydroxy-2,3-pentanedione
+  formula: C5H8O4
+  charge: 0
+- id: dhptdd_c
+  name: 3-hydroxy-5-phosphonooxypentane-2,4-dione
+  formula: C5H7O7P
+- id: dhptdp_c
+  name: (4S)-4-hydroxy-5-phosphonooxypentane-2,3-dione
+  formula: C5H7O7P
+- id: dimp_c
+  name: DIMP C10H12N4O7P
+  formula: C10H11N4O7P
+  charge: -2
+- id: dimp_e
+  name: DIMP C10H12N4O7P
+  formula: C10H11N4O7P
+  charge: -2
+- id: dimp_p
+  name: DIMP C10H12N4O7P
+  formula: C10H11N4O7P
+  charge: -2
+- id: din_c
+  name: Deoxyinosine
+  formula: C10H12N4O4
+  charge: 0
+- id: din_e
+  name: Deoxyinosine
+  formula: C10H12N4O4
+  charge: 0
+- id: din_p
+  name: Deoxyinosine
+  formula: C10H12N4O4
+  charge: 0
+- id: ditp_c
+  name: DITP(4-)
+  formula: C10H11N4O13P3
+  charge: -4
+- id: dmgly_c
+  name: N,N-Dimethylglycine
+  formula: C4H9NO2
+  charge: 0
+- id: dmlz_c
+  name: 6,7-Dimethyl-8-(1-D-ribityl)lumazine
+  formula: C13H19N4O6
+  charge: '1.0'
+- id: dmpp_c
+  name: Dimethylallyl diphosphate
+  formula: C5H9O7P2
+  charge: -3
+- id: dms_e
+  name: Dimethyl sulfide
+  formula: C2H6S
+  charge: 0
+- id: dms_p
+  name: Dimethyl sulfide
+  formula: C2H6S
+  charge: 0
+- id: dmso_e
+  name: Dimethyl sulfoxide
+  formula: C2H6OS
+  charge: 0
+- id: dmso_p
+  name: Dimethyl sulfoxide
+  formula: C2H6OS
+  charge: 0
+- id: dnad_c
+  name: Deamino-NAD+
+  formula: C21H24N6O15P2
+  charge: -2
+- id: dopa_e
+  name: Dopamine
+  formula: C8H12NO2
+  charge: 1
+- id: dopa_p
+  name: Dopamine
+  formula: C8H12NO2
+  charge: 1
+- id: doxrbcn_e
+  name: Doxorubicin
+  formula: C27H30NO11
+  charge: 1
+- id: doxrbcn_p
+  name: Doxorubicin
+  formula: C27H30NO11
+  charge: 1
+- id: dpcoa_c
+  name: Dephospho-CoA
+  formula: C21H33N7O13P2S
+  charge: -2
+- id: dscl_c
+  name: Dihydrosirohydrochlorin
+  formula: C42H41N4O16
+  charge: '-7.0'
+- id: dtdp_c
+  name: DTDP C10H13N2O11P2
+  formula: C10H13N2O11P2
+  charge: -3
+- id: dtmp_c
+  name: DTMP C10H13N2O8P
+  formula: C10H13N2O8P
+  charge: -2
+- id: dtmp_e
+  name: DTMP C10H13N2O8P
+  formula: C10H13N2O8P
+  charge: -2
+- id: dtmp_p
+  name: DTMP C10H13N2O8P
+  formula: C10H13N2O8P
+  charge: -2
+- id: dttp_c
+  name: DTTP C10H13N2O14P3
+  formula: C10H13N2O14P3
+  charge: -4
+- id: dudp_c
+  name: DUDP C9H11N2O11P2
+  formula: C9H11N2O11P2
+  charge: -3
+- id: dump_c
+  name: DUMP C9H11N2O8P
+  formula: C9H11N2O8P
+  charge: -2
+- id: dump_e
+  name: DUMP C9H11N2O8P
+  formula: C9H11N2O8P
+  charge: -2
+- id: dump_p
+  name: DUMP C9H11N2O8P
+  formula: C9H11N2O8P
+  charge: -2
+- id: duri_c
+  name: Deoxyuridine
+  formula: C9H12N2O5
+  charge: 0
+- id: duri_e
+  name: Deoxyuridine
+  formula: C9H12N2O5
+  charge: 0
+- id: duri_p
+  name: Deoxyuridine
+  formula: C9H12N2O5
+  charge: 0
+- id: dutp_c
+  name: DUTP C9H11N2O14P3
+  formula: C9H11N2O14P3
+  charge: -4
+- id: dxyl5p_c
+  name: 1-deoxy-D-xylulose 5-phosphate
+  formula: C5H9O7P
+  charge: -2
+- id: dxyl_c
+  name: 1-deoxy-D-xylulose
+  formula: C5H10O4
+  charge: 0
+- id: dxyl_e
+  name: 1-deoxy-D-xylulose
+  formula: C5H10O4
+  charge: 0
+- id: dxyl_p
+  name: 1-deoxy-D-xylulose
+  formula: C5H10O4
+  charge: 0
+- id: e4p_c
+  name: D-Erythrose 4-phosphate
+  formula: C4H7O7P
+  charge: -2
+- id: eig3p_c
+  name: D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate
+  formula: C6H9N2O6P
+  charge: -2
+- id: enter_c
+  name: Enterochelin
+  formula: C30H26N3O15
+  charge: -1
+- id: enter_e
+  name: Enterochelin
+  formula: C30H26N3O15
+  charge: -1
+- id: enter_p
+  name: Enterochelin
+  formula: C30H26N3O15
+  charge: -1
+- id: entermg_c
+  name: Enterobactin monoglycosylated
+  formula: C36H36N3O20
+- id: etha_c
+  name: Ethanolamine
+  formula: C2H8NO
+  charge: 1
+- id: etha_e
+  name: Ethanolamine
+  formula: C2H8NO
+  charge: 1
+- id: etha_p
+  name: Ethanolamine
+  formula: C2H8NO
+  charge: 1
+- id: ethso3_c
+  name: Ethanesulfonate
+  formula: C2H5O3S
+  charge: -1
+- id: ethso3_e
+  name: Ethanesulfonate
+  formula: C2H5O3S
+  charge: -1
+- id: ethso3_p
+  name: Ethanesulfonate
+  formula: C2H5O3S
+  charge: -1
+- id: etoh_c
+  name: Ethanol
+  formula: C2H6O
+  charge: 0
+- id: etoh_e
+  name: Ethanol
+  formula: C2H6O
+  charge: 0
+- id: etoh_p
+  name: Ethanol
+  formula: C2H6O
+  charge: 0
+- id: f1p_c
+  name: D-Fructose 1-phosphate
+  formula: C6H11O9P
+  charge: -2
+- id: f6p_c
+  name: D-Fructose 6-phosphate
+  formula: C6H11O9P
+  charge: -2
+- id: f6p_e
+  name: D-Fructose 6-phosphate
+  formula: C6H11O9P
+  charge: -2
+- id: f6p_p
+  name: D-Fructose 6-phosphate
+  formula: C6H11O9P
+  charge: -2
+- id: fad_c
+  name: Flavin adenine dinucleotide oxidized
+  formula: C27H33N9O15P2
+  charge: 0
+- id: fad_e
+  name: Flavin adenine dinucleotide oxidized
+  formula: C27H33N9O15P2
+  charge: 0
+- id: fad_p
+  name: Flavin adenine dinucleotide oxidized
+  formula: C27H33N9O15P2
+  charge: 0
+- id: fadh2_c
+  name: Flavin adenine dinucleotide reduced
+  formula: C27H35N9O15P2
+  charge: '0.0'
+- id: fald_c
+  name: Formaldehyde
+  formula: CH2O
+  charge: 0
+- id: fald_e
+  name: Formaldehyde
+  formula: CH2O
+  charge: 0
+- id: fald_p
+  name: Formaldehyde
+  formula: CH2O
+  charge: 0
+- id: fc1p_c
+  name: L-Fuculose 1-phosphate
+  formula: C6H11O8P
+  charge: '-2.0'
+- id: fcl__L_c
+  name: L-fuculose
+  formula: C6H12O5
+  charge: 0
+- id: fcmcbtt_c
+  name: Iron(III) chelated carboxymycobactin T (R=8 carbon, final carbon is carboxyl
+    group)
+  formula: C33FeH49N5O13
+- id: fdp_c
+  name: D-Fructose 1,6-bisphosphate
+  formula: C6H10O12P2
+  charge: '-4.0'
+- id: fdxox_c
+  name: Oxidized ferredoxin
+  formula: Fe2S2
+  charge: 2
+- id: fdxrd_c
+  name: Reduced ferredoxin
+  formula: Fe2S2
+  charge: 1
+- id: fe2_c
+  name: Fe2+ mitochondria
+  formula: Fe
+  charge: 2
+- id: fe2_e
+  name: Fe2+ mitochondria
+  formula: Fe
+  charge: 2
+- id: fe2_p
+  name: Fe2+ mitochondria
+  formula: Fe
+  charge: 2
+- id: fe3_c
+  name: Iron (Fe3+)
+  formula: Fe
+  charge: 3
+- id: fe3_e
+  name: Iron (Fe3+)
+  formula: Fe
+  charge: 3
+- id: fe3_p
+  name: Iron (Fe3+)
+  formula: Fe
+  charge: 3
+- id: fe3dcit_c
+  name: Fe(III)dicitrate
+  formula: C12FeH10O14
+  charge: '-12.0'
+- id: fe3dcit_e
+  name: Fe(III)dicitrate
+  formula: C12FeH10O14
+  charge: '-12.0'
+- id: fe3dcit_p
+  name: Fe(III)dicitrate
+  formula: C12FeH10O14
+  charge: '-12.0'
+- id: fe3dhbzs3_c
+  name: 2-3-dihydroxybenzoylserine trimer-Fe-III
+  formula: C30FeH29N3O16
+- id: fe3dhbzs3_e
+  name: 2-3-dihydroxybenzoylserine trimer-Fe-III
+  formula: C30FeH28N3O16
+- id: fe3dhbzs3_p
+  name: 2-3-dihydroxybenzoylserine trimer-Fe-III
+  formula: C30FeH28N3O16
+- id: fe3dhbzs_c
+  name: Ferric 2,3-dihydroxybenzoylserine
+  formula: C10H10FeNO6
+  charge: 1
+- id: fe3dhbzs_e
+  name: Ferric 2,3-dihydroxybenzoylserine
+  formula: C10H10FeNO6
+  charge: 1
+- id: fe3dhbzs_p
+  name: Ferric 2,3-dihydroxybenzoylserine
+  formula: C10H10FeNO6
+  charge: 1
+- id: fe3hox_c
+  name: Fe(III)hydroxamate
+  formula: C9H23FeN3O6
+  charge: 2
+- id: fe3hox_e
+  name: Fe(III)hydroxamate
+  formula: C9H23FeN3O6
+  charge: 2
+- id: fe3hox_p
+  name: Fe(III)hydroxamate
+  formula: C9H23FeN3O6
+  charge: 2
+- id: fe3hox_un_c
+  name: Fe(III)hydoxamate, unloaded
+  formula: C9H23N3O6
+  charge: '-2.0'
+- id: fe3hox_un_e
+  name: Fe(III)hydoxamate, unloaded
+  formula: C9H23N3O6
+  charge: '-2.0'
+- id: fe3hox_un_p
+  name: Fe(III)hydoxamate, unloaded
+  formula: C9H23N3O6
+  charge: '-2.0'
+- id: fe3pyovd_kt_e
+  name: Ferrypyoverdine  P putida KT2440 specific
+  formula: C27FeH48N10O15
+- id: fe3pyovd_kt_p
+  name: Ferrypyoverdine  P putida KT2440 specific
+  formula: C27FeH48N10O15
+- id: feenter_c
+  name: Fe-enterobactin
+  formula: C30FeH26N3O15
+  charge: '-1.0'
+- id: feenter_e
+  name: Fe-enterobactin
+  formula: C30FeH26N3O15
+  charge: '-1.0'
+- id: feenter_p
+  name: Fe-enterobactin
+  formula: C30FeH26N3O15
+  charge: '-1.0'
+- id: feoxam_c
+  name: Generic ferrioxamine-Fe-III
+  formula: C25H45FeN6O8
+  charge: 0
+- id: feoxam_e
+  name: Generic ferrioxamine-Fe-III
+  formula: C25H45FeN6O8
+  charge: 0
+- id: feoxam_p
+  name: Generic ferrioxamine-Fe-III
+  formula: C25H45FeN6O8
+  charge: 0
+- id: feoxam_un_c
+  name: Ferroxamine minus Fe(3)
+  formula: C25H45N6O8
+  charge: '1.0'
+- id: feoxam_un_e
+  name: Ferroxamine minus Fe(3)
+  formula: C25H45N6O8
+  charge: '1.0'
+- id: feoxam_un_p
+  name: Ferroxamine minus Fe(3)
+  formula: C25H45N6O8
+  charge: '1.0'
+- id: fgam_c
+  name: N2-Formyl-N1-(5-phospho-D-ribosyl)glycinamide
+  formula: C8H13N2O9P
+  charge: '-2.0'
+- id: ficytc_c
+  name: Ferricytochrome c C42H52FeN8O6S2
+  formula: C33FeH31N4O4
+- id: fldox_c
+  name: Flavodoxin (oxidized) - obsolete
+  formula: H
+  charge: 0
+- id: fldrd_c
+  name: Flavodoxin (reduced) - obsolete
+  formula: H3
+  charge: 0
+- id: fmnRD_c
+  name: Flavin mononucleotide reduced C17H21N4O9P
+  formula: C17H23N4O9P
+- id: fmn_c
+  name: FMN C17H19N4O9P
+  formula: C17H21N4O9P
+  charge: 0
+- id: fmn_e
+  name: FMN C17H19N4O9P
+  formula: C17H21N4O9P
+  charge: 0
+- id: fmn_p
+  name: FMN C17H19N4O9P
+  formula: C17H21N4O9P
+  charge: 0
+- id: fmnh2_c
+  name: Reduced FMN
+  formula: C17H23N4O9P
+  charge: '0.0'
+- id: focytc_c
+  name: Ferrocytochrome c C42H53FeN8O6S2
+  formula: C33H32FeN4O4
+  charge: 2
+- id: for_c
+  name: Formate
+  formula: CHO2
+  charge: -1
+- id: for_e
+  name: Formate
+  formula: CHO2
+  charge: -1
+- id: for_p
+  name: Formate
+  formula: CHO2
+  charge: -1
+- id: forcoa_c
+  name: Formyl-CoA(4-)
+  formula: C22H32N7O17P3S
+  charge: -4
+- id: fpram_c
+  name: 2-(Formamido)-N1-(5-phospho-D-ribosyl)acetamidine
+  formula: C8H14N3O8P
+  charge: '-2.0'
+- id: fprica_c
+  name: 5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide
+  formula: C10H13N4O9P
+  charge: -2
+- id: frdp_c
+  name: Farnesyl diphosphate
+  formula: C15H25O7P2
+  charge: -3
+- id: frmd_c
+  name: Formamide
+  formula: CH3NO
+  charge: 0
+- id: frmd_e
+  name: Formamide
+  formula: CH3NO
+  charge: 0
+- id: frmd_p
+  name: Formamide
+  formula: CH3NO
+  charge: 0
+- id: fru_c
+  name: D-Fructose
+  formula: C6H12O6
+  charge: 0
+- id: fru_e
+  name: D-Fructose
+  formula: C6H12O6
+  charge: 0
+- id: fru_p
+  name: D-Fructose
+  formula: C6H12O6
+  charge: 0
+- id: frulys_c
+  name: Fructoselysine
+  formula: C12H25N2O7
+  charge: 1
+- id: frulys_e
+  name: Fructoselysine
+  formula: C12H25N2O7
+  charge: 1
+- id: frulys_p
+  name: Fructoselysine
+  formula: C12H25N2O7
+  charge: 1
+- id: frulysp_c
+  name: Fructoselysine Phosphate
+  formula: C12H24N2O10P
+  charge: '-1.0'
+- id: fruur_c
+  name: D-Fructuronate
+  formula: C6H9O7
+  charge: '-1.0'
+- id: fruur_e
+  name: D-Fructuronate
+  formula: C6H9O7
+  charge: '-1.0'
+- id: fruur_p
+  name: D-Fructuronate
+  formula: C6H9O7
+  charge: '-1.0'
+- id: fuc__L_c
+  name: L-Fucose
+  formula: C6H12O5
+  charge: 0
+- id: fuc__L_e
+  name: L-Fucose
+  formula: C6H12O5
+  charge: 0
+- id: fuc__L_p
+  name: L-Fucose
+  formula: C6H12O5
+  charge: 0
+- id: fum_c
+  name: Fumarate
+  formula: C4H2O4
+  charge: -2
+- id: fum_e
+  name: Fumarate
+  formula: C4H2O4
+  charge: -2
+- id: fum_p
+  name: Fumarate
+  formula: C4H2O4
+  charge: -2
+- id: fusa_e
+  name: Fusidic acid
+  formula: C31H47O6
+  charge: -1
+- id: fusa_p
+  name: Fusidic acid
+  formula: C31H47O6
+  charge: -1
+- id: g1p_B_c
+  name: Beta D Glucose 1 phosphate C6H11O9P
+  formula: C6H11O9P
+  charge: -2
+- id: g1p_c
+  name: D-Glucose 1-phosphate
+  formula: C6H11O9P
+  charge: -2
+- id: g1p_e
+  name: D-Glucose 1-phosphate
+  formula: C6H11O9P
+  charge: -2
+- id: g1p_p
+  name: D-Glucose 1-phosphate
+  formula: C6H11O9P
+  charge: -2
+- id: g3p_c
+  name: Glyceraldehyde 3-phosphate
+  formula: C3H5O6P
+  charge: '-2.0'
+- id: g3pc_c
+  name: Sn-Glycero-3-phosphocholine
+  formula: C8H20NO6P
+  charge: 0
+- id: g3pc_e
+  name: Sn-Glycero-3-phosphocholine
+  formula: C8H20NO6P
+  charge: 0
+- id: g3pc_p
+  name: Sn-Glycero-3-phosphocholine
+  formula: C8H20NO6P
+  charge: 0
+- id: g3pe_c
+  name: Sn-Glycero-3-phosphoethanolamine
+  formula: C5H14NO6P
+  charge: 0
+- id: g3pe_e
+  name: Sn-Glycero-3-phosphoethanolamine
+  formula: C5H14NO6P
+  charge: 0
+- id: g3pe_p
+  name: Sn-Glycero-3-phosphoethanolamine
+  formula: C5H14NO6P
+  charge: 0
+- id: g3pg_c
+  name: Glycerophosphoglycerol
+  formula: C6H14O8P
+  charge: '-1.0'
+- id: g3pg_e
+  name: Glycerophosphoglycerol
+  formula: C6H14O8P
+  charge: '-1.0'
+- id: g3pg_p
+  name: Glycerophosphoglycerol
+  formula: C6H14O8P
+  charge: '-1.0'
+- id: g3pi_c
+  name: Sn-Glycero-3-phospho-1-inositol
+  formula: C9H18O11P
+  charge: -1
+- id: g3pi_e
+  name: Sn-Glycero-3-phospho-1-inositol
+  formula: C9H18O11P
+  charge: -1
+- id: g3pi_p
+  name: Sn-Glycero-3-phospho-1-inositol
+  formula: C9H18O11P
+  charge: -1
+- id: g3ps_c
+  name: Glycerophosphoserine
+  formula: C6H13NO8P
+  charge: -1
+- id: g3ps_e
+  name: Glycerophosphoserine
+  formula: C6H13NO8P
+  charge: -1
+- id: g3ps_p
+  name: Glycerophosphoserine
+  formula: C6H13NO8P
+  charge: -1
+- id: g6p_A_c
+  name: Alpha-D-glucose 6 phosphate
+  formula: C6H11O9P
+- id: g6p_c
+  name: D-Glucose 6-phosphate
+  formula: C6H11O9P
+  charge: -2
+- id: g6p_e
+  name: D-Glucose 6-phosphate
+  formula: C6H11O9P
+  charge: -2
+- id: g6p_p
+  name: D-Glucose 6-phosphate
+  formula: C6H11O9P
+  charge: -2
+- id: gal1p_c
+  name: Alpha-D-Galactose 1-phosphate
+  formula: C6H11O9P
+  charge: -2
+- id: gal1p_e
+  name: Alpha-D-Galactose 1-phosphate
+  formula: C6H11O9P
+  charge: -2
+- id: gal1p_p
+  name: Alpha-D-Galactose 1-phosphate
+  formula: C6H11O9P
+  charge: -2
+- id: gal_bD_e
+  name: Beta D-Galactose
+  formula: C6H12O6
+  charge: 0
+- id: gal_bD_p
+  name: Beta D-Galactose
+  formula: C6H12O6
+  charge: 0
+- id: gal_c
+  name: D-Galactose
+  formula: C6H12O6
+  charge: 0
+- id: gal_e
+  name: D-Galactose
+  formula: C6H12O6
+  charge: 0
+- id: gal_p
+  name: D-Galactose
+  formula: C6H12O6
+  charge: 0
+- id: galam6p_c
+  name: D Galactosamine 6 phosphate C6H14NO8P
+  formula: C6H13NO8P
+  charge: -1
+- id: galam_e
+  name: D Galactosamine C6H13NO5
+  formula: C6H14NO5
+  charge: 1
+- id: galam_p
+  name: D Galactosamine C6H13NO5
+  formula: C6H14NO5
+  charge: 1
+- id: galct__D_c
+  name: D-Galactarate
+  formula: C6H8O8
+  charge: -2
+- id: galct__D_e
+  name: D-Galactarate
+  formula: C6H8O8
+  charge: -2
+- id: galct__D_p
+  name: D-Galactarate
+  formula: C6H8O8
+  charge: -2
+- id: galctn__D_c
+  name: D-Galactonate
+  formula: C6H11O7
+  charge: -1
+- id: galctn__D_e
+  name: D-Galactonate
+  formula: C6H11O7
+  charge: -1
+- id: galctn__D_p
+  name: D-Galactonate
+  formula: C6H11O7
+  charge: -1
+- id: galctn__L_c
+  name: L-Galactonate
+  formula: C6H11O7
+  charge: -1
+- id: galctn__L_e
+  name: L-Galactonate
+  formula: C6H11O7
+  charge: -1
+- id: galctn__L_p
+  name: L-Galactonate
+  formula: C6H11O7
+  charge: -1
+- id: galt1p_c
+  name: Galactitol 1-phosphate
+  formula: C6H13O9P
+  charge: -2
+- id: galt_e
+  name: Galactitol
+  formula: C6H14O6
+  charge: 0
+- id: galt_p
+  name: Galactitol
+  formula: C6H14O6
+  charge: 0
+- id: galur_c
+  name: D-Galacturonate
+  formula: C6H9O7
+  charge: -1
+- id: galur_e
+  name: D-Galacturonate
+  formula: C6H9O7
+  charge: -1
+- id: galur_p
+  name: D-Galacturonate
+  formula: C6H9O7
+  charge: -1
+- id: gam1p_c
+  name: D-Glucosamine 1-phosphate
+  formula: C6H13NO8P
+  charge: -1
+- id: gam6p_c
+  name: D-Glucosamine 6-phosphate
+  formula: C6H13NO8P
+  charge: -1
+- id: gam6p_e
+  name: D-Glucosamine 6-phosphate
+  formula: C6H13NO8P
+  charge: -1
+- id: gam6p_p
+  name: D-Glucosamine 6-phosphate
+  formula: C6H13NO8P
+  charge: -1
+- id: gam_e
+  name: D-Glucosamine
+  formula: C6H14NO5
+  charge: 1
+- id: gam_p
+  name: D-Glucosamine
+  formula: C6H14NO5
+  charge: 1
+- id: gar_c
+  name: N1-(5-Phospho-D-ribosyl)glycinamide
+  formula: C7H14N2O8P
+  charge: -1
+- id: gbbtn_c
+  name: Gamma-butyrobetaine
+  formula: C7H15NO2
+  charge: -1
+- id: gbbtn_e
+  name: Gamma-butyrobetaine
+  formula: C7H15NO2
+  charge: -1
+- id: gbbtn_p
+  name: Gamma-butyrobetaine
+  formula: C7H15NO2
+  charge: -1
+- id: gcald_c
+  name: Glycolaldehyde
+  formula: C2H4O2
+  charge: 0
+- id: gcvHL_ADPr_c
+  name: N-Lipoyl ADP-ribose gcvh-L protein
+  formula: C23H36N6O21P4S2
+- id: gcvHL_nhLA_c
+  name: N-Lipoyl gcvh-L protein
+  formula: C8H16NO8P2S2
+- id: gdp_c
+  name: GDP C10H12N5O11P2
+  formula: C10H12N5O11P2
+  charge: -3
+- id: gdp_e
+  name: GDP C10H12N5O11P2
+  formula: C10H12N5O11P2
+  charge: -3
+- id: gdp_p
+  name: GDP C10H12N5O11P2
+  formula: C10H12N5O11P2
+  charge: -3
+- id: gdpmann_c
+  name: GDP-D-mannose
+  formula: C16H23N5O16P2
+  charge: -2
+- id: gdptp_c
+  name: Guanosine 3'-diphosphate 5'-triphosphate
+  formula: C10H11N5O20P5
+  charge: '-7.0'
+- id: gg4abut_c
+  name: Gamma-glutamyl-gamma aminobutyric acid
+  formula: C9H15N2O5
+  charge: -1
+- id: ggbutal_c
+  name: Gamma-glutamyl-gamma-butyraldehyde
+  formula: C9H16N2O4
+  charge: 0
+- id: ggptrc_c
+  name: Gamma-glutamyl-putrescine
+  formula: C9H20N3O3
+  charge: 1
+- id: glc__D_c
+  name: D-Glucose
+  formula: C6H12O6
+  charge: 0
+- id: glc__D_e
+  name: D-Glucose
+  formula: C6H12O6
+  charge: 0
+- id: glc__D_p
+  name: D-Glucose
+  formula: C6H12O6
+  charge: 0
+- id: glc__aD_c
+  name: Alpha D-glucose
+  formula: C6H12O6
+- id: glc__aD_e
+  name: Alpha D-glucose
+  formula: C6H12O6
+- id: glc__bD_c
+  name: D-Glucose
+  formula: C6H12O6
+- id: glcn_c
+  name: D-Gluconate
+  formula: C6H11O7
+  charge: -1
+- id: glcn_e
+  name: D-Gluconate
+  formula: C6H11O7
+  charge: -1
+- id: glcn_p
+  name: D-Gluconate
+  formula: C6H11O7
+  charge: -1
+- id: glcr_c
+  name: D-Glucarate
+  formula: C6H8O8
+  charge: -2
+- id: glcr_e
+  name: D-Glucarate
+  formula: C6H8O8
+  charge: -2
+- id: glcr_p
+  name: D-Glucarate
+  formula: C6H8O8
+  charge: -2
+- id: glcur1p_e
+  name: D-Glucuronate 1-phosphate
+  formula: C6H8O10P
+  charge: '-3.0'
+- id: glcur1p_p
+  name: D-Glucuronate 1-phosphate
+  formula: C6H8O10P
+  charge: '-3.0'
+- id: glcur_c
+  name: D-Glucuronate
+  formula: C6H9O7
+  charge: -1
+- id: glcur_e
+  name: D-Glucuronate
+  formula: C6H9O7
+  charge: -1
+- id: glcur_p
+  name: D-Glucuronate
+  formula: C6H9O7
+  charge: -1
+- id: gln__L_c
+  name: L-Glutamine
+  formula: C5H10N2O3
+  charge: 0
+- id: gln__L_e
+  name: L-Glutamine
+  formula: C5H10N2O3
+  charge: 0
+- id: gln__L_p
+  name: L-Glutamine
+  formula: C5H10N2O3
+  charge: 0
+- id: glu1sa_c
+  name: L-Glutamate 1-semialdehyde
+  formula: C5H9NO3
+  charge: 0
+- id: glu5p_c
+  name: L-Glutamate 5-phosphate
+  formula: C5H8NO7P
+  charge: -2
+- id: glu5sa_c
+  name: L-Glutamate 5-semialdehyde
+  formula: C5H9NO3
+  charge: 0
+- id: glu__D_c
+  name: D-Glutamate
+  formula: C5H8NO4
+  charge: -1
+- id: glu__L_c
+  name: L-Glutamate
+  formula: C5H8NO4
+  charge: -1
+- id: glu__L_e
+  name: L-Glutamate
+  formula: C5H8NO4
+  charge: -1
+- id: glu__L_p
+  name: L-Glutamate
+  formula: C5H8NO4
+  charge: -1
+- id: glucys_c
+  name: Gamma-L-Glutamyl-L-cysteine
+  formula: C8H13N2O5S
+  charge: -1
+- id: glutar_c
+  name: Glutarate
+  formula: C5H6O4
+  charge: -2
+- id: glutcoa_c
+  name: Glutaryl-CoA mitochondria
+  formula: C26H37N7O19P3S
+  charge: -5
+- id: glutrna_c
+  name: L-Glutamyl-tRNA(Glu)
+  formula: C33H41N12O24P3
+  charge: 0
+- id: glx_c
+  name: Glyoxylate
+  formula: C2HO3
+  charge: -1
+- id: gly_c
+  name: Glycine
+  formula: C2H5NO2
+  charge: 0
+- id: gly_e
+  name: Glycine
+  formula: C2H5NO2
+  charge: 0
+- id: gly_p
+  name: Glycine
+  formula: C2H5NO2
+  charge: 0
+- id: glyald_c
+  name: D-Glyceraldehyde
+  formula: C3H6O3
+  charge: 0
+- id: glyald_e
+  name: D-Glyceraldehyde
+  formula: C3H6O3
+  charge: 0
+- id: glyald_p
+  name: D-Glyceraldehyde
+  formula: C3H6O3
+  charge: 0
+- id: glyb_c
+  name: Glycine betaine
+  formula: C5H11NO2
+  charge: 0
+- id: glyb_e
+  name: Glycine betaine
+  formula: C5H11NO2
+  charge: 0
+- id: glyb_p
+  name: Glycine betaine
+  formula: C5H11NO2
+  charge: 0
+- id: glybcoa_c
+  name: Glycine betaine coenzyme A
+  formula: C26H42N8O17P3S
+- id: glyc2p_c
+  name: Glycerol 2-phosphate
+  formula: C3H7O6P
+  charge: -2
+- id: glyc2p_e
+  name: Glycerol 2-phosphate
+  formula: C3H7O6P
+  charge: -2
+- id: glyc2p_p
+  name: Glycerol 2-phosphate
+  formula: C3H7O6P
+  charge: -2
+- id: glyc3p_c
+  name: Glycerol 3-phosphate
+  formula: C3H7O6P
+  charge: -2
+- id: glyc3p_e
+  name: Glycerol 3-phosphate
+  formula: C3H7O6P
+  charge: -2
+- id: glyc3p_p
+  name: Glycerol 3-phosphate
+  formula: C3H7O6P
+  charge: -2
+- id: glyc__R_c
+  name: (R)-Glycerate
+  formula: C3H5O4
+  charge: -1
+- id: glyc__R_e
+  name: (R)-Glycerate
+  formula: C3H5O4
+  charge: -1
+- id: glyc__R_p
+  name: (R)-Glycerate
+  formula: C3H5O4
+  charge: -1
+- id: glyc_c
+  name: Glycerol
+  formula: C3H8O3
+  charge: 0
+- id: glyc_e
+  name: Glycerol
+  formula: C3H8O3
+  charge: 0
+- id: glyc_p
+  name: Glycerol
+  formula: C3H8O3
+  charge: 0
+- id: glyclt_c
+  name: Glycolate C2H3O3
+  formula: C2H3O3
+  charge: -1
+- id: glyclt_e
+  name: Glycolate C2H3O3
+  formula: C2H3O3
+  charge: -1
+- id: glyclt_p
+  name: Glycolate C2H3O3
+  formula: C2H3O3
+  charge: -1
+- id: glycogen_c
+  name: Glycogen C6H10O5
+  formula: C24H42O21
+  charge: 0
+- id: gmp_c
+  name: GMP C10H12N5O8P
+  formula: C10H12N5O8P
+  charge: -2
+- id: gmp_e
+  name: GMP C10H12N5O8P
+  formula: C10H12N5O8P
+  charge: -2
+- id: gmp_p
+  name: GMP C10H12N5O8P
+  formula: C10H12N5O8P
+  charge: -2
+- id: grdp_c
+  name: Geranyl diphosphate
+  formula: C10H17O7P2
+  charge: -3
+- id: grxox_c
+  name: Glutaredoxin (oxidized)
+  formula: C6H7NO2S2
+  charge: 0
+- id: grxrd_c
+  name: Glutaredoxin (reduced)
+  formula: C6H9NO2S2
+  charge: 0
+- id: gsn_c
+  name: Guanosine
+  formula: C10H13N5O5
+  charge: 0
+- id: gsn_e
+  name: Guanosine
+  formula: C10H13N5O5
+  charge: 0
+- id: gsn_p
+  name: Guanosine
+  formula: C10H13N5O5
+  charge: 0
+- id: gthox_c
+  name: Oxidized glutathione
+  formula: C20H30N6O12S2
+  charge: -2
+- id: gthrd_c
+  name: Reduced glutathione
+  formula: C10H16N3O6S
+  charge: -1
+- id: gthrd_e
+  name: Reduced glutathione
+  formula: C10H16N3O6S
+  charge: -1
+- id: gthrd_p
+  name: Reduced glutathione
+  formula: C10H16N3O6S
+  charge: -1
+- id: gtp_c
+  name: GTP C10H12N5O14P3
+  formula: C10H12N5O14P3
+  charge: -4
+- id: gtp_e
+  name: GTP C10H12N5O14P3
+  formula: C10H12N5O14P3
+  charge: -4
+- id: gtp_p
+  name: GTP C10H12N5O14P3
+  formula: C10H12N5O14P3
+  charge: -4
+- id: gtspmd_c
+  name: Glutathionylspermidine
+  formula: C17H36N6O5S
+  charge: 2
+- id: gua_c
+  name: Guanine
+  formula: C5H5N5O
+  charge: 0
+- id: gua_e
+  name: Guanine
+  formula: C5H5N5O
+  charge: 0
+- id: gua_p
+  name: Guanine
+  formula: C5H5N5O
+  charge: 0
+- id: h2_c
+  name: Hydrogen
+  formula: H2
+  charge: 0
+- id: h2_e
+  name: Hydrogen
+  formula: H2
+  charge: 0
+- id: h2_p
+  name: Hydrogen
+  formula: H2
+  charge: 0
+- id: h2mb4p_c
+  name: 1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate
+  formula: C5H9O8P2
+  charge: -3
+- id: h2o2_c
+  name: Hydrogen peroxide
+  formula: H2O2
+  charge: 0
+- id: h2o2_e
+  name: Hydrogen peroxide
+  formula: H2O2
+  charge: 0
+- id: h2o2_p
+  name: Hydrogen peroxide
+  formula: H2O2
+  charge: 0
+- id: h2o_c
+  name: H2O H2O
+  formula: H2O
+  charge: 0
+- id: h2o_e
+  name: H2O H2O
+  formula: H2O
+  charge: 0
+- id: h2o_p
+  name: H2O H2O
+  formula: H2O
+  charge: 0
+- id: h2s_c
+  name: Hydrogen sulfide
+  formula: H2S
+  charge: '0.0'
+- id: h2s_e
+  name: Hydrogen sulfide
+  formula: H2S
+  charge: '0.0'
+- id: h2s_p
+  name: Hydrogen sulfide
+  formula: H2S
+  charge: '0.0'
+- id: h_c
+  name: H+
+  formula: H
+  charge: 1
+- id: h_e
+  name: H+
+  formula: H
+  charge: 1
+- id: h_p
+  name: H+
+  formula: H
+  charge: 1
+- id: hco3_c
+  name: Bicarbonate
+  formula: CHO3
+  charge: -1
+- id: hcys__L_c
+  name: L-Homocysteine
+  formula: C4H9NO2S
+  charge: 0
+- id: hdca_c
+  name: Hexadecanoate (n-C16:0)
+  formula: C16H31O2
+  charge: -1
+- id: hdca_e
+  name: Hexadecanoate (n-C16:0)
+  formula: C16H31O2
+  charge: -1
+- id: hdca_p
+  name: Hexadecanoate (n-C16:0)
+  formula: C16H31O2
+  charge: -1
+- id: hdcap_c
+  name: Hexadecanoyl-phosphate (n-C16:0)
+  formula: C16H32O5P
+- id: hdcea_c
+  name: Hexadecenoate (n-C16:1)
+  formula: C16H29O2
+  charge: -1
+- id: hdcea_e
+  name: Hexadecenoate (n-C16:1)
+  formula: C16H29O2
+  charge: -1
+- id: hdcea_p
+  name: Hexadecenoate (n-C16:1)
+  formula: C16H29O2
+  charge: -1
+- id: hdcoa_c
+  name: Hexadecenoyl-CoA (n-C16:1CoA)
+  formula: C37H60N7O17P3S
+  charge: -4
+- id: hdd2coa_c
+  name: Trans-Hexadec-2-enoyl-CoA
+  formula: C37H60N7O17P3S
+  charge: -4
+- id: hethmpp_c
+  name: Hydroxy ethyl Thiamin diphosphate
+  formula: C14H20N4O8P2S
+- id: hg2_c
+  name: Mercury  charged 2  Hg
+  formula: Hg
+  charge: 2
+- id: hg2_e
+  name: Mercury  charged 2  Hg
+  formula: Hg
+  charge: 2
+- id: hg2_p
+  name: Mercury  charged 2  Hg
+  formula: Hg
+  charge: 2
+- id: his__L_c
+  name: L-Histidine
+  formula: C6H9N3O2
+  charge: 0
+- id: his__L_e
+  name: L-Histidine
+  formula: C6H9N3O2
+  charge: 0
+- id: his__L_p
+  name: L-Histidine
+  formula: C6H9N3O2
+  charge: 0
+- id: hisp_c
+  name: L-Histidinol phosphate
+  formula: C6H11N3O4P
+  charge: -1
+- id: histd_c
+  name: L-Histidinol
+  formula: C6H12N3O
+  charge: 1
+- id: hkndd_c
+  name: 2-Hydroxy-6-oxonona-2,4-diene-1,9-dioate
+  formula: C9H8O6
+  charge: -2
+- id: hkntd_c
+  name: 2-hydroxy-6-ketononatrienedioate
+  formula: C9H6O6
+  charge: '-2.0'
+- id: hmbil_c
+  name: Hydroxymethylbilane
+  formula: C40H38N4O17
+  charge: -8
+- id: hmgth_c
+  name: Hydroxymethylglutathione
+  formula: C11H18N3O7S
+  charge: -1
+- id: hom__L_c
+  name: L-Homoserine
+  formula: C4H9NO3
+  charge: 0
+- id: hom__L_e
+  name: L-Homoserine
+  formula: C4H9NO3
+  charge: 0
+- id: hom__L_p
+  name: L-Homoserine
+  formula: C4H9NO3
+  charge: 0
+- id: hpyr_c
+  name: Hydroxypyruvate
+  formula: C3H3O4
+  charge: -1
+- id: hqn_c
+  name: Hydroquinone
+  formula: C6H6O2
+  charge: 0
+- id: hqn_e
+  name: Hydroquinone
+  formula: C6H6O2
+  charge: 0
+- id: hx2coa_c
+  name: Trans-Hex-2-enoyl-CoA
+  formula: C27H40N7O17P3S
+  charge: -4
+- id: hxa_c
+  name: Hexanoate (n-C6:0)
+  formula: C6H11O2
+  charge: -1
+- id: hxa_e
+  name: Hexanoate (n-C6:0)
+  formula: C6H11O2
+  charge: -1
+- id: hxa_p
+  name: Hexanoate (n-C6:0)
+  formula: C6H11O2
+  charge: -1
+- id: hxan_c
+  name: Hypoxanthine
+  formula: C5H4N4O
+  charge: 0
+- id: hxan_e
+  name: Hypoxanthine
+  formula: C5H4N4O
+  charge: 0
+- id: hxan_p
+  name: Hypoxanthine
+  formula: C5H4N4O
+  charge: 0
+- id: hxcoa_c
+  name: Hexanoyl-CoA (n-C6:0CoA)
+  formula: C27H42N7O17P3S
+  charge: -4
+- id: iasp_c
+  name: Iminoaspartate
+  formula: C4H3NO4
+  charge: -2
+- id: ichor_c
+  name: Isochorismate
+  formula: C10H8O6
+  charge: -2
+- id: icit_c
+  name: Isocitrate
+  formula: C6H5O7
+  charge: -3
+- id: icit_e
+  name: Isocitrate
+  formula: C6H5O7
+  charge: -3
+- id: icit_p
+  name: Isocitrate
+  formula: C6H5O7
+  charge: -3
+- id: idon__L_c
+  name: L-Idonate
+  formula: C6H11O7
+  charge: -1
+- id: idon__L_e
+  name: L-Idonate
+  formula: C6H11O7
+  charge: -1
+- id: idon__L_p
+  name: L-Idonate
+  formula: C6H11O7
+  charge: -1
+- id: idp_c
+  name: IDP C10H11N4O11P2
+  formula: C10H11N4O11P2
+  charge: -3
+- id: ile__L_c
+  name: L-Isoleucine
+  formula: C6H13NO2
+  charge: 0
+- id: ile__L_e
+  name: L-Isoleucine
+  formula: C6H13NO2
+  charge: 0
+- id: ile__L_p
+  name: L-Isoleucine
+  formula: C6H13NO2
+  charge: 0
+- id: imacp_c
+  name: 3-(Imidazol-4-yl)-2-oxopropyl phosphate
+  formula: C6H7N2O5P
+  charge: -2
+- id: imp_c
+  name: IMP C10H11N4O8P
+  formula: C10H11N4O8P
+  charge: -2
+- id: imp_e
+  name: IMP C10H11N4O8P
+  formula: C10H11N4O8P
+  charge: -2
+- id: imp_p
+  name: IMP C10H11N4O8P
+  formula: C10H11N4O8P
+  charge: -2
+- id: indole_c
+  name: Indole
+  formula: C8H7N
+  charge: 0
+- id: indole_e
+  name: Indole
+  formula: C8H7N
+  charge: 0
+- id: indole_p
+  name: Indole
+  formula: C8H7N
+  charge: 0
+- id: indpyr_c
+  name: Indolepyruvate C11H8NO3
+  formula: C11H8NO3
+  charge: -1
+- id: inost_c
+  name: Myo-Inositol
+  formula: C6H12O6
+  charge: 0
+- id: inost_e
+  name: Myo-Inositol
+  formula: C6H12O6
+  charge: 0
+- id: inost_p
+  name: Myo-Inositol
+  formula: C6H12O6
+  charge: 0
+- id: ins_c
+  name: Inosine
+  formula: C10H12N4O5
+  charge: 0
+- id: ins_e
+  name: Inosine
+  formula: C10H12N4O5
+  charge: 0
+- id: ins_p
+  name: Inosine
+  formula: C10H12N4O5
+  charge: 0
+- id: ipdp_c
+  name: Isopentenyl diphosphate
+  formula: C5H9O7P2
+  charge: -3
+- id: isetac_c
+  name: Isethionic acid
+  formula: C2H5O4S
+  charge: -1
+- id: isetac_e
+  name: Isethionic acid
+  formula: C2H5O4S
+  charge: -1
+- id: isetac_p
+  name: Isethionic acid
+  formula: C2H5O4S
+  charge: -1
+- id: istfrnB_e
+  name: Iron bound extracellular staphyloferrin B
+  formula: C19FeH22N2O18
+- id: itp_c
+  name: ITP C10H11N4O14P3
+  formula: C10H11N4O14P3
+  charge: -4
+- id: ivcoa_c
+  name: Isovaleryl-CoA
+  formula: C26H40N7O17P3S
+  charge: -4
+- id: k_c
+  name: Potassium
+  formula: K
+  charge: 1
+- id: k_e
+  name: Potassium
+  formula: K
+  charge: 1
+- id: k_p
+  name: Potassium
+  formula: K
+  charge: 1
+- id: kdo2lipid4_c
+  name: KDO(2)-lipid IV(A)
+  formula: C84H148N2O37P2
+  charge: -6
+- id: kdo2lipid4_p
+  name: KDO(2)-lipid IV(A)
+  formula: C84H148N2O37P2
+  charge: -6
+- id: kdo8p_c
+  name: 3-Deoxy-D-manno-octulosonate 8-phosphate
+  formula: C8H12O11P
+  charge: -3
+- id: kdo_c
+  name: 3-Deoxy-D-manno-2-octulosonate
+  formula: C8H13O8
+  charge: -1
+- id: kdolipid4_c
+  name: KDO-lipid IV(A)
+  formula: C76H137N2O30P2
+  charge: -5
+- id: lac__D_c
+  name: D-Lactate
+  formula: C3H5O3
+  charge: -1
+- id: lac__D_e
+  name: D-Lactate
+  formula: C3H5O3
+  charge: -1
+- id: lac__D_p
+  name: D-Lactate
+  formula: C3H5O3
+  charge: -1
+- id: lac__L_c
+  name: L-Lactate
+  formula: C3H5O3
+  charge: -1
+- id: lac__L_e
+  name: L-Lactate
+  formula: C3H5O3
+  charge: -1
+- id: lac__L_p
+  name: L-Lactate
+  formula: C3H5O3
+  charge: -1
+- id: lald__D_c
+  name: D-Lactaldehyde
+  formula: C3H6O2
+  charge: 0
+- id: lald__L_c
+  name: L-Lactaldehyde
+  formula: C3H6O2
+  charge: 0
+- id: lcts_c
+  name: Lactose C12H22O11
+  formula: C12H22O11
+  charge: 0
+- id: lcts_e
+  name: Lactose C12H22O11
+  formula: C12H22O11
+  charge: 0
+- id: lcts_p
+  name: Lactose C12H22O11
+  formula: C12H22O11
+  charge: 0
+- id: leu__L_c
+  name: L-Leucine
+  formula: C6H13NO2
+  charge: 0
+- id: leu__L_e
+  name: L-Leucine
+  formula: C6H13NO2
+  charge: 0
+- id: leu__L_p
+  name: L-Leucine
+  formula: C6H13NO2
+  charge: 0
+- id: lgt__S_c
+  name: (R)-S-Lactoylglutathione
+  formula: C13H20N3O8S
+  charge: -1
+- id: lipidA_c
+  name: 2,3,2'3'-Tetrakis(beta-hydroxymyristoyl)-D-glucosaminyl-1,6-beta-D-glucosamine
+    1,4'-bisphosphate
+  formula: C68H126N2O23P2
+  charge: -4
+- id: lipidAds_c
+  name: Lipid A Disaccharide
+  formula: C68H127N2O20P
+  charge: -2
+- id: lipidX_c
+  name: 2,3-Bis(3-hydroxytetradecanoyl)-beta-D-glucosaminyl 1-phosphate
+  formula: C34H64NO12P
+  charge: -2
+- id: lipoamp_c
+  name: Lipoyl-AMP
+  formula: C18H25N5O8PS2
+- id: lipoate_c
+  name: Lipoate
+  formula: C8H13O2S2
+  charge: -1
+- id: lipoate_e
+  name: Lipoate
+  formula: C8H13O2S2
+  charge: -1
+- id: lipoate_p
+  name: Lipoate
+  formula: C8H13O2S2
+  charge: -1
+- id: lipopb_c
+  name: Lipoate (protein bound)
+  formula: C8H13OS2
+- id: lpam_c
+  name: Lipoamide C8H15NOS2
+  formula: C8H15NOS2
+  charge: 0
+- id: lys__L_c
+  name: L-Lysine
+  formula: C6H15N2O2
+  charge: 1
+- id: lys__L_e
+  name: L-Lysine
+  formula: C6H15N2O2
+  charge: 1
+- id: lys__L_p
+  name: L-Lysine
+  formula: C6H15N2O2
+  charge: 1
+- id: lyx__L_c
+  name: L-Lyxose
+  formula: C5H10O5
+  charge: 0
+- id: lyx__L_e
+  name: L-Lyxose
+  formula: C5H10O5
+  charge: 0
+- id: lyx__L_p
+  name: L-Lyxose
+  formula: C5H10O5
+  charge: 0
+- id: mal__D_c
+  name: D-Malate
+  formula: C4H4O5
+  charge: -2
+- id: mal__D_e
+  name: D-Malate
+  formula: C4H4O5
+  charge: -2
+- id: mal__D_p
+  name: D-Malate
+  formula: C4H4O5
+  charge: -2
+- id: mal__L_c
+  name: L-Malate
+  formula: C4H4O5
+  charge: -2
+- id: mal__L_e
+  name: L-Malate
+  formula: C4H4O5
+  charge: -2
+- id: mal__L_p
+  name: L-Malate
+  formula: C4H4O5
+  charge: -2
+- id: malcoa_c
+  name: Malonyl CoA C24H33N7O19P3S
+  formula: C24H33N7O19P3S
+  charge: -5
+- id: malt6p_c
+  name: Maltose 6'-phosphate
+  formula: C12H21O14P
+  charge: -2
+- id: malt_c
+  name: Maltose C12H22O11
+  formula: C12H22O11
+  charge: 0
+- id: malt_e
+  name: Maltose C12H22O11
+  formula: C12H22O11
+  charge: 0
+- id: malt_p
+  name: Maltose C12H22O11
+  formula: C12H22O11
+  charge: 0
+- id: malthp_c
+  name: Maltoheptaose
+  formula: C42H72O36
+  charge: 0
+- id: malthp_e
+  name: Maltoheptaose
+  formula: C42H72O36
+  charge: 0
+- id: malthx_c
+  name: Maltohexaose
+  formula: C36H62O31
+  charge: 0
+- id: malthx_e
+  name: Maltohexaose
+  formula: C36H62O31
+  charge: 0
+- id: malthx_p
+  name: Maltohexaose
+  formula: C36H62O31
+  charge: 0
+- id: maltpt_c
+  name: Maltopentaose
+  formula: C30H52O26
+  charge: 0
+- id: maltpt_e
+  name: Maltopentaose
+  formula: C30H52O26
+  charge: 0
+- id: maltpt_p
+  name: Maltopentaose
+  formula: C30H52O26
+  charge: 0
+- id: malttr_c
+  name: Maltotriose C18H32O16
+  formula: C18H32O16
+  charge: 0
+- id: malttr_e
+  name: Maltotriose C18H32O16
+  formula: C18H32O16
+  charge: 0
+- id: malttr_p
+  name: Maltotriose C18H32O16
+  formula: C18H32O16
+  charge: 0
+- id: maltttr_c
+  name: Maltotetraose
+  formula: C24H42O21
+  charge: 0
+- id: maltttr_e
+  name: Maltotetraose
+  formula: C24H42O21
+  charge: 0
+- id: maltttr_p
+  name: Maltotetraose
+  formula: C24H42O21
+  charge: 0
+- id: man1p_c
+  name: D-Mannose 1-phosphate
+  formula: C6H11O9P
+  charge: '-2.0'
+- id: man6p_c
+  name: D-Mannose 6-phosphate
+  formula: C6H11O9P
+  charge: '-2.0'
+- id: man6p_e
+  name: D-Mannose 6-phosphate
+  formula: C6H11O9P
+  charge: '-2.0'
+- id: man6p_p
+  name: D-Mannose 6-phosphate
+  formula: C6H11O9P
+  charge: '-2.0'
+- id: man6pglyc_c
+  name: 2(alpha-D-Mannosyl-6-phosphate)-D-glycerate
+  formula: C9H14O12P
+  charge: '-3.0'
+- id: man_c
+  name: D-Mannose
+  formula: C6H12O6
+  charge: 0
+- id: man_e
+  name: D-Mannose
+  formula: C6H12O6
+  charge: 0
+- id: man_p
+  name: D-Mannose
+  formula: C6H12O6
+  charge: 0
+- id: mana_c
+  name: D-Mannonate
+  formula: C6H11O7
+  charge: -1
+- id: manglyc_e
+  name: 2(alpha-D-Mannosyl)-D-glycerate
+  formula: C9H15O9
+  charge: -1
+- id: manglyc_p
+  name: 2(alpha-D-Mannosyl)-D-glycerate
+  formula: C9H15O9
+  charge: -1
+- id: mdhdhf_c
+  name: (2R,4S)-2-methyl-2,4-dihydroxydihydrofuran-3-one
+  formula: C5H8O4
+  charge: 0
+- id: melib_c
+  name: Melibiose C12H22O11
+  formula: C12H22O11
+  charge: 0
+- id: melib_e
+  name: Melibiose C12H22O11
+  formula: C12H22O11
+  charge: 0
+- id: melib_p
+  name: Melibiose C12H22O11
+  formula: C12H22O11
+  charge: 0
+- id: meoh_c
+  name: Methanol
+  formula: CH4O
+  charge: 0
+- id: meoh_e
+  name: Methanol
+  formula: CH4O
+  charge: 0
+- id: meoh_p
+  name: Methanol
+  formula: CH4O
+  charge: 0
+- id: mercppyr_c
+  name: Mercaptopyruvate
+  formula: C3H3O3S
+  charge: -1
+- id: met__D_c
+  name: D-Methionine
+  formula: C5H11NO2S
+  charge: 0
+- id: met__D_e
+  name: D-Methionine
+  formula: C5H11NO2S
+  charge: 0
+- id: met__D_p
+  name: D-Methionine
+  formula: C5H11NO2S
+  charge: 0
+- id: met__L_c
+  name: L-Methionine
+  formula: C5H11NO2S
+  charge: 0
+- id: met__L_e
+  name: L-Methionine
+  formula: C5H11NO2S
+  charge: 0
+- id: met__L_p
+  name: L-Methionine
+  formula: C5H11NO2S
+  charge: 0
+- id: metglcur_c
+  name: 1-O-methyl-Beta-D-glucuronate
+  formula: C7H11O7
+- id: metglcur_e
+  name: 1-O-methyl-Beta-D-glucuronate
+  formula: C7H11O7
+- id: metglcur_p
+  name: 1-O-methyl-Beta-D-glucuronate
+  formula: C7H11O7
+- id: methf_c
+  name: 5,10-Methenyltetrahydrofolate
+  formula: C20H20N7O6
+  charge: -1
+- id: metsox_R__L_c
+  name: L-methionine-R-sulfoxide
+  formula: C5H11NO3S
+  charge: 0
+- id: metsox_R__L_e
+  name: L-methionine-R-sulfoxide
+  formula: C5H11NO3S
+  charge: 0
+- id: metsox_R__L_p
+  name: L-methionine-R-sulfoxide
+  formula: C5H11NO3S
+  charge: 0
+- id: metsox_S__L_c
+  name: L-Methionine Sulfoxide
+  formula: C5H11NO3S
+  charge: 0
+- id: metsox_S__L_e
+  name: L-Methionine Sulfoxide
+  formula: C5H11NO3S
+  charge: 0
+- id: metsox_S__L_p
+  name: L-Methionine Sulfoxide
+  formula: C5H11NO3S
+  charge: 0
+- id: mg2_c
+  name: Magnesium
+  formula: Mg
+  charge: 2
+- id: mg2_e
+  name: Magnesium
+  formula: Mg
+  charge: 2
+- id: mg2_p
+  name: Magnesium
+  formula: Mg
+  charge: 2
+- id: mi1p__D_c
+  name: 1D-myo-Inositol 1-phosphate
+  formula: C6H11O9P
+  charge: -2
+- id: micit_c
+  name: Methylisocitrate
+  formula: C7H7O7
+  charge: -3
+- id: minohp_e
+  name: Myo-Inositol hexakisphosphate
+  formula: C6H6O24P6
+  charge: -12
+- id: minohp_p
+  name: Myo-Inositol hexakisphosphate
+  formula: C6H6O24P6
+  charge: -12
+- id: mlthf_c
+  name: 5,10-Methylenetetrahydrofolate
+  formula: C20H21N7O6
+  charge: -2
+- id: mmcoa__R_c
+  name: (R)-Methylmalonyl-CoA
+  formula: C25H35N7O19P3S
+  charge: -5
+- id: mmcoa__S_c
+  name: (S)-Methylmalonyl-CoA
+  formula: C25H35N7O19P3S
+  charge: -5
+- id: mn2_c
+  name: Manganese
+  formula: Mn
+  charge: 2
+- id: mn2_e
+  name: Manganese
+  formula: Mn
+  charge: 2
+- id: mn2_p
+  name: Manganese
+  formula: Mn
+  charge: 2
+- id: mnl1p_c
+  name: D-Mannitol 1-phosphate
+  formula: C6H13O9P
+  charge: -2
+- id: mnl_e
+  name: D-Mannitol
+  formula: C6H14O6
+  charge: 0
+- id: mnl_p
+  name: D-Mannitol
+  formula: C6H14O6
+  charge: 0
+- id: mobd_c
+  name: Molybdate
+  formula: MoO4
+  charge: -2
+- id: mobd_e
+  name: Molybdate
+  formula: MoO4
+  charge: -2
+- id: mobd_p
+  name: Molybdate
+  formula: MoO4
+  charge: -2
+- id: mql8_c
+  name: Menaquinol 8
+  formula: C51H74O2
+  charge: 0
+- id: mqn8_c
+  name: Menaquinone 8
+  formula: C51H72O2
+  charge: 0
+- id: msa_c
+  name: Malonate semialdehyde
+  formula: C3H3O3
+  charge: -1
+- id: mso3_c
+  name: Methanesulfonate
+  formula: CH3O3S
+  charge: -1
+- id: mso3_e
+  name: Methanesulfonate
+  formula: CH3O3S
+  charge: -1
+- id: mso3_p
+  name: Methanesulfonate
+  formula: CH3O3S
+  charge: -1
+- id: mthgxl_c
+  name: Methylglyoxal
+  formula: C3H4O2
+  charge: 0
+- id: mththf_c
+  name: (2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran
+  formula: C5H10O5
+  charge: 0
+- id: mththf_e
+  name: (2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran
+  formula: C5H10O5
+  charge: 0
+- id: mththf_p
+  name: (2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran
+  formula: C5H10O5
+  charge: 0
+- id: murein3p3p_p
+  name: Two linked disacharide tripeptide murein units (uncrosslinked, middle of
+    chain)
+  formula: C68H104N12O38
+  charge: -4
+- id: murein3px3p_p
+  name: Two disacharide linked murein units, tripeptide crosslinked tripeptide (A2pm->A2pm)
+    (middle of chain)
+  formula: C68H102N12O37
+  charge: '-4.0'
+- id: murein3px4p_p
+  name: Two disacharide linked murein units, tripeptide crosslinked tetrapeptide
+    (A2pm->D-ala) (middle of chain)
+  formula: C71H107N13O38
+  charge: -4
+- id: murein4p3p_p
+  name: Two linked disacharide tetrapeptide and tripeptide murein units (uncrosslinked,
+    middle of chain)
+  formula: C71H109N13O39
+  charge: -4
+- id: murein4p4p_p
+  name: Two linked disacharide tetrapeptide murein units (uncrosslinked, middle of
+    chain)
+  formula: C74H114N14O40
+  charge: -4
+- id: murein4px4p4p_p
+  name: Three disacharide linked murein units (tetrapeptide crosslinked tetrapeptide
+    (A2pm->D-ala), one uncrosslinked tetrapaptide) (middle of chain)
+  formula: C111H169N21O59
+  charge: -6
+- id: murein4px4p_p
+  name: Two disacharide linked murein units, tetrapeptide corsslinked tetrapeptide
+    (A2pm->D-ala) (middle of chain)
+  formula: C74H112N14O39
+  charge: '-4.0'
+- id: murein4px4px4p_p
+  name: Three disacharide linked murein units (tetrapeptide crosslinked tetrapeptide
+    (A2pm->D-ala) & tetrapeptide corsslinked tetrapeptide (A2pm->D-ala)) (middle
+    of chain)
+  formula: C111H167N21O58
+  charge: -6
+- id: murein5p3p_p
+  name: Two linked disacharide pentapeptide and tripeptide murein units (uncrosslinked,
+    middle of chain)
+  formula: C74H114N14O40
+  charge: -4
+- id: murein5p4p_p
+  name: Two linked disacharide pentapeptide and tetrapeptide murein units (uncrosslinked,
+    middle of chain)
+  formula: C77H119N15O41
+  charge: -4
+- id: murein5p5p5p_p
+  name: Three linked disacharide pentapeptide murein units (uncrosslinked, middle
+    of chain)
+  formula: C120H186N24O63
+  charge: -6
+- id: murein5p5p_p
+  name: Two linked disacharide pentapeptide murein units (uncrosslinked, middle of
+    chain)
+  formula: C80H124N16O42
+  charge: -4
+- id: murein5px3p_p
+  name: Two disacharide linked murein units, pentapeptide corsslinked tripeptide
+    (A2pm->A2pm) (middle of chain)
+  formula: C74H112N14O39
+  charge: -4
+- id: murein5px4p_p
+  name: Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide
+    (A2pm->D-ala) (middle of chain)
+  formula: C77H117N15O40
+  charge: '-4.0'
+- id: murein5px4px4p_p
+  name: Three disacharide linked murein units (pentapeptide crosslinked tetrapeptide
+    (A2pm->D-ala) tetrapeptide corsslinked tetrapeptide (A2pm->D-ala)) (middle of
+    chain)
+  formula: C114H172N22O59
+  charge: '-6.0'
+- id: myrsACP_c
+  name: Myristoyl-ACP (n-C14:0ACP)
+  formula: C398H629N96O143PS3
+  charge: 0
+- id: n2o_c
+  name: Nitrous oxide
+  formula: N2O
+  charge: '-2.0'
+- id: n2o_e
+  name: Nitrous oxide
+  formula: N2O
+  charge: '-2.0'
+- id: n2o_p
+  name: Nitrous oxide
+  formula: N2O
+  charge: '-2.0'
+- id: na1_c
+  name: Sodium
+  formula: Na
+  charge: 1
+- id: na1_e
+  name: Sodium
+  formula: Na
+  charge: 1
+- id: na1_p
+  name: Sodium
+  formula: Na
+  charge: 1
+- id: nac_c
+  name: Nicotinate
+  formula: C6H4NO2
+  charge: -1
+- id: nac_e
+  name: Nicotinate
+  formula: C6H4NO2
+  charge: -1
+- id: nac_p
+  name: Nicotinate
+  formula: C6H4NO2
+  charge: -1
+- id: nad_c
+  name: Nicotinamide adenine dinucleotide
+  formula: C21H26N7O14P2
+  charge: -1
+- id: nadh_c
+  name: Nicotinamide adenine dinucleotide - reduced
+  formula: C21H27N7O14P2
+  charge: -2
+- id: nadhx__R_c
+  name: (R)-NADHX
+  formula: C21H29N7O15P2
+- id: nadhx__S_c
+  name: Adenosine 5'-(3-{5-[(2S)-5-carbamoyl-2-hydroxy-3,4-dihydropyridin-1-yl]-5-deoxy-?-D-ribofuranosyl}
+    dihydrogen diphosphate)
+  formula: C21H29N7O15P2
+- id: nadp_c
+  name: Nicotinamide adenine dinucleotide phosphate
+  formula: C21H25N7O17P3
+  charge: -3
+- id: nadph_c
+  name: Nicotinamide adenine dinucleotide phosphate - reduced
+  formula: C21H26N7O17P3
+  charge: -4
+- id: nadphx__R_c
+  name: (R)-NADPHX
+  formula: C21H28N7O18P3
+- id: nadphx__S_c
+  name: (S)-NADPHX
+  formula: C21H28N7O18P3
+- id: ncam_c
+  name: Nicotinamide
+  formula: C6H6N2O
+  charge: 0
+- id: nh3_c
+  name: Ammonia
+  formula: H3N
+- id: nh4_c
+  name: Ammonium
+  formula: H4N
+  charge: 1
+- id: nh4_e
+  name: Ammonium
+  formula: H4N
+  charge: 1
+- id: nh4_p
+  name: Ammonium
+  formula: H4N
+  charge: 1
+- id: ni2_c
+  name: Nickel
+  formula: Ni
+  charge: 2
+- id: ni2_e
+  name: Nickel
+  formula: Ni
+  charge: 2
+- id: ni2_p
+  name: Nickel
+  formula: Ni
+  charge: 2
+- id: nicrnt_c
+  name: Nicotinate D-ribonucleotide
+  formula: C11H12NO9P
+  charge: -2
+- id: nmn_c
+  name: NMN C11H14N2O8P
+  formula: C11H14N2O8P
+  charge: -1
+- id: nmn_e
+  name: NMN C11H14N2O8P
+  formula: C11H14N2O8P
+  charge: -1
+- id: nmn_p
+  name: NMN C11H14N2O8P
+  formula: C11H14N2O8P
+  charge: -1
+- id: no2_c
+  name: Nitrite
+  formula: NO2
+  charge: -1
+- id: no2_e
+  name: Nitrite
+  formula: NO2
+  charge: -1
+- id: no2_p
+  name: Nitrite
+  formula: NO2
+  charge: -1
+- id: no3_c
+  name: Nitrate
+  formula: NO3
+  charge: -1
+- id: no3_e
+  name: Nitrate
+  formula: NO3
+  charge: -1
+- id: no3_p
+  name: Nitrate
+  formula: NO3
+  charge: -1
+- id: no_c
+  name: Nitric oxide
+  formula: 'NO'
+  charge: 0
+- id: no_e
+  name: Nitric oxide
+  formula: 'NO'
+  charge: 0
+- id: no_p
+  name: Nitric oxide
+  formula: 'NO'
+  charge: 0
+- id: novbcn_e
+  name: Novobiocin
+  formula: C31H35N2O11
+  charge: -1
+- id: novbcn_p
+  name: Novobiocin
+  formula: C31H35N2O11
+  charge: -1
+- id: o2_c
+  name: O2 O2
+  formula: O2
+  charge: 0
+- id: o2_e
+  name: O2 O2
+  formula: O2
+  charge: 0
+- id: o2_p
+  name: O2 O2
+  formula: O2
+  charge: 0
+- id: o2s_c
+  name: Superoxide anion
+  formula: O2
+  charge: -1
+- id: o2s_e
+  name: Superoxide anion
+  formula: O2
+  charge: -1
+- id: o2s_p
+  name: Superoxide anion
+  formula: O2
+  charge: -1
+- id: oaa_c
+  name: Oxaloacetate
+  formula: C4H2O5
+  charge: -2
+- id: oaa_e
+  name: Oxaloacetate
+  formula: C4H2O5
+  charge: -2
+- id: oaa_p
+  name: Oxaloacetate
+  formula: C4H2O5
+  charge: -2
+- id: oc2coa_c
+  name: Trans-Oct-2-enoyl-CoA
+  formula: C29H44N7O17P3S
+  charge: '-4.0'
+- id: occoa_c
+  name: Octanoyl-CoA (n-C8:0CoA)
+  formula: C29H46N7O17P3S
+  charge: -4
+- id: ocdca_c
+  name: Octadecanoate (n-C18:0)
+  formula: C18H35O2
+  charge: -1
+- id: ocdca_e
+  name: Octadecanoate (n-C18:0)
+  formula: C18H35O2
+  charge: -1
+- id: ocdca_p
+  name: Octadecanoate (n-C18:0)
+  formula: C18H35O2
+  charge: -1
+- id: ocdcea_c
+  name: Octadecenoate (n-C18:1)
+  formula: C18H33O2
+  charge: -1
+- id: ocdcea_e
+  name: Octadecenoate (n-C18:1)
+  formula: C18H33O2
+  charge: -1
+- id: ocdcea_p
+  name: Octadecenoate (n-C18:1)
+  formula: C18H33O2
+  charge: -1
+- id: ocdceap_c
+  name: Octadecanoyl-phosphate (n-C18:1)
+  formula: C18H34O5P
+- id: octa_c
+  name: Octanoate (n-C8:0)
+  formula: C8H15O2
+  charge: -1
+- id: octa_e
+  name: Octanoate (n-C8:0)
+  formula: C8H15O2
+  charge: -1
+- id: octa_p
+  name: Octanoate (n-C8:0)
+  formula: C8H15O2
+  charge: -1
+- id: octdp_c
+  name: All-trans-Octaprenyl diphosphate
+  formula: C40H65O7P2
+  charge: -3
+- id: octeACP_c
+  name: Cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1)
+  formula: C402H635O143N96P1S3
+  charge: 0
+- id: od2coa_c
+  name: Trans-Octadec-2-enoyl-CoA
+  formula: C39H64N7O17P3S
+  charge: -4
+- id: odecoa_c
+  name: Octadecenoyl-CoA (n-C18:1CoA)
+  formula: C39H64N7O17P3S
+  charge: -4
+- id: ohpb_c
+  name: 2-Oxo-3-hydroxy-4-phosphobutanoate
+  formula: C4H4O8P
+  charge: -3
+- id: op4en_c
+  name: 2-Oxopent-4-enoate
+  formula: C5H5O3
+  charge: '-1.0'
+- id: orn__L_c
+  name: L Ornithine C5H13N2O2
+  formula: C5H13N2O2
+  charge: 1
+- id: orn_c
+  name: Ornithine
+  formula: C5H13N2O2
+  charge: 1
+- id: orn_e
+  name: Ornithine
+  formula: C5H13N2O2
+  charge: 1
+- id: orn_p
+  name: Ornithine
+  formula: C5H13N2O2
+  charge: 1
+- id: orot5p_c
+  name: Orotidine 5'-phosphate
+  formula: C10H10N2O11P
+  charge: -3
+- id: orot_c
+  name: Orotate C5H3N2O4
+  formula: C5H3N2O4
+  charge: -1
+- id: orot_e
+  name: Orotate C5H3N2O4
+  formula: C5H3N2O4
+  charge: -1
+- id: orot_p
+  name: Orotate C5H3N2O4
+  formula: C5H3N2O4
+  charge: -1
+- id: oxa_c
+  name: Oxalate
+  formula: C2O4
+  charge: -2
+- id: oxa_e
+  name: Oxalate
+  formula: C2O4
+  charge: -2
+- id: oxa_p
+  name: Oxalate
+  formula: C2O4
+  charge: -2
+- id: oxadpcoa_c
+  name: 3-Oxoadipyl-CoA
+  formula: C27H37N7O20P3S
+  charge: -5
+- id: oxalcoa_c
+  name: Oxalyl-CoA
+  formula: C23H31N7O19P3S
+  charge: -5
+- id: oxptn_c
+  name: 5-Oxopentanoate
+  formula: C5H7O3
+  charge: -1
+- id: pa120_c
+  name: 1,2-didodecanoyl-sn-glycerol 3-phosphate
+  formula: C27H51O8P
+  charge: '-2.0'
+- id: pa120_p
+  name: 1,2-didodecanoyl-sn-glycerol 3-phosphate
+  formula: C27H51O8P
+  charge: '-2.0'
+- id: pa140_c
+  name: 1,2-ditetradecanoyl-sn-glycerol 3-phosphate
+  formula: C31H59O8P
+  charge: '-2.0'
+- id: pa140_p
+  name: 1,2-ditetradecanoyl-sn-glycerol 3-phosphate
+  formula: C31H59O8P
+  charge: '-2.0'
+- id: pa141_c
+  name: 1,2-ditetradec-7-enoyl-sn-glycerol 3-phosphate
+  formula: C31H55O8P
+  charge: '-2.0'
+- id: pa141_p
+  name: 1,2-ditetradec-7-enoyl-sn-glycerol 3-phosphate
+  formula: C31H55O8P
+  charge: '-2.0'
+- id: pa160_c
+  name: 1,2-dihexadecanoyl-sn-glycerol 3-phosphate
+  formula: C35H67O8P
+  charge: -2
+- id: pa160_p
+  name: 1,2-dihexadecanoyl-sn-glycerol 3-phosphate
+  formula: C35H67O8P
+  charge: -2
+- id: pa161_c
+  name: 1,2-dihexadec-9-enoyl-sn-glycerol 3-phosphate
+  formula: C35H63O8P
+  charge: '-2.0'
+- id: pa161_p
+  name: 1,2-dihexadec-9-enoyl-sn-glycerol 3-phosphate
+  formula: C35H63O8P
+  charge: '-2.0'
+- id: pa180_c
+  name: 1,2-dioctadecanoyl-sn-glycerol 3-phosphate
+  formula: C39H75O8P
+  charge: '-2.0'
+- id: pa180_p
+  name: 1,2-dioctadecanoyl-sn-glycerol 3-phosphate
+  formula: C39H75O8P
+  charge: '-2.0'
+- id: pa181_c
+  name: 1,2-dioctadec-11-enoyl-sn-glycerol 3-phosphate
+  formula: C39H71O8P
+  charge: '-2.0'
+- id: pa181_p
+  name: 1,2-dioctadec-11-enoyl-sn-glycerol 3-phosphate
+  formula: C39H71O8P
+  charge: '-2.0'
+- id: pac_c
+  name: Phenylacetic acid
+  formula: C8H7O2
+  charge: -1
+- id: pac_e
+  name: Phenylacetic acid
+  formula: C8H7O2
+  charge: -1
+- id: pac_p
+  name: Phenylacetic acid
+  formula: C8H7O2
+  charge: -1
+- id: pacald_c
+  name: Phenylacetaldehyde
+  formula: C8H8O
+  charge: 0
+- id: pacald_e
+  name: Phenylacetaldehyde
+  formula: C8H8O
+  charge: 0
+- id: pacald_p
+  name: Phenylacetaldehyde
+  formula: C8H8O
+  charge: 0
+- id: pald_c
+  name: Phosphonoacetaldehyde
+  formula: C2H3O4P
+- id: palmACP_c
+  name: Palmitoyl-ACP (n-C16:0ACP)
+  formula: C400H633N96O143PS3
+  charge: 0
+- id: pan4p_c
+  name: Pantetheine 4'-phosphate
+  formula: C11H21N2O7PS
+  charge: -2
+- id: pant__R_c
+  name: (R)-Pantoate
+  formula: C6H11O4
+  charge: -1
+- id: pap_c
+  name: Adenosine 3',5'-bisphosphate
+  formula: C10H11N5O10P2
+  charge: -4
+- id: paps_c
+  name: 3'-Phosphoadenylyl sulfate
+  formula: C10H11N5O13P2S
+  charge: -4
+- id: pdx5p_c
+  name: Pyridoxine 5'-phosphate
+  formula: C8H10NO6P
+  charge: -2
+- id: pe120_c
+  name: Phosphatidylethanolamine (didodecanoyl, n-C12:0)
+  formula: C29H58NO8P
+  charge: 0
+- id: pe120_p
+  name: Phosphatidylethanolamine (didodecanoyl, n-C12:0)
+  formula: C29H58NO8P
+  charge: 0
+- id: pe140_c
+  name: Phosphatidylethanolamine (ditetradecanoyl, n-C14:0)
+  formula: C33H66NO8P
+  charge: 0
+- id: pe140_p
+  name: Phosphatidylethanolamine (ditetradecanoyl, n-C14:0)
+  formula: C33H66NO8P
+  charge: 0
+- id: pe141_c
+  name: Phosphatidylethanolamine (ditetradec-7-enoyl, n-C14:1)
+  formula: C33H62NO8P
+  charge: 0
+- id: pe141_p
+  name: Phosphatidylethanolamine (ditetradec-7-enoyl, n-C14:1)
+  formula: C33H62NO8P
+  charge: 0
+- id: pe160_c
+  name: Phosphatidylethanolamine (dihexadecanoyl, n-C16:0)
+  formula: C37H74NO8P
+  charge: 0
+- id: pe160_p
+  name: Phosphatidylethanolamine (dihexadecanoyl, n-C16:0)
+  formula: C37H74NO8P
+  charge: 0
+- id: pe161_c
+  name: Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)
+  formula: C37H70NO8P
+  charge: 0
+- id: pe161_p
+  name: Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1)
+  formula: C37H70NO8P
+  charge: 0
+- id: pe180_c
+  name: Phosphatidylethanolamine (dioctadecanoyl, n-C18:0)
+  formula: C41H82NO8P
+  charge: 0
+- id: pe180_p
+  name: Phosphatidylethanolamine (dioctadecanoyl, n-C18:0)
+  formula: C41H82NO8P
+  charge: 0
+- id: pe181_c
+  name: Phosphatidylethanolamine (dioctadec-11-enoyl, n-C18:1)
+  formula: C41H78NO8P
+  charge: 0
+- id: pe181_p
+  name: Phosphatidylethanolamine (dioctadec-11-enoyl, n-C18:1)
+  formula: C41H78NO8P
+  charge: 0
+- id: pea_c
+  name: Phenylethyl alcohol
+  formula: C8H9O
+- id: pea_e
+  name: Phenylethyl alcohol
+  formula: C8H9O
+- id: peamn_e
+  name: Phenethylamine
+  formula: C8H12N
+  charge: 1
+- id: peamn_p
+  name: Phenethylamine
+  formula: C8H12N
+  charge: 1
+- id: peng_e
+  name: Penicillin G C16H18N2O4S
+  formula: C16H17N2O4S
+  charge: -1
+- id: peng_p
+  name: Penicillin G C16H18N2O4S
+  formula: C16H17N2O4S
+  charge: -1
+- id: pep_c
+  name: Phosphoenolpyruvate
+  formula: C3H2O6P
+  charge: -3
+- id: pg120_c
+  name: Phosphatidylglycerol (didodecanoyl, n-C12:0)
+  formula: C30H58O10P
+  charge: '-1.0'
+- id: pg120_p
+  name: Phosphatidylglycerol (didodecanoyl, n-C12:0)
+  formula: C30H58O10P
+  charge: '-1.0'
+- id: pg140_c
+  name: Phosphatidylglycerol (ditetradecanoyl, n-C14:0)
+  formula: C34H66O10P
+  charge: -1
+- id: pg140_p
+  name: Phosphatidylglycerol (ditetradecanoyl, n-C14:0)
+  formula: C34H66O10P
+  charge: -1
+- id: pg141_c
+  name: Phosphatidylglycerol (ditetradec-7-enoyl, n-C14:1)
+  formula: C34H62O10P
+  charge: -1
+- id: pg141_p
+  name: Phosphatidylglycerol (ditetradec-7-enoyl, n-C14:1)
+  formula: C34H62O10P
+  charge: -1
+- id: pg160_c
+  name: Phosphatidylglycerol (dihexadecanoyl, n-C16:0)
+  formula: C38H74O10P
+  charge: '-1.0'
+- id: pg160_p
+  name: Phosphatidylglycerol (dihexadecanoyl, n-C16:0)
+  formula: C38H74O10P
+  charge: '-1.0'
+- id: pg161_c
+  name: Phosphatidylglycerol (dihexadec-9-enoyl, n-C16:1)
+  formula: C38H70O10P
+  charge: -1
+- id: pg161_p
+  name: Phosphatidylglycerol (dihexadec-9-enoyl, n-C16:1)
+  formula: C38H70O10P
+  charge: -1
+- id: pg180_c
+  name: Phosphatidylglycerol (dioctadecanoyl, n-C18:0)
+  formula: C42H82O10P
+  charge: '-1.0'
+- id: pg180_p
+  name: Phosphatidylglycerol (dioctadecanoyl, n-C18:0)
+  formula: C42H82O10P
+  charge: '-1.0'
+- id: pg181_c
+  name: Phosphatidylglycerol (dioctadec-11-enoyl, n-C18:1)
+  formula: C42H78O10P
+  charge: -1
+- id: pg181_p
+  name: Phosphatidylglycerol (dioctadec-11-enoyl, n-C18:1)
+  formula: C42H78O10P
+  charge: -1
+- id: pgp120_c
+  name: Phosphatidylglycerophosphate (didodecanoyl, n-C12:0)
+  formula: C30H57O13P2
+  charge: '-3.0'
+- id: pgp120_p
+  name: Phosphatidylglycerophosphate (didodecanoyl, n-C12:0)
+  formula: C30H57O13P2
+  charge: '-3.0'
+- id: pgp140_c
+  name: Phosphatidylglycerophosphate (ditetradecanoyl, n-C14:0)
+  formula: C34H65O13P2
+  charge: '-3.0'
+- id: pgp140_p
+  name: Phosphatidylglycerophosphate (ditetradecanoyl, n-C14:0)
+  formula: C34H65O13P2
+  charge: '-3.0'
+- id: pgp141_c
+  name: Phosphatidylglycerophosphate (ditetradec-7-enoyl, n-C14:1)
+  formula: C34H61O13P2
+  charge: '-3.0'
+- id: pgp141_p
+  name: Phosphatidylglycerophosphate (ditetradec-7-enoyl, n-C14:1)
+  formula: C34H61O13P2
+  charge: '-3.0'
+- id: pgp160_c
+  name: Phosphatidylglycerophosphate (dihexadecanoyl, n-C16:0)
+  formula: C38H73O13P2
+  charge: '-3.0'
+- id: pgp160_p
+  name: Phosphatidylglycerophosphate (dihexadecanoyl, n-C16:0)
+  formula: C38H73O13P2
+  charge: '-3.0'
+- id: pgp161_c
+  name: Phosphatidylglycerophosphate (dihexadec-9-enoyl, n-C16:1)
+  formula: C38H69O13P2
+  charge: '-3.0'
+- id: pgp161_p
+  name: Phosphatidylglycerophosphate (dihexadec-9-enoyl, n-C16:1)
+  formula: C38H69O13P2
+  charge: '-3.0'
+- id: pgp180_c
+  name: Phosphatidylglycerophosphate (dioctadecanoyl, n-C18:0)
+  formula: C42H81O13P2
+  charge: '-3.0'
+- id: pgp180_p
+  name: Phosphatidylglycerophosphate (dioctadecanoyl, n-C18:0)
+  formula: C42H81O13P2
+  charge: '-3.0'
+- id: pgp181_c
+  name: Phosphatidylglycerophosphate (dioctadec-11-enoyl, n-C18:1)
+  formula: C42H77O13P2
+  charge: '-3.0'
+- id: pgp181_p
+  name: Phosphatidylglycerophosphate (dioctadec-11-enoyl, n-C18:1)
+  formula: C42H77O13P2
+  charge: '-3.0'
+- id: phaccoa_c
+  name: Phenylacetyl-CoA
+  formula: C29H38N7O17P3S
+  charge: -4
+- id: phe__L_c
+  name: L-Phenylalanine
+  formula: C9H11NO2
+  charge: 0
+- id: phe__L_e
+  name: L-Phenylalanine
+  formula: C9H11NO2
+  charge: 0
+- id: phe__L_p
+  name: L-Phenylalanine
+  formula: C9H11NO2
+  charge: 0
+- id: pheme_c
+  name: Protoheme C34H30FeN4O4
+  formula: C34H30FeN4O4
+  charge: -2
+- id: phnac_c
+  name: Phosphonoacetate
+  formula: C2H2O5P
+- id: phom_c
+  name: O-Phospho-L-homoserine
+  formula: C4H8NO6P
+  charge: -2
+- id: phpyr_c
+  name: Phenylpyruvate
+  formula: C9H7O3
+  charge: -1
+- id: phthr_c
+  name: O-Phospho-4-hydroxy-L-threonine
+  formula: C4H8NO7P
+  charge: -2
+- id: pi_c
+  name: Phosphate
+  formula: HO4P
+  charge: -2
+- id: pi_e
+  name: Phosphate
+  formula: HO4P
+  charge: -2
+- id: pi_p
+  name: Phosphate
+  formula: HO4P
+  charge: -2
+- id: pmtcoa_c
+  name: Palmitoyl-CoA (n-C16:0CoA)
+  formula: C37H62N7O17P3S
+  charge: -4
+- id: pnto__R_c
+  name: (R)-Pantothenate
+  formula: C9H16NO5
+  charge: -1
+- id: pnto__R_e
+  name: (R)-Pantothenate
+  formula: C9H16NO5
+  charge: -1
+- id: pnto__R_p
+  name: (R)-Pantothenate
+  formula: C9H16NO5
+  charge: -1
+- id: poaac_c
+  name: Peroxyaminoacrylate
+  formula: C3H5NO3
+  charge: 0
+- id: ppa_c
+  name: Propionate (n-C3:0)
+  formula: C3H5O2
+  charge: -1
+- id: ppa_e
+  name: Propionate (n-C3:0)
+  formula: C3H5O2
+  charge: -1
+- id: ppa_p
+  name: Propionate (n-C3:0)
+  formula: C3H5O2
+  charge: -1
+- id: ppal_c
+  name: Propanal
+  formula: C3H6O
+  charge: 0
+- id: ppal_e
+  name: Propanal
+  formula: C3H6O
+  charge: 0
+- id: ppal_p
+  name: Propanal
+  formula: C3H6O
+  charge: 0
+- id: ppap_c
+  name: Propanoyl phosphate
+  formula: C3H5O5P
+  charge: -2
+- id: ppbng_c
+  name: Porphobilinogen
+  formula: C10H13N2O4
+  charge: -1
+- id: ppcoa_c
+  name: Propanoyl-CoA
+  formula: C24H36N7O17P3S
+  charge: -4
+- id: ppgpp_c
+  name: Guanosine 3',5'-bis(diphosphate)
+  formula: C10H11N5O17P4
+  charge: '-6.0'
+- id: pphn_c
+  name: Prephenate
+  formula: C10H8O6
+  charge: '-2.0'
+- id: ppi_c
+  name: Diphosphate
+  formula: HO7P2
+  charge: -3
+- id: ppp9_c
+  name: Protoporphyrin
+  formula: C34H32N4O4
+  charge: -2
+- id: pppg9_c
+  name: Protoporphyrinogen IX
+  formula: C34H38N4O4
+  charge: -2
+- id: pppi_c
+  name: Inorganic triphosphate
+  formula: HO10P3
+  charge: '-4.0'
+- id: pppn_c
+  name: Phenylpropanoate
+  formula: C9H9O2
+  charge: -1
+- id: pppn_e
+  name: Phenylpropanoate
+  formula: C9H9O2
+  charge: -1
+- id: pppn_p
+  name: Phenylpropanoate
+  formula: C9H9O2
+  charge: -1
+- id: pprdn_c
+  name: Piperideine
+  formula: C5H9N
+  charge: '0.0'
+- id: ppt_e
+  name: Phosphonate
+  formula: HO3P
+  charge: -2
+- id: ppt_p
+  name: Phosphonate
+  formula: HO3P
+  charge: -2
+- id: pqq_p
+  name: Pyrroloquinoline-quinone
+  formula: C14H2N2O8
+  charge: '-4.0'
+- id: pqqh2_p
+  name: Reduced pyrroloquinoline-quinone
+  formula: C14H4N2O8
+  charge: -4
+- id: pram_c
+  name: 5-Phospho-beta-D-ribosylamine
+  formula: C5H11NO7P
+  charge: -1
+- id: pran_c
+  name: N-(5-Phospho-D-ribosyl)anthranilate
+  formula: C12H13NO9P
+  charge: -3
+- id: prbamp_c
+  name: 1-(5-Phosphoribosyl)-AMP
+  formula: C15H19N5O14P2
+  charge: '-4.0'
+- id: prbatp_c
+  name: 1-(5-Phosphoribosyl)-ATP
+  formula: C15H19N5O20P4
+  charge: '-6.0'
+- id: prfp_c
+  name: 1-(5-Phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide
+  formula: C15H21N5O15P2
+  charge: -4
+- id: prlp_c
+  name: 5-[(5-phospho-1-deoxyribulos-1-ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-carboxamide
+  formula: C15H21N5O15P2
+  charge: -4
+- id: pro__D_c
+  name: D-Proline
+  formula: C5H8NO2
+- id: pro__L_c
+  name: L-Proline
+  formula: C5H9NO2
+  charge: 0
+- id: pro__L_e
+  name: L-Proline
+  formula: C5H9NO2
+  charge: 0
+- id: pro__L_p
+  name: L-Proline
+  formula: C5H9NO2
+  charge: 0
+- id: progly_c
+  name: L-Prolinylglycine
+  formula: C7H12N2O3
+  charge: 0
+- id: progly_e
+  name: L-Prolinylglycine
+  formula: C7H12N2O3
+  charge: 0
+- id: progly_p
+  name: L-Prolinylglycine
+  formula: C7H12N2O3
+  charge: 0
+- id: prpncoa_c
+  name: Propenoyl-CoA
+  formula: C24H34N7O17P3S
+  charge: -4
+- id: prpp_c
+  name: 5-Phospho-alpha-D-ribose 1-diphosphate
+  formula: C5H8O14P3
+  charge: -5
+- id: ps160_c
+  name: Phosphatidylserine (dihexadecanoyl, n-C16:0)
+  formula: C38H73NO10P
+  charge: '-1.0'
+- id: ps161_c
+  name: Phosphatidylserine (dihexadec-9-enoyl, n-C16:1)
+  formula: C38H69NO10P
+  charge: '-1.0'
+- id: ps181_c
+  name: Phosphatidylserine (dioctadec-11-enoyl, n-C18:1)
+  formula: C42H77NO10P
+  charge: '-1.0'
+- id: psclys_c
+  name: Psicoselysine
+  formula: C12H25N2O7
+  charge: 1
+- id: psclys_e
+  name: Psicoselysine
+  formula: C12H25N2O7
+  charge: 1
+- id: psclys_p
+  name: Psicoselysine
+  formula: C12H25N2O7
+  charge: 1
+- id: psd5p_c
+  name: Pseudouridine 5  phosphate C9H11N2O9P
+  formula: C9H11N2O9P
+  charge: -2
+- id: pser__L_c
+  name: O-Phospho-L-serine
+  formula: C3H6NO6P
+  charge: -2
+- id: pser__L_e
+  name: O-Phospho-L-serine
+  formula: C3H6NO6P
+  charge: -2
+- id: pser__L_p
+  name: O-Phospho-L-serine
+  formula: C3H6NO6P
+  charge: -2
+- id: psuri_c
+  name: Pseudouridine
+  formula: C9H12N2O6
+- id: psuri_e
+  name: Pseudouridine
+  formula: C9H12N2O6
+- id: psuri_p
+  name: Pseudouridine
+  formula: C9H12N2O6
+- id: ptd1ino160_c
+  name: Phosphatidyl 1D myo inositol
+  formula: C41H78O13P
+- id: ptrc_c
+  name: Putrescine
+  formula: C4H14N2
+  charge: 2
+- id: ptrc_e
+  name: Putrescine
+  formula: C4H14N2
+  charge: 2
+- id: ptrc_p
+  name: Putrescine
+  formula: C4H14N2
+  charge: 2
+- id: pyam5p_c
+  name: Pyridoxamine 5'-phosphate
+  formula: C8H12N2O5P
+  charge: -1
+- id: pydam_c
+  name: Pyridoxamine
+  formula: C8H13N2O2
+  charge: 1
+- id: pydam_e
+  name: Pyridoxamine
+  formula: C8H13N2O2
+  charge: 1
+- id: pydam_p
+  name: Pyridoxamine
+  formula: C8H13N2O2
+  charge: 1
+- id: pydx5p_c
+  name: Pyridoxal 5'-phosphate
+  formula: C8H8NO6P
+  charge: -2
+- id: pydx_c
+  name: Pyridoxal
+  formula: C8H9NO3
+  charge: 0
+- id: pydx_e
+  name: Pyridoxal
+  formula: C8H9NO3
+  charge: 0
+- id: pydx_p
+  name: Pyridoxal
+  formula: C8H9NO3
+  charge: 0
+- id: pydxn_c
+  name: Pyridoxine
+  formula: C8H11NO3
+  charge: 0
+- id: pydxn_e
+  name: Pyridoxine
+  formula: C8H11NO3
+  charge: 0
+- id: pydxn_p
+  name: Pyridoxine
+  formula: C8H11NO3
+  charge: 0
+- id: pyovd_kt_e
+  name: Pyoverdine  P putida specific
+  formula: C27H48N10O15
+- id: pyovd_kt_p
+  name: Pyoverdine  P putida specific
+  formula: C27H48N10O15
+- id: pyr_c
+  name: Pyruvate
+  formula: C3H3O3
+  charge: -1
+- id: pyr_e
+  name: Pyruvate
+  formula: C3H3O3
+  charge: -1
+- id: pyr_p
+  name: Pyruvate
+  formula: C3H3O3
+  charge: -1
+- id: q8_c
+  name: Ubiquinone-8
+  formula: C49H74O4
+  charge: 0
+- id: q8h2_c
+  name: Ubiquinol-8
+  formula: C49H76O4
+  charge: 0
+- id: quin_c
+  name: Quinate
+  formula: C7H11O6
+  charge: -1
+- id: quin_e
+  name: Quinate
+  formula: C7H11O6
+  charge: -1
+- id: quin_p
+  name: Quinate
+  formula: C7H11O6
+  charge: -1
+- id: quln_c
+  name: Quinolinate
+  formula: C7H3NO4
+  charge: -2
+- id: r1p_c
+  name: Alpha-D-Ribose 1-phosphate
+  formula: C5H9O8P
+  charge: -2
+- id: r3hbACP_c
+  name: R-3-Hydroxybutanoyl-acyl-carrier protein
+  formula: C388H609N96O144PS3
+- id: r5p_c
+  name: Alpha-D-Ribose 5-phosphate
+  formula: C5H9O8P
+  charge: '-2.0'
+- id: r5p_e
+  name: Alpha-D-Ribose 5-phosphate
+  formula: C5H9O8P
+  charge: '-2.0'
+- id: r5p_p
+  name: Alpha-D-Ribose 5-phosphate
+  formula: C5H9O8P
+  charge: '-2.0'
+- id: raffin_c
+  name: Raffinose C18H32O16
+  formula: C18H32O16
+- id: raffin_e
+  name: Raffinose C18H32O16
+  formula: C18H32O16
+- id: raffin_p
+  name: Raffinose C18H32O16
+  formula: C18H32O16
+- id: rbflvrd_c
+  name: Reduced riboflavin
+  formula: C17H24N4O6
+  charge: '2.0'
+- id: rbl__D_c
+  name: D-Ribulose
+  formula: C5H10O5
+- id: rbl__L_c
+  name: L-Ribulose
+  formula: C5H10O5
+- id: rephaccoa_c
+  name: Ring 1,2-epoxyphenylacetyl-CoA
+  formula: C29H38N7O18P3S
+  charge: -4
+- id: rhcys_c
+  name: S-Ribosyl-L-homocysteine
+  formula: C9H17NO6S
+  charge: 0
+- id: rib__D_c
+  name: D-Ribose
+  formula: C5H10O5
+  charge: 0
+- id: rib__D_e
+  name: D-Ribose
+  formula: C5H10O5
+  charge: 0
+- id: rib__D_p
+  name: D-Ribose
+  formula: C5H10O5
+  charge: 0
+- id: ribflv_c
+  name: Riboflavin C17H20N4O6
+  formula: C17H22N4O6
+  charge: '2.0'
+- id: ribflv_e
+  name: Riboflavin C17H20N4O6
+  formula: C17H22N4O6
+  charge: '2.0'
+- id: rml1p_c
+  name: L-Rhamnulose 1-phosphate
+  formula: C6H11O8P
+  charge: '-2.0'
+- id: rml_c
+  name: L-Rhamnulose
+  formula: C6H12O5
+  charge: 0
+- id: rmn_c
+  name: L-Rhamnose
+  formula: C6H12O5
+  charge: 0
+- id: rmn_e
+  name: L-Rhamnose
+  formula: C6H12O5
+  charge: 0
+- id: rmn_p
+  name: L-Rhamnose
+  formula: C6H12O5
+  charge: 0
+- id: rnam_c
+  name: N Ribosylnicotinamide C11H15N2O5
+  formula: C11H15N2O5
+  charge: 1
+- id: rnam_e
+  name: N Ribosylnicotinamide C11H15N2O5
+  formula: C11H15N2O5
+  charge: 1
+- id: rnam_p
+  name: N Ribosylnicotinamide C11H15N2O5
+  formula: C11H15N2O5
+  charge: 1
+- id: ru5p__D_c
+  name: D-Ribulose 5-phosphate
+  formula: C5H9O8P
+  charge: -2
+- id: ru5p__L_c
+  name: L-Ribulose 5-phosphate
+  formula: C5H9O8P
+  charge: -2
+- id: s17bp_c
+  name: Sedoheptulose 1,7-bisphosphate
+  formula: C7H12O13P2
+- id: s7p_c
+  name: Sedoheptulose 7-phosphate
+  formula: C7H13O10P
+  charge: -2
+- id: s_c
+  name: Sulfur
+  formula: S
+  charge: 0
+- id: s_e
+  name: Sulfur
+  formula: S
+  charge: 0
+- id: salc_c
+  name: Salicylate
+  formula: C7H5O3
+- id: salc_e
+  name: Salicylate
+  formula: C7H5O3
+- id: salchs1_c
+  name: Salmochelin-S1
+  formula: C26H29N2O16
+- id: salchs2_c
+  name: Salmochelin-S2
+  formula: C42H47N3O26
+- id: salchs2fe_c
+  name: Salmochelin-S2-Fe-III
+  formula: C42FeH48N3O26
+- id: salchs2fe_e
+  name: Salmochelin-S2-Fe-III
+  formula: C42FeH48N3O26
+- id: salchs2fe_p
+  name: Salmochelin-S2-Fe-III
+  formula: C42FeH48N3O26
+- id: salchs4_c
+  name: Salmochelin-S4
+  formula: C42H46N3O25
+- id: salchs4_e
+  name: Salmochelin-S4
+  formula: C42H46N3O25
+- id: salchs4_p
+  name: Salmochelin-S4
+  formula: C42H46N3O25
+- id: salchs4fe_c
+  name: Salmochelin-S4-Fe-III
+  formula: C42FeH47N3O25
+- id: salchs4fe_e
+  name: Salmochelin-S4-Fe-III
+  formula: C42FeH46N3O25
+- id: salchs4fe_p
+  name: Salmochelin-S4-Fe-III
+  formula: C42FeH46N3O25
+- id: salchsx_c
+  name: Salmochelin-SX
+  formula: C16H20NO11
+- id: salchsx_e
+  name: Salmochelin-SX
+  formula: C16H20NO11
+- id: salchsx_p
+  name: Salmochelin-SX
+  formula: C16H20NO11
+- id: sarcs_c
+  name: Sarcosine C3H7NO2
+  formula: C3H7NO2
+  charge: 0
+- id: sbt6p_c
+  name: D-Sorbitol 6-phosphate
+  formula: C6H13O9P
+  charge: '-2.0'
+- id: sbt__D_c
+  name: D-Sorbitol
+  formula: C6H14O6
+  charge: 0
+- id: sbt__D_e
+  name: D-Sorbitol
+  formula: C6H14O6
+  charge: 0
+- id: sbt__D_p
+  name: D-Sorbitol
+  formula: C6H14O6
+  charge: 0
+- id: sbzcoa_c
+  name: O-Succinylbenzoyl-CoA
+  formula: C32H39N7O20P3S
+  charge: '-5.0'
+- id: scl_c
+  name: Sirohydrochlorin
+  formula: C42H39N4O16
+  charge: '-7.0'
+- id: sdhlam_c
+  name: S Succinyldihydrolipoamide C12H20NO4S2
+  formula: C12H20NO4S2
+- id: sel_c
+  name: Selenate
+  formula: O4Se
+  charge: -2
+- id: sel_e
+  name: Selenate
+  formula: O4Se
+  charge: -2
+- id: sel_p
+  name: Selenate
+  formula: O4Se
+  charge: -2
+- id: ser__D_c
+  name: D-Serine
+  formula: C3H7NO3
+  charge: 0
+- id: ser__D_e
+  name: D-Serine
+  formula: C3H7NO3
+  charge: 0
+- id: ser__D_p
+  name: D-Serine
+  formula: C3H7NO3
+  charge: 0
+- id: ser__L_c
+  name: L-Serine
+  formula: C3H7NO3
+  charge: 0
+- id: ser__L_e
+  name: L-Serine
+  formula: C3H7NO3
+  charge: 0
+- id: ser__L_p
+  name: L-Serine
+  formula: C3H7NO3
+  charge: 0
+- id: seramp_c
+  name: L-seryl-AMP
+  formula: C13H19N6O9P
+  charge: '-1.0'
+- id: sheme_c
+  name: Siroheme C42H36FeN4O16
+  formula: C42H36FeN4O16
+  charge: -8
+- id: skm5p_c
+  name: Shikimate 5-phosphate
+  formula: C7H8O8P
+  charge: -3
+- id: skm_c
+  name: Shikimate
+  formula: C7H9O5
+  charge: -1
+- id: skm_e
+  name: Shikimate
+  formula: C7H9O5
+  charge: -1
+- id: skm_p
+  name: Shikimate
+  formula: C7H9O5
+  charge: -1
+- id: sl26da_c
+  name: N-Succinyl-LL-2,6-diaminoheptanedioate
+  formula: C11H16N2O7
+  charge: -2
+- id: sl2a6o_c
+  name: N-Succinyl-2-L-amino-6-oxoheptanedioate
+  formula: C11H12NO8
+  charge: -3
+- id: slnt_c
+  name: Selenite
+  formula: O3Se
+  charge: -2
+- id: slnt_e
+  name: Selenite
+  formula: O3Se
+  charge: -2
+- id: slnt_p
+  name: Selenite
+  formula: O3Se
+  charge: -2
+- id: so3_c
+  name: Sulfite
+  formula: O3S
+  charge: -2
+- id: so3_e
+  name: Sulfite
+  formula: O3S
+  charge: -2
+- id: so3_p
+  name: Sulfite
+  formula: O3S
+  charge: -2
+- id: so4_c
+  name: Sulfate
+  formula: O4S
+  charge: -2
+- id: so4_e
+  name: Sulfate
+  formula: O4S
+  charge: -2
+- id: so4_p
+  name: Sulfate
+  formula: O4S
+  charge: -2
+- id: spmd_c
+  name: Spermidine
+  formula: C7H22N3
+  charge: 3
+- id: spmd_e
+  name: Spermidine
+  formula: C7H22N3
+  charge: 3
+- id: spmd_p
+  name: Spermidine
+  formula: C7H22N3
+  charge: 3
+- id: ssaltpp_c
+  name: Succinate semialdehyde-thiamin diphosphate anion
+  formula: C16H21N4O10P2S
+  charge: '-4.0'
+- id: stcoa_c
+  name: Stearoyl-CoA (n-C18:0CoA)
+  formula: C39H66N7O17P3S
+  charge: -4
+- id: stfrnB_c
+  name: Staphyloferrin B
+  formula: C19H22N2O18
+- id: stfrnB_e
+  name: Staphyloferrin B
+  formula: C19H22N2O18
+- id: suc6p_c
+  name: Sucrose 6-phosphate
+  formula: C12H21O14P
+  charge: '-2.0'
+- id: sucarg_c
+  name: N2-Succinyl-L-arginine
+  formula: C10H17N4O5
+  charge: -1
+- id: sucbz_c
+  name: O-Succinylbenzoate
+  formula: C11H8O5
+  charge: -2
+- id: succ_c
+  name: Succinate
+  formula: C4H4O4
+  charge: -2
+- id: succ_e
+  name: Succinate
+  formula: C4H4O4
+  charge: -2
+- id: succ_p
+  name: Succinate
+  formula: C4H4O4
+  charge: -2
+- id: succoa_c
+  name: Succinyl-CoA
+  formula: C25H35N7O19P3S
+  charge: -5
+- id: sucglu_c
+  name: N2-Succinyl-L-glutamate
+  formula: C9H10NO7
+  charge: -3
+- id: sucgsa_c
+  name: N2-Succinyl-L-glutamate 5-semialdehyde
+  formula: C9H11NO6
+  charge: -2
+- id: suchms_c
+  name: O-Succinyl-L-homoserine
+  formula: C8H12NO6
+  charge: -1
+- id: sucorn_c
+  name: N2-Succinyl-L-ornithine
+  formula: C9H15N2O5
+  charge: -1
+- id: sucr_c
+  name: Sucrose C12H22O11
+  formula: C12H22O11
+  charge: 0
+- id: sucr_e
+  name: Sucrose C12H22O11
+  formula: C12H22O11
+  charge: 0
+- id: sucr_p
+  name: Sucrose C12H22O11
+  formula: C12H22O11
+  charge: 0
+- id: sucsal_c
+  name: Succinic semialdehyde
+  formula: C4H5O3
+  charge: -1
+- id: sulfac_c
+  name: Sulfoacetate
+  formula: C2H2O5S
+  charge: -2
+- id: sulfac_e
+  name: Sulfoacetate
+  formula: C2H2O5S
+  charge: -2
+- id: sulfac_p
+  name: Sulfoacetate
+  formula: C2H2O5S
+  charge: -2
+- id: tag1p__D_c
+  name: D-Tagatose-1-phosphate
+  formula: C6H13O9P
+  charge: 0
+- id: tag6p__D_c
+  name: D-Tagatose 6-phosphate
+  formula: C6H11O9P
+  charge: '-3.0'
+- id: tag__D_e
+  name: D-Tagatose
+  formula: C6H14O6
+- id: tag__D_p
+  name: D-Tagatose
+  formula: C6H14O6
+- id: tagdp__D_c
+  name: D-Tagatose 1,6-biphosphate
+  formula: C6H10O12P2
+  charge: '-4.0'
+- id: tagur_c
+  name: D-Tagaturonate
+  formula: C6H9O7
+  charge: '-1.0'
+- id: tartr__D_c
+  name: D-tartrate
+  formula: C4H4O6
+  charge: -2
+- id: tartr__D_e
+  name: D-tartrate
+  formula: C4H4O6
+  charge: -2
+- id: tartr__D_p
+  name: D-tartrate
+  formula: C4H4O6
+  charge: -2
+- id: tartr__L_c
+  name: L-tartrate
+  formula: C4H4O6
+  charge: -2
+- id: tartr__L_e
+  name: L-tartrate
+  formula: C4H4O6
+  charge: -2
+- id: tartr__L_p
+  name: L-tartrate
+  formula: C4H4O6
+  charge: -2
+- id: taur_c
+  name: Taurine C2H7NO3S
+  formula: C2H7NO3S
+  charge: 0
+- id: taur_e
+  name: Taurine C2H7NO3S
+  formula: C2H7NO3S
+  charge: 0
+- id: taur_p
+  name: Taurine C2H7NO3S
+  formula: C2H7NO3S
+  charge: 0
+- id: tcynt_c
+  name: Thiocyanate
+  formula: CNS
+  charge: -1
+- id: tcynt_e
+  name: Thiocyanate
+  formula: CNS
+  charge: -1
+- id: tcynt_p
+  name: Thiocyanate
+  formula: CNS
+  charge: -1
+- id: td2coa_c
+  name: Trans-Tetradec-2-enoyl-CoA
+  formula: C35H56N7O17P3S
+  charge: '-4.0'
+- id: tdcoa_c
+  name: Tetradecanoyl-CoA (n-C14:0CoA)
+  formula: C35H58N7O17P3S
+  charge: -4
+- id: tdecoa_c
+  name: Tetradecenoyl-CoA (n-C14:1CoA)
+  formula: C35H56N7O17P3S
+  charge: '-4.0'
+- id: tet_e
+  name: Tetrathionate
+  formula: O6S4
+  charge: -2
+- id: tet_p
+  name: Tetrathionate
+  formula: O6S4
+  charge: -2
+- id: tgt_e
+  name: Tagatose
+  formula: C6H12O6
+  charge: '-3.0'
+- id: thdp_c
+  name: 2,3,4,5-Tetrahydrodipicolinate
+  formula: C7H7NO4
+  charge: -2
+- id: thf_c
+  name: 5,6,7,8-Tetrahydrofolate
+  formula: C19H21N7O6
+  charge: -2
+- id: thm_c
+  name: Thiamin
+  formula: C12H17N4OS
+  charge: 1
+- id: thm_e
+  name: Thiamin
+  formula: C12H17N4OS
+  charge: 1
+- id: thm_p
+  name: Thiamin
+  formula: C12H17N4OS
+  charge: 1
+- id: thmmp_c
+  name: Thiamin monophosphate
+  formula: C12H16N4O4PS
+  charge: -1
+- id: thmpp_c
+  name: Thiamine diphosphate
+  formula: C12H16N4O7P2S
+  charge: -2
+- id: thr__L_c
+  name: L-Threonine
+  formula: C4H9NO3
+  charge: 0
+- id: thr__L_e
+  name: L-Threonine
+  formula: C4H9NO3
+  charge: 0
+- id: thr__L_p
+  name: L-Threonine
+  formula: C4H9NO3
+  charge: 0
+- id: thrp_c
+  name: L-Threonine O-3-phosphate
+  formula: C4H8NO6P
+  charge: -2
+- id: thrp_e
+  name: L-Threonine O-3-phosphate
+  formula: C4H8NO6P
+  charge: -2
+- id: thrp_p
+  name: L-Threonine O-3-phosphate
+  formula: C4H8NO6P
+  charge: -2
+- id: thym_c
+  name: Thymine C5H6N2O2
+  formula: C5H6N2O2
+  charge: 0
+- id: thym_e
+  name: Thymine C5H6N2O2
+  formula: C5H6N2O2
+  charge: 0
+- id: thym_p
+  name: Thymine C5H6N2O2
+  formula: C5H6N2O2
+  charge: 0
+- id: thymd_c
+  name: Thymidine C10H14N2O5
+  formula: C10H14N2O5
+  charge: 0
+- id: thymd_e
+  name: Thymidine C10H14N2O5
+  formula: C10H14N2O5
+  charge: 0
+- id: thymd_p
+  name: Thymidine C10H14N2O5
+  formula: C10H14N2O5
+  charge: 0
+- id: tma_e
+  name: Trimethylamine
+  formula: C3H10N
+  charge: 1
+- id: tma_p
+  name: Trimethylamine
+  formula: C3H10N
+  charge: 1
+- id: tmao_e
+  name: Trimethylamine N-oxide
+  formula: C3H9NO
+  charge: 0
+- id: tmao_p
+  name: Trimethylamine N-oxide
+  formula: C3H9NO
+  charge: 0
+- id: tmrs2eACP_c
+  name: Trans-Tetradec-2-enoyl-[acyl-carrier protein]
+  formula: C398H627O143N96P1S3
+  charge: 0
+- id: tol_e
+  name: Toluene
+  formula: C7H8
+  charge: 0
+- id: tol_p
+  name: Toluene
+  formula: C7H8
+  charge: 0
+- id: trdox_c
+  name: Oxidized thioredoxin
+  formula: C10H12N4O4S2
+  charge: 0
+- id: trdrd_c
+  name: Reduced thioredoxin
+  formula: C10H14N4O4S2
+  charge: 0
+- id: tre6p_c
+  name: Alpha,alpha'-Trehalose 6-phosphate
+  formula: C12H21O14P
+  charge: -2
+- id: tre_c
+  name: Trehalose
+  formula: C12H22O11
+  charge: 0
+- id: tre_e
+  name: Trehalose
+  formula: C12H22O11
+  charge: 0
+- id: tre_p
+  name: Trehalose
+  formula: C12H22O11
+  charge: 0
+- id: trnaglu_c
+  name: TRNA (Glu)
+  formula: C28H34N11O21P3
+  charge: -3
+- id: trp__L_c
+  name: L-Tryptophan
+  formula: C11H12N2O2
+  charge: 0
+- id: trp__L_e
+  name: L-Tryptophan
+  formula: C11H12N2O2
+  charge: 0
+- id: trp__L_p
+  name: L-Tryptophan
+  formula: C11H12N2O2
+  charge: 0
+- id: tsul_c
+  name: Thiosulfate
+  formula: O3S2
+  charge: '-2.0'
+- id: tsul_e
+  name: Thiosulfate
+  formula: O3S2
+  charge: '-2.0'
+- id: tsul_p
+  name: Thiosulfate
+  formula: O3S2
+  charge: '-2.0'
+- id: ttdca_c
+  name: Tetradecanoate (n-C14:0)
+  formula: C14H27O2
+  charge: -1
+- id: ttdca_e
+  name: Tetradecanoate (n-C14:0)
+  formula: C14H27O2
+  charge: -1
+- id: ttdca_p
+  name: Tetradecanoate (n-C14:0)
+  formula: C14H27O2
+  charge: -1
+- id: ttdcap_c
+  name: Tetradecanoyl-phosphate (n-C14:0)
+  formula: C14H28O5P
+- id: ttdcea_c
+  name: Tetradecenoate (n-C14:1)
+  formula: C14H25O2
+  charge: -1
+- id: ttdcea_e
+  name: Tetradecenoate (n-C14:1)
+  formula: C14H25O2
+  charge: -1
+- id: ttdcea_p
+  name: Tetradecenoate (n-C14:1)
+  formula: C14H25O2
+  charge: -1
+- id: tton_e
+  name: Trithionate
+  formula: H2O6S3
+  charge: '0.0'
+- id: ttrcyc_e
+  name: Tetracycline
+  formula: C22H24N2O8
+  charge: 0
+- id: ttrcyc_p
+  name: Tetracycline
+  formula: C22H24N2O8
+  charge: 0
+- id: tym_e
+  name: Tyramine
+  formula: C8H12NO
+  charge: 1
+- id: tym_p
+  name: Tyramine
+  formula: C8H12NO
+  charge: 1
+- id: tyr__L_c
+  name: L-Tyrosine
+  formula: C9H11NO3
+  charge: 0
+- id: tyr__L_e
+  name: L-Tyrosine
+  formula: C9H11NO3
+  charge: 0
+- id: tyr__L_p
+  name: L-Tyrosine
+  formula: C9H11NO3
+  charge: 0
+- id: tyrp_e
+  name: Phosphotyrosine
+  formula: C9H10NO6P
+  charge: -2
+- id: tyrp_p
+  name: Phosphotyrosine
+  formula: C9H10NO6P
+  charge: -2
+- id: u23ga_c
+  name: UDP-2,3-bis(3-hydroxytetradecanoyl)glucosamine
+  formula: C43H75N3O20P2
+  charge: -2
+- id: u3aga_c
+  name: UDP-3-O-(3-hydroxytetradecanoyl)-N-acetylglucosamine
+  formula: C31H51N3O19P2
+  charge: -2
+- id: u3hga_c
+  name: UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine
+  formula: C29H50N3O18P2
+  charge: -1
+- id: uaagmda_c
+  name: Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala
+  formula: C95H153N8O28P2
+  charge: '-3.0'
+- id: uaccg_c
+  name: UDP-N-acetyl-3-O-(1-carboxyvinyl)-D-glucosamine
+  formula: C20H26N3O19P2
+  charge: -3
+- id: uacgam_c
+  name: UDP-N-acetyl-D-glucosamine
+  formula: C17H25N3O17P2
+  charge: -2
+- id: uacgam_e
+  name: UDP-N-acetyl-D-glucosamine
+  formula: C17H25N3O17P2
+  charge: -2
+- id: uacgam_p
+  name: UDP-N-acetyl-D-glucosamine
+  formula: C17H25N3O17P2
+  charge: -2
+- id: uagmda_c
+  name: Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine
+  formula: C87H140N7O23P2
+  charge: '-3.0'
+- id: uama_c
+  name: UDP-N-acetylmuramoyl-L-alanine
+  formula: C23H33N4O20P2
+  charge: -3
+- id: uamag_c
+  name: UDP-N-acetylmuramoyl-L-alanyl-D-glutamate
+  formula: C28H39N5O23P2
+  charge: -4
+- id: uamr_c
+  name: UDP-N-acetylmuramate
+  formula: C20H28N3O19P2
+  charge: '-3.0'
+- id: udcpdp_c
+  name: Undecaprenyl diphosphate
+  formula: C55H90O7P2
+  charge: '-2.0'
+- id: udcpp_c
+  name: Undecaprenyl phosphate
+  formula: C55H90O4P
+  charge: -1
+- id: udp_c
+  name: UDP C9H11N2O12P2
+  formula: C9H11N2O12P2
+  charge: -3
+- id: udpacgal_e
+  name: UDP-N-acetyl-D-galactosamine
+  formula: C17H25N3O17P2
+  charge: '-2.0'
+- id: udpacgal_p
+  name: UDP-N-acetyl-D-galactosamine
+  formula: C17H25N3O17P2
+  charge: '-2.0'
+- id: udpg_c
+  name: UDPglucose
+  formula: C15H22N2O17P2
+  charge: -2
+- id: udpg_e
+  name: UDPglucose
+  formula: C15H22N2O17P2
+  charge: -2
+- id: udpg_p
+  name: UDPglucose
+  formula: C15H22N2O17P2
+  charge: -2
+- id: udpgal_c
+  name: UDPgalactose
+  formula: C15H22N2O17P2
+  charge: -2
+- id: udpgal_e
+  name: UDPgalactose
+  formula: C15H22N2O17P2
+  charge: -2
+- id: udpgal_p
+  name: UDPgalactose
+  formula: C15H22N2O17P2
+  charge: -2
+- id: udpglcur_e
+  name: UDP-D-glucuronate
+  formula: C15H19N2O18P2
+  charge: -3
+- id: udpglcur_p
+  name: UDP-D-glucuronate
+  formula: C15H19N2O18P2
+  charge: -3
+- id: ugmd_c
+  name: UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate
+  formula: C35H51N7O26P2
+  charge: -4
+- id: ugmda_c
+  name: UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine
+  formula: C41H61N9O28P2
+  charge: -4
+- id: um4p_c
+  name: UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate-D-alanine
+  formula: C38H56N8O27P2
+  charge: -4
+- id: ump_c
+  name: UMP C9H11N2O9P
+  formula: C9H11N2O9P
+  charge: -2
+- id: ump_e
+  name: UMP C9H11N2O9P
+  formula: C9H11N2O9P
+  charge: -2
+- id: ump_p
+  name: UMP C9H11N2O9P
+  formula: C9H11N2O9P
+  charge: -2
+- id: uppg3_c
+  name: Uroporphyrinogen III
+  formula: C40H36N4O16
+  charge: -8
+- id: ura_c
+  name: Uracil
+  formula: C4H4N2O2
+  charge: 0
+- id: ura_e
+  name: Uracil
+  formula: C4H4N2O2
+  charge: 0
+- id: ura_p
+  name: Uracil
+  formula: C4H4N2O2
+  charge: 0
+- id: uracp_c
+  name: Ureidoacrylate peracid
+  formula: C4H6N2O4
+  charge: 0
+- id: urate_c
+  name: Urate C5H4N4O3
+  formula: C5H4N4O3
+  charge: 0
+- id: urate_e
+  name: Urate C5H4N4O3
+  formula: C5H4N4O3
+  charge: 0
+- id: urate_p
+  name: Urate C5H4N4O3
+  formula: C5H4N4O3
+  charge: 0
+- id: urdgci_c
+  name: S-ureidoglycine
+  formula: C3H7N3O3
+- id: urdglyc_c
+  name: (-)-Ureidoglycolate
+  formula: C3H5N2O4
+  charge: -1
+- id: urea_c
+  name: Urea CH4N2O
+  formula: CH4N2O
+  charge: 0
+- id: urea_e
+  name: Urea CH4N2O
+  formula: CH4N2O
+  charge: 0
+- id: urea_p
+  name: Urea CH4N2O
+  formula: CH4N2O
+  charge: 0
+- id: uri_c
+  name: Uridine
+  formula: C9H12N2O6
+  charge: 0
+- id: uri_e
+  name: Uridine
+  formula: C9H12N2O6
+  charge: 0
+- id: uri_p
+  name: Uridine
+  formula: C9H12N2O6
+  charge: 0
+- id: utp_c
+  name: UTP C9H11N2O15P3
+  formula: C9H11N2O15P3
+  charge: -4
+- id: val__L_c
+  name: L-Valine
+  formula: C5H11NO2
+  charge: 0
+- id: val__L_e
+  name: L-Valine
+  formula: C5H11NO2
+  charge: 0
+- id: val__L_p
+  name: L-Valine
+  formula: C5H11NO2
+  charge: 0
+- id: xan_c
+  name: Xanthine
+  formula: C5H4N4O2
+  charge: 0
+- id: xan_e
+  name: Xanthine
+  formula: C5H4N4O2
+  charge: 0
+- id: xan_p
+  name: Xanthine
+  formula: C5H4N4O2
+  charge: 0
+- id: xmp_c
+  name: Xanthosine 5'-phosphate
+  formula: C10H11N4O9P
+  charge: -2
+- id: xmp_e
+  name: Xanthosine 5'-phosphate
+  formula: C10H11N4O9P
+  charge: -2
+- id: xmp_p
+  name: Xanthosine 5'-phosphate
+  formula: C10H11N4O9P
+  charge: -2
+- id: xtp_c
+  name: XTP
+  formula: C10H11N4O15P3
+  charge: -4
+- id: xtsn_c
+  name: Xanthosine
+  formula: C10H12N4O6
+  charge: 0
+- id: xtsn_e
+  name: Xanthosine
+  formula: C10H12N4O6
+  charge: 0
+- id: xtsn_p
+  name: Xanthosine
+  formula: C10H12N4O6
+  charge: 0
+- id: xu5p__D_c
+  name: D-Xylulose 5-phosphate
+  formula: C5H9O8P
+  charge: -2
+- id: xu5p__L_c
+  name: L-Xylulose 5-phosphate
+  formula: C5H9O8P
+  charge: -2
+- id: xyl__D_c
+  name: D-Xylose
+  formula: C5H10O5
+  charge: 0
+- id: xyl__D_e
+  name: D-Xylose
+  formula: C5H10O5
+  charge: 0
+- id: xyl__D_p
+  name: D-Xylose
+  formula: C5H10O5
+  charge: 0
+- id: xylu__D_c
+  name: D-Xylulose
+  formula: C5H10O5
+  charge: 0
+- id: xylu__L_c
+  name: L-Xylulose
+  formula: C5H10O5
+  charge: 0
+- id: xylu__L_e
+  name: L-Xylulose
+  formula: C5H10O5
+  charge: 0
+- id: xylu__L_p
+  name: L-Xylulose
+  formula: C5H10O5
+  charge: 0
+- id: zn2_c
+  name: Zinc
+  formula: Zn
+  charge: 2
+- id: zn2_e
+  name: Zinc
+  formula: Zn
+  charge: 2
+- id: zn2_p
+  name: Zinc
+  formula: Zn
+  charge: 2

@@ -1,0 +1,26 @@
+biomass: Growth
+default_flux_limit: 1000
+compartments:
+- id: c
+  adjacent_to:
+  - p
+  - e
+  name: cytosol
+- id: e
+  adjacent_to:
+  - p
+  - c
+  name: extracellular space
+- id: p
+  adjacent_to:
+  - c
+  - e
+  name: periplasm
+compounds:
+- include: compounds.yaml
+reactions:
+- include: reactions.yaml
+exchange:
+- include: exchange.yaml
+limits:
+- include: limits.yaml
